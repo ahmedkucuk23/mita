@@ -17,7 +17,27 @@
 }
 .logo_mita{
   width:100%;
+  margin-left: 50px;
 }
 .nav-item{
   padding:15px;
+}
+.navbar-collapse{
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo_mita{
+    margin-left: 0;
+  }
+  .navbar-collapse{
+    margin-right: 0;
+  }
+  .nav-item{
+    padding:5px;
+    text-align: center;
+  }
+  .navbar-toggler{
+    border: 0;
+  }
 }
