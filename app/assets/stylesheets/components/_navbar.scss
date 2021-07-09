@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;600;500&display=swap');
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 150px;
+}
+.logo_mita{
+  width:100%;
+}
+.nav-item{
+  padding:15px;
+}
