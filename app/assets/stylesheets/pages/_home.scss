@@ -1,51 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Open+Sans:ital,wght@0,400;500;0,600;0,700;1,700&display=swap');
 body{
   background-color: #fff;
 }
 .home_heading{
-  font-family: 'Abril Fatface', cursive;
-  font-size:60px;
-  margin-top:40px;
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top: 80px;
+}
+.section_1{
+  background-color: #EC2227;
+  margin-bottom: -30px;
 }
 .home_since{
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight:600;
-  font-size:24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : bold;
+  font-size : 30px;
+  letter-spacing : 1.95px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-bottom: 30px;
 }
 .home_para{
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size:19px;
-  font-weight:100;
+  font-family : Times;
+  font-size :25px;
+  letter-spacing : -0.31px;
+  font-weight: 100;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
 }
 .section_2{
-  background-color: #F24726;
+  background-color: #fff;
 }
-.home_heading_white{
-  font-family: 'Abril Fatface', cursive;
-  font-size:48px;
-  padding:40px 0;
-  color: #fff;
+.home_heading_black{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  line-height : 120px;
+  letter-spacing : -1.83px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  padding-top:150px;
 }
 .section_tri_header{
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size:39px;
-  color: #fff;
-  font-weight:600;
-  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : bold;
+  font-style : italic;
+  font-size : 52px;
+  color : #EC2227;
+  color : rgb(236, 34, 39);
   z-index: 6;
+  margin-bottom: 0;
 }
 .section_tri_para{
-  font-family: 'IBM Plex Sans', sans-serif;
-  color:#fff;
-  font-size: 16px;
-  font-weight: 100;
-
+  font-family : Times;
+  font-size : 25px;
+  color : #000000;
+  color : rgb(0, 0, 0);
 }
 .dot1{
-  background-color:#6635B4;
+  background-color:#F2F2F2;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 150px;
   display: inline-block;
   position: absolute;
   z-index:0;
@@ -69,9 +89,125 @@ body{
   z-index:0;
 }
 .section_tri_text{
-  padding-top: 20px;
-  padding-left: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
   z-index:2;
   margin-bottom: 60px;
   position:relative;
+}
+
+.section_3{
+  background-color: #EC2227;
+  margin-bottom: -50px;
+}
+.home_heading_second{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 110px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top: 50px;
+  line-height: 100px;
+}
+.section_3_h{
+  font-family: 'Open Sans', sans-serif;
+  font-weight : bold;
+  font-size : 26px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+
+}
+.section_3_p{
+  font-family : Times;
+  font-size :25px;
+  letter-spacing : -0.31px;
+  font-weight: 100;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-bottom:10px;
+}
+.section_4{
+  background-color:#29BB97;
+}
+.sections_h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight : bold;
+  font-size : 29px;
+  letter-spacing : 1.75px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top:80px;
+  padding-bottom:100px;
+}
+.sections_p{
+  font-family : Times;
+  font-size : 29px;
+  letter-spacing : -0.36px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top:50px;
+  padding-bottom:40px;
+}
+.sections_h2_4{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  line-height : 120px;
+  letter-spacing : -1.51px;
+  color : #FCF130;
+}
+.section_5{
+  background-color: #FECB2F;
+}
+.sections_h2_5{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  line-height : 120px;
+  letter-spacing : -1.51px;
+  color : #9A5CB4;
+}
+.section_6{
+  background-color: #3B99D9;
+}
+.sections_h2_6{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  line-height : 120px;
+  letter-spacing : -1.51px;
+  color : #FECB2F;
+}
+.section_7{
+  background-color: #A325DC;
+}
+.sections_h2_7{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  line-height : 120px;
+  letter-spacing : -1.51px;
+  color : #F7966F;
+}
+.section_8{
+  background-color: #D80F64;
+}
+.sections_h2_8{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  line-height : 120px;
+  letter-spacing : -1.51px;
+  color : #FEB28F;
+}
+.section_9{
+  background-color: #F92329;
+}
+.sections_h2_9{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 130px;
+  line-height : 120px;
+  letter-spacing : -1.51px;
+  color : #FACC42;
 }
