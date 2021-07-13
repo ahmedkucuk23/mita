@@ -1,0 +1,116 @@
+.section_7_steps{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 60px;
+  color : #000;
+  padding-top: 80px;
+  padding-bottom:650px;
+}
+.home_heading_services{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 150px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top: 80px;
+}
+.section_services_row_text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight : 400;
+  font-size : 23px;
+  line-height : 36.9px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  margin-left: 30px;
+}
+.section_services_row_elements{
+  padding:30px;
+}
+.emoji_picture{
+  width:65px;
+  margin: 10px;
+}
+.emoji_services{
+  width:90px;
+  }
+.emoji{
+  height:65px;
+}
+.serv_padd{
+  padding-top:120px;
+}
+.section_tri_services_para{
+  font-family : Times;
+  font-size : 22px;
+  letter-spacing : -0.32px;
+  line-height:30px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-right: 100px;
+}
+.ul_services{
+  font-family : Myriad Pro;
+  font-size : 22px;
+  line-height : 28px;
+  font-weight:lighter;
+  letter-spacing : -0.32px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.section_4{
+ul {
+  list-style: none;
+}
+  ul li::before {
+  content: "\2022";
+  color: #FCF130;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  }
+}
+.section_8{
+ul {
+  list-style: none;
+}
+  ul li::before {
+  content: "\2022";
+  color:  #FEB28F;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  }
+}
+.section_9{
+ul {
+  list-style: none;
+}
+  ul li::before {
+  content: "\2022";
+  color: #FCF130;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  }
+}
+.section_tri_services_para_white{
+  font-family : Myriad Pro;
+  font-size : 22px;
+  line-height : 28px;
+  font-weight:lighter;
+  letter-spacing : -0.32px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.section_services_sections{
+  padding-bottom:50px;
+}
+@media only screen and (max-width: 800px) {
+
+  .home_heading_services{
+    font-size: 60px;
+  }
+}
