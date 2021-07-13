@@ -32,9 +32,7 @@
   transform: scale(1, 0.99);
   color : rgb(255, 255, 255);
 }
-.navbar-collapse{
-  margin-right: 50px;
-}
+
 .nav-link{
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -45,12 +43,14 @@
   color : rgb(255, 255, 255);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .logo_mita{
     margin-left: 0;
+    padding-left: 15px;
+    padding-top:35px;
   }
-  .navbar-collapse{
-    margin-right: 0;
+  .masfnfjn{
+
   }
   .nav-item{
     padding:5px;
@@ -58,5 +58,7 @@
   }
   .navbar-toggler{
     border: 0;
+    padding-right: 15px;
+    padding-top:35px;
   }
 }
