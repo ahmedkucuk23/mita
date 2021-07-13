@@ -130,10 +130,10 @@ body{
   background-color:#29BB97;
 }
 .sections_h4{
-  font-family: 'Open Sans', sans-serif;
+  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
   font-weight : bold;
-  font-size : 29px;
-  letter-spacing : 1.75px;
+  font-size : 25px;
+  letter-spacing: .1em;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   padding-top:80px;
@@ -210,4 +210,72 @@ body{
   line-height : 120px;
   letter-spacing : -1.51px;
   color : #FACC42;
+}
+.col-padd{
+  padding-left:50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .home_heading{
+    font-size: 45px;
+  }
+  .home_para{
+    font-size: 23px;
+  }
+  .home_since{
+    font-size: 28px;
+  }
+  .home_heading_black{
+    font-size: 65px;
+    line-height : 60px;
+  }
+  .col-padd {
+    padding-left:15px;
+  }
+  .section_tri_header{
+    font-size: 46px;
+  }
+  .section_tri_para{
+    font-size: 22px;
+  }
+  .home_heading_second{
+    font-size: 46px;
+    line-height:50px;
+  }
+  .section_3_h{
+    font-size: 22px;
+  }
+  .section_3_p{
+    font-size: 20px;
+  }
+  .sections_h4{
+    font-size: 21px;
+  }
+  .sections_p{
+    font-size: 20px;
+  }
+  .sections_h2_4{
+    font-size:60px;
+    line-height:50px;
+  }
+    .sections_h2_5{
+    font-size:60px;
+    line-height:50px;
+  }
+   .sections_h2_6{
+    font-size:60px;
+    line-height:50px;
+  }
+   .sections_h2_7{
+    font-size:60px;
+    line-height:50px;
+  }
+   .sections_h2_8{
+    font-size:60px;
+    line-height:50px;
+  }
+   .sections_h2_9{
+    font-size:60px;
+    line-height:50px;
+  }
 }
