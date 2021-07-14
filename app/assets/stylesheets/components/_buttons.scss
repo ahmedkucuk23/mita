@@ -13,7 +13,37 @@
 .button_1_div{
   background-color: #1B1B1B;
   border-radius: 15px;
-  padding:23px;
+  padding:17px 26px;
+  color: #fff;
+  border: 0;
+  font-size:14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
+}
+@media only screen and (max-width: 1000px) {
+  .button_1_div{
+    font-size:14px;
+    width:100%;
+  }
+  }
+.button_2{
+  background-color: #1B1B1B;
+  border-radius: 5px;
+  padding:5px;
+  color: #fff;
+
+}
+.button_2:hover{
+  text-decoration: none;
+  color:#fff;
+  background-color:#1B1B1B;
+}
+.button_2_div{
+  background-color: #1B1B1B;
+  border-radius: 10px;
+  padding:8px 20px;
+  width:100%;
   color: #fff;
   border: 0;
   font-size:18px;
@@ -22,7 +52,7 @@
   color : #FFFFFF;
 }
 @media only screen and (max-width: 1000px) {
-  .button_1_div{
+  .button_2_div{
     font-size:14px;
     width:100%;
   }

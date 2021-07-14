@@ -3,33 +3,38 @@
 body{
   background-color: #fff;
 }
-.home_heading{
-  font-family: 'EB Garamond', serif;
-  font-weight : bold;
-  font-size : 130px;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
-  padding-top: 80px;
+.logo_client{
+  width:310px;
+  padding-bottom:40px;
 }
 .section_1{
   background-color: #EC2227;
   margin-bottom: -33px;
-
+}
+.home_heading{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 105px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top: 70px;
+  line-height:1.1em;
 }
 .home_since{
   font-family: 'Open Sans', sans-serif;
   font-weight : bold;
-  font-size : 30px;
+  font-size : 25px;
   letter-spacing : 1.95px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .home_para{
   font-family : Times;
-  font-size :25px;
+  font-size :23px;
   letter-spacing : -0.31px;
   font-weight: 100;
+  line-height:1.3em;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
 }
@@ -39,12 +44,12 @@ body{
 .home_heading_black{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 130px;
-  line-height : 120px;
+  font-size : 105px;
+  line-height : 1.1em;
   letter-spacing : -1.83px;
   color : #000000;
   color : rgb(0, 0, 0);
-  padding-top:150px;
+  padding-top:120px;
 }
 .section_tri_header{
   font-family: 'Open Sans', sans-serif;
@@ -114,11 +119,11 @@ body{
 .home_heading_second{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 110px;
+  font-size : 100px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
-  padding-top: 50px;
-  line-height: 100px;
+  padding-top: 40px;
+  line-height: 1.1en;
 }
 .section_3_h{
   font-family: 'Open Sans', sans-serif;
