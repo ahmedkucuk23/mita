@@ -14544,3 +14544,2657 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 139613ms (Views: 138793.4ms | ActiveRecord: 0.0ms | Allocations: 144666661)
 
 
+Started GET "/" for ::1 at 2021-07-14 15:32:19 +0200
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 833.1ms | Allocations: 64735)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 6.7ms | Allocations: 1379)
+  Rendered shared/_flashes.html.erb (Duration: 2.0ms | Allocations: 190)
+  Rendered shared/_footer.html.erb (Duration: 3.8ms | Allocations: 1174)
+Completed 200 OK in 949ms (Views: 933.9ms | ActiveRecord: 0.0ms | Allocations: 81251)
+
+
+Started GET "/clients" for ::1 at 2021-07-14 15:41:58 +0200
+Processing by PagesController#clients as HTML
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1377)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 800)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 4.0ms | Allocations: 1001)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 14786)
+
+
+Started GET "/stories" for ::1 at 2021-07-14 15:41:59 +0200
+Processing by PagesController#stories as HTML
+  Rendering pages/stories.html.erb within layouts/application
+  Rendered pages/stories.html.erb within layouts/application (Duration: 1.6ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 825)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 1001)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 13620)
+
+
+Started GET "/stories" for ::1 at 2021-07-14 15:43:44 +0200
+Processing by PagesController#stories as HTML
+  Rendering pages/stories.html.erb within layouts/application
+  Rendered pages/stories.html.erb within layouts/application (Duration: 0.3ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.1ms | Allocations: 1320)
+  Rendered shared/_flashes.html.erb (Duration: 1.8ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.3ms | Allocations: 1162)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 15789)
+
+
+Started GET "/clients" for ::1 at 2021-07-14 15:43:45 +0200
+Processing by PagesController#clients as HTML
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1371)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 800)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 1001)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 14756)
+
+
+Started GET "/stories" for ::1 at 2021-07-14 15:43:46 +0200
+Processing by PagesController#stories as HTML
+  Rendering pages/stories.html.erb within layouts/application
+  Rendered pages/stories.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 819)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 1001)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 13416)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:43:47 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 826)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 1001)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms | Allocations: 13637)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:45:20 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 5.9ms | Allocations: 1326)
+  Rendered shared/_flashes.html.erb (Duration: 1.7ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 7.3ms | Allocations: 1162)
+Completed 200 OK in 2767ms (Views: 2766.1ms | ActiveRecord: 0.0ms | Allocations: 99842)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:45:32 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 824)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 1001)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 13455)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:45:42 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 820)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 2.0ms | Allocations: 1001)
+Completed 200 OK in 2311ms (Views: 2308.8ms | ActiveRecord: 0.0ms | Allocations: 97687)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:47:17 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 6.8ms | Allocations: 1365)
+  Rendered shared/_flashes.html.erb (Duration: 1.8ms | Allocations: 187)
+  Rendered shared/_footer.html.erb (Duration: 6.4ms | Allocations: 1174)
+Completed 200 OK in 2208ms (Views: 2207.4ms | ActiveRecord: 0.0ms | Allocations: 100236)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:47:51 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.6ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 1320)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.8ms | Allocations: 1162)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 16319)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:51:43 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.7ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 5.1ms | Allocations: 1310)
+  Rendered shared/_flashes.html.erb (Duration: 1.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 32.1ms | Allocations: 7439)
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 0.0ms | Allocations: 22056)
+
+
+  
+ActionView::Template::Error (The asset "strela2.png" is not present in the asset pipeline.
+):
+    16:       <div class="footer_row_row col-lg-6 col-md-6 col-sm-12">
+    17:         <h3 class="footer_text_h3">Get exclusive marketing tips</h3>
+    18:         <input type="ahmed" name="Kucuk" class="footer_input" value="email">
+    19:         <button class="button_2_div" style="margin-top: 30px; "><%= link_to "SIGN UP", "/services", class: "button_2", style: "margin-top:20px; width:100%; margin-right:5px;" %><%= image_tag 'strela2.png', :style => "width:17px;" %></button>
+    20:       </div>
+    21:     </div>
+    22:     <div class="footer_row_2 d-flex row justify-content-between" >
+  
+app/views/shared/_footer.html.erb:19
+app/views/layouts/application.html.erb:19
+Started GET "/careers" for ::1 at 2021-07-14 15:53:01 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.5ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1312)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.3ms | Allocations: 1680)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms | Allocations: 16336)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:53:40 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.6ms | Allocations: 816)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 5.3ms | Allocations: 985)
+Completed 200 OK in 2580ms (Views: 2579.5ms | ActiveRecord: 0.0ms | Allocations: 97258)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:54:18 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.6ms | Allocations: 102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1312)
+  Rendered shared/_flashes.html.erb (Duration: 1.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.9ms | Allocations: 1146)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 15806)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:55:24 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 5.4ms | Allocations: 1318)
+  Rendered shared/_flashes.html.erb (Duration: 1.8ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 7.4ms | Allocations: 1146)
+Completed 200 OK in 2229ms (Views: 2228.5ms | ActiveRecord: 0.0ms | Allocations: 100070)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:55:45 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 817)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 2.1ms | Allocations: 985)
+Completed 200 OK in 1830ms (Views: 1829.0ms | ActiveRecord: 0.0ms | Allocations: 97702)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:57:17 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 787)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 985)
+Completed 200 OK in 2004ms (Views: 2003.7ms | ActiveRecord: 0.0ms | Allocations: 101106)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:57:33 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 787)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 5.5ms | Allocations: 985)
+Completed 200 OK in 2188ms (Views: 2187.3ms | ActiveRecord: 0.0ms | Allocations: 98896)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:58:12 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 787)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 985)
+Completed 200 OK in 2053ms (Views: 2051.8ms | ActiveRecord: 0.0ms | Allocations: 98185)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:58:26 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 787)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 2.0ms | Allocations: 985)
+Completed 200 OK in 1698ms (Views: 1696.4ms | ActiveRecord: 0.0ms | Allocations: 99165)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 15:59:31 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 5.9ms | Allocations: 1293)
+  Rendered shared/_flashes.html.erb (Duration: 1.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.0ms | Allocations: 1146)
+Completed 200 OK in 2247ms (Views: 2246.3ms | ActiveRecord: 0.0ms | Allocations: 101125)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:00:14 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1146)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 16019)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:00:18 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 791)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 985)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 13651)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:00:31 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1293)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1146)
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.0ms | Allocations: 16011)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:00:41 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 1.7ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.7ms | Allocations: 1146)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 16019)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:01:12 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.4ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.4ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1146)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 16023)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:01:21 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.6ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.5ms | Allocations: 1146)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 16007)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:01:31 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1146)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 16026)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:02:16 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 1146)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 16017)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:02:59 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 1.9ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 4.3ms | Allocations: 1146)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 16518)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:03:32 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1146)
+Completed 200 OK in 2240ms (Views: 2239.4ms | ActiveRecord: 0.0ms | Allocations: 101561)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:04:11 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 791)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 985)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 14161)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:04:54 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 787)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 4.5ms | Allocations: 985)
+Completed 200 OK in 2491ms (Views: 2490.5ms | ActiveRecord: 0.0ms | Allocations: 98737)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:05:05 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 787)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 985)
+Completed 200 OK in 1765ms (Views: 1763.6ms | ActiveRecord: 0.0ms | Allocations: 99171)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:05:21 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 787)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 4.4ms | Allocations: 985)
+Completed 200 OK in 1686ms (Views: 1685.6ms | ActiveRecord: 0.0ms | Allocations: 98345)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:05:46 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 786)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 985)
+Completed 200 OK in 1758ms (Views: 1757.5ms | ActiveRecord: 0.0ms | Allocations: 99181)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:06:09 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.6ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 1.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 7.0ms | Allocations: 1146)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms | Allocations: 16533)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:10:57 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.9ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 1.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 4.4ms | Allocations: 1146)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms | Allocations: 16008)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:11:17 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.6ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 1146)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 16031)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:11:41 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.3ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.9ms | Allocations: 1146)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 16031)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:12:06 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 1.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 5.1ms | Allocations: 1146)
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.0ms | Allocations: 16014)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:12:16 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1287)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.9ms | Allocations: 1146)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 16014)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:16:40 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2250.8ms | Allocations: 130921)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 1.9ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 4.5ms | Allocations: 1150)
+Completed 200 OK in 2294ms (Views: 2293.6ms | ActiveRecord: 0.0ms | Allocations: 146622)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:17:08 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 1150)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 17169)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:17:54 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1414)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1150)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 17197)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:18:27 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1150)
+Completed 200 OK in 1772ms (Views: 1770.7ms | ActiveRecord: 0.0ms | Allocations: 102356)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:19:01 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 1.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.6ms | Allocations: 1150)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms | Allocations: 18689)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:19:38 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 1293)
+  Rendered shared/_flashes.html.erb (Duration: 1.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 6.8ms | Allocations: 1150)
+Completed 200 OK in 2207ms (Views: 2205.3ms | ActiveRecord: 0.0ms | Allocations: 103718)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:19:46 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 793)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 989)
+Completed 200 OK in 1603ms (Views: 1602.1ms | ActiveRecord: 0.0ms | Allocations: 99890)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:20:06 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.7ms | Allocations: 1150)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 18678)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:21:06 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2390)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1150)
+Completed 200 OK in 1767ms (Views: 1765.5ms | ActiveRecord: 0.0ms | Allocations: 102857)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:21:27 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 793)
+  Rendered shared/_flashes.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 989)
+Completed 200 OK in 1633ms (Views: 1631.9ms | ActiveRecord: 0.0ms | Allocations: 100756)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:21:37 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 989)
+Completed 200 OK in 1597ms (Views: 1596.5ms | ActiveRecord: 0.0ms | Allocations: 101165)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:22:39 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 2.6ms | Allocations: 989)
+Completed 200 OK in 2049ms (Views: 2048.5ms | ActiveRecord: 0.0ms | Allocations: 100775)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:22:47 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 989)
+Completed 200 OK in 1579ms (Views: 1578.6ms | ActiveRecord: 0.0ms | Allocations: 100750)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:23:08 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 2.0ms | Allocations: 989)
+Completed 200 OK in 1862ms (Views: 1860.9ms | ActiveRecord: 0.0ms | Allocations: 100755)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:27:31 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 4.6ms | Allocations: 4347)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 5.1ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 1.8ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 6.4ms | Allocations: 1150)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 20128)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:29:40 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.3ms | Allocations: 5307)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 5.1ms | Allocations: 1295)
+  Rendered shared/_flashes.html.erb (Duration: 2.1ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 6.7ms | Allocations: 1150)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms | Allocations: 21108)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:30:18 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 4.8ms | Allocations: 5302)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 21091)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:32:07 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5316)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.9ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 2.1ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 6.7ms | Allocations: 1150)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.0ms | Allocations: 21091)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:32:21 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.5ms | Allocations: 5306)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 21095)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:34:14 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.5ms | Allocations: 5310)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 1.7ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 4.3ms | Allocations: 1150)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 21083)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:34:40 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.1ms | Allocations: 5306)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 1150)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 21081)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:35:01 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 4.8ms | Allocations: 5310)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1150)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms | Allocations: 21097)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:37:35 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5937)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 21712)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:37:56 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.9ms | Allocations: 6128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1150)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 21871)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:38:17 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.1ms | Allocations: 6125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.0ms | Allocations: 1150)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.0ms | Allocations: 21860)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:38:50 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.0ms | Allocations: 6124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 1295)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 200 OK in 2088ms (Views: 2087.0ms | ActiveRecord: 0.0ms | Allocations: 107293)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:39:57 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.6ms | Allocations: 6126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.1ms | Allocations: 1295)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1150)
+Completed 200 OK in 2281ms (Views: 2279.3ms | ActiveRecord: 0.0ms | Allocations: 106500)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:41:13 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.7ms | Allocations: 6124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1295)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.8ms | Allocations: 1150)
+Completed 200 OK in 2348ms (Views: 2346.5ms | ActiveRecord: 0.0ms | Allocations: 107306)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:41:28 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.3ms | Allocations: 6126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 1150)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 21869)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:41:34 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.4ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 794)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 989)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms | Allocations: 19043)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:41:46 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.6ms | Allocations: 6129)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1295)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1150)
+Completed 200 OK in 1655ms (Views: 1653.5ms | ActiveRecord: 0.0ms | Allocations: 106434)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:42:00 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.7ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 793)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 989)
+Completed 200 OK in 1656ms (Views: 1655.4ms | ActiveRecord: 0.0ms | Allocations: 103171)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:42:23 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.5ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 989)
+Completed 200 OK in 1641ms (Views: 1639.8ms | ActiveRecord: 0.0ms | Allocations: 104045)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:43:27 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.9ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 989)
+Completed 200 OK in 1793ms (Views: 1792.3ms | ActiveRecord: 0.0ms | Allocations: 103621)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:44:06 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 4.9ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 989)
+Completed 200 OK in 1883ms (Views: 1882.1ms | ActiveRecord: 0.0ms | Allocations: 104459)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:44:21 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 4.8ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 989)
+Completed 200 OK in 1586ms (Views: 1585.4ms | ActiveRecord: 0.0ms | Allocations: 103211)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:44:26 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.1ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 989)
+Completed 200 OK in 1675ms (Views: 1674.5ms | ActiveRecord: 0.0ms | Allocations: 103619)
+
+
+Started GET "/careers" for ::1 at 2021-07-14 16:44:36 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.3ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 989)
+Completed 200 OK in 1907ms (Views: 1905.8ms | ActiveRecord: 0.0ms | Allocations: 104474)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:31:24 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 12.7ms | Allocations: 5560)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 7.3ms | Allocations: 788)
+  Rendered shared/_flashes.html.erb (Duration: 0.2ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 6.2ms | Allocations: 989)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 0.0ms | Allocations: 18407)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:52:50 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.4ms | Allocations: 6133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 6.9ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 1.9ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 5.0ms | Allocations: 1150)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms | Allocations: 22386)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:53:31 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.2ms | Allocations: 6129)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 18.8ms | Allocations: 1150)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 21869)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:53:53 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.6ms | Allocations: 6132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.8ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.8ms | Allocations: 1150)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 21880)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:54:11 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.9ms | Allocations: 6126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 21875)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:54:18 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 12.2ms | Allocations: 6132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.8ms | Allocations: 1150)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 21885)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:54:32 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.1ms | Allocations: 6127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1150)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms | Allocations: 21866)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:54:41 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 19.1ms | Allocations: 6128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.6ms | Allocations: 1150)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 21890)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 11:56:38 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.5ms | Allocations: 6178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 21921)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 11:56:44 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.1ms | Allocations: 5559)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 793)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 989)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 19035)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 11:59:43 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.8ms | Allocations: 6182)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1150)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms | Allocations: 21927)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 12:00:01 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.8ms | Allocations: 6177)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.0ms | Allocations: 1150)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 21923)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 12:00:21 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.1ms | Allocations: 6185)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.5ms | Allocations: 1150)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms | Allocations: 21936)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 12:00:30 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.3ms | Allocations: 6180)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 1150)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms | Allocations: 21932)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 12:00:38 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.3ms | Allocations: 6180)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.8ms | Allocations: 1150)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms | Allocations: 21927)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 12:00:52 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.7ms | Allocations: 6179)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1150)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms | Allocations: 21921)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 13:24:14 +0200
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 2509.6ms | Allocations: 155578)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 5.0ms | Allocations: 1373)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 190)
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 1166)
+Completed 200 OK in 2571ms (Views: 2564.7ms | ActiveRecord: 0.0ms | Allocations: 172567)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/47-9d4327c9a8c501a9d7b18cbd5482dc3876669d08cc8c7be941b056bba5a9b721.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/24-2d0d7403bec3cc13bc67f39676366c2c633fa93d901ee4ec207836ebeff60759.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/25-a5c344f33c9b8ca39003f9aedc14ba773521c22ccbd50d9985392b9bdb6b923f.webp"):
+  
+actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.0.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/careers" for ::1 at 2021-07-15 13:24:50 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.7ms | Allocations: 6160)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 33.2ms | Allocations: 1154)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms | Allocations: 22447)
+
+
+Started GET "/" for ::1 at 2021-07-15 13:27:55 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1154)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 17648)
+
+
+Started GET "/" for ::1 at 2021-07-15 13:29:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1280)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.6ms | Allocations: 1154)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 17645)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:29:11 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.4ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 13.2ms | Allocations: 796)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 994)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.0ms | Allocations: 20298)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:29:39 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.1ms | Allocations: 6187)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 1154)
+Completed 200 OK in 1626ms (Views: 1624.9ms | ActiveRecord: 0.0ms | Allocations: 108038)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:30:06 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.0ms | Allocations: 6189)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 1.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 1154)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms | Allocations: 22975)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:30:14 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.1ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.8ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 5.6ms | Allocations: 1154)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 22465)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:30:36 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.4ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.8ms | Allocations: 1154)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 22453)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:31:09 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.8ms | Allocations: 6188)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.9ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.5ms | Allocations: 1154)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms | Allocations: 22478)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:31:18 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.4ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1154)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms | Allocations: 22463)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:33:04 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.0ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1296)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.5ms | Allocations: 1154)
+Completed 200 OK in 1827ms (Views: 1825.4ms | ActiveRecord: 0.0ms | Allocations: 107622)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:33:25 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.4ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.1ms | Allocations: 1154)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 22457)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:34:12 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 5.7ms | Allocations: 6188)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1154)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 22462)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:34:26 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.0ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.2ms | Allocations: 1154)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 22461)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:34:38 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.0ms | Allocations: 6183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1291)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.2ms | Allocations: 1154)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 22469)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:37:08 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 1932.8ms | Allocations: 143333)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 1170)
+Completed 200 OK in 1961ms (Views: 1960.5ms | ActiveRecord: 0.0ms | Allocations: 159571)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:38:00 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 14.6ms | Allocations: 8400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1170)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 24718)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:38:22 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 13.4ms | Allocations: 8403)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1170)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms | Allocations: 24741)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:38:29 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 21.3ms | Allocations: 8398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 1.7ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.4ms | Allocations: 1170)
+Completed 200 OK in 76ms (Views: 72.0ms | ActiveRecord: 0.0ms | Allocations: 24710)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:38:42 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 36.8ms | Allocations: 8399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1170)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms | Allocations: 24726)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:38:57 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.0ms | Allocations: 8400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.6ms | Allocations: 1170)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 24716)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:39:37 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.4ms | Allocations: 8405)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 2.1ms | Allocations: 1170)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms | Allocations: 24729)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:40:06 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.9ms | Allocations: 8409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 1170)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 24745)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:42:14 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.4ms | Allocations: 8402)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1170)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 24720)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:42:57 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 12.6ms | Allocations: 8424)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1170)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.0ms | Allocations: 24750)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:43:21 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.2ms | Allocations: 8419)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1170)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms | Allocations: 24735)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:43:38 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 21.9ms | Allocations: 8420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 1.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.4ms | Allocations: 1170)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms | Allocations: 24753)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:44:30 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 11.2ms | Allocations: 8420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1170)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 24760)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:44:57 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.0ms | Allocations: 8418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1305)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.5ms | Allocations: 1170)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 24754)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:46:31 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 11.3ms | Allocations: 8418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1170)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 24734)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:46:48 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.6ms | Allocations: 8418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1170)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms | Allocations: 24740)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:47:08 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.4ms | Allocations: 8423)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 1170)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 24745)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:47:22 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 14.4ms | Allocations: 8418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 1170)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms | Allocations: 24730)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:47:36 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.1ms | Allocations: 8423)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 1299)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 3.1ms | Allocations: 1170)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms | Allocations: 24749)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:48:54 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 17.3ms | Allocations: 8417)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1304)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1170)
+Completed 200 OK in 3081ms (Views: 3078.6ms | ActiveRecord: 0.0ms | Allocations: 110366)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:49:03 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.9ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 803)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 1009)
+Completed 200 OK in 1858ms (Views: 1857.5ms | ActiveRecord: 0.0ms | Allocations: 106910)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:49:11 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.2ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 799)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 1009)
+Completed 200 OK in 2205ms (Views: 2204.0ms | ActiveRecord: 0.0ms | Allocations: 121157)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:49:26 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 7.7ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 799)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1009)
+Completed 200 OK in 1614ms (Views: 1613.7ms | ActiveRecord: 0.0ms | Allocations: 106836)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:49:33 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.9ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 799)
+  Rendered shared/_flashes.html.erb (Duration: 0.2ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 3.5ms | Allocations: 1009)
+Completed 200 OK in 2294ms (Views: 2293.5ms | ActiveRecord: 0.0ms | Allocations: 106804)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:49:53 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 6.9ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 798)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 1009)
+Completed 200 OK in 1657ms (Views: 1656.1ms | ActiveRecord: 0.0ms | Allocations: 106430)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:50:31 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.4ms | Allocations: 8423)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.4ms | Allocations: 1304)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1170)
+Completed 200 OK in 1620ms (Views: 1618.8ms | ActiveRecord: 0.0ms | Allocations: 109852)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:51:01 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 16.1ms | Allocations: 8417)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 1304)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 1170)
+Completed 200 OK in 1685ms (Views: 1684.5ms | ActiveRecord: 0.0ms | Allocations: 110349)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:51:10 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 10.4ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 803)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 1009)
+Completed 200 OK in 1665ms (Views: 1663.1ms | ActiveRecord: 0.0ms | Allocations: 106933)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:51:26 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 8.9ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 798)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 1009)
+Completed 200 OK in 1602ms (Views: 1600.9ms | ActiveRecord: 0.0ms | Allocations: 106916)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:52:13 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 9.0ms | Allocations: 8422)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1304)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 1170)
+Completed 200 OK in 2173ms (Views: 2172.0ms | ActiveRecord: 0.0ms | Allocations: 109909)
+
+
+Started GET "/careers" for ::1 at 2021-07-15 13:52:36 +0200
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (Duration: 14.2ms | Allocations: 7710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 803)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 1009)
+Completed 200 OK in 1688ms (Views: 1686.8ms | ActiveRecord: 0.0ms | Allocations: 106456)
+
+
+Started GET "/clients" for ::1 at 2021-07-15 13:52:56 +0200
+Processing by PagesController#clients as HTML
+  Rendering pages/clients.html.erb within layouts/application
+  Rendered pages/clients.html.erb within layouts/application (Duration: 9.7ms | Allocations: 4203)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 4822)
+
+
+  
+ActionView::Template::Error (The asset "logo5.png" is not present in the asset pipeline.
+):
+    1: <div class="container">
+    2:   <div class="d-flex row justify-content-between" style="padding-top: 30px;">
+    3:     <%= image_tag 'logo5.png', :class => "logo_client" %>
+    4: 
+    5:     <%= image_tag 'logo5.png', :class => "logo_client" %>
+    6: 
+  
+app/views/pages/clients.html.erb:3
