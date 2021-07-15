@@ -9,7 +9,7 @@ body{
 }
 .section_1{
   background-color: #EC2227;
-  margin-bottom: -33px;
+  margin-bottom: -27px;
 }
 .home_heading{
   font-family: 'EB Garamond', serif;
@@ -110,7 +110,7 @@ body{
 
 .section_3{
   background-color: #EC2227;
-  margin-bottom: -33px;
+  margin-bottom: -27px;
 }
 
 .section_11{
@@ -120,11 +120,11 @@ body{
 .home_heading_second{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 100px;
+  font-size : 80px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   padding-top: 40px;
-  line-height: 1.1en;
+  line-height: 1.1em;
 }
 .section_3_h{
   font-family: 'Open Sans', sans-serif;
@@ -143,33 +143,68 @@ body{
   color : rgb(255, 255, 255);
   padding-bottom:10px;
 }
+.homeabout{
+  width:50px;
+}
+.ab_home {
+  padding:15px 0;
+}
+.section_3_p_2{
+  font-family : Times;
+  font-size :20px;
+  letter-spacing : -0.31px;
+  line-height:1.3em;
+  font-weight: 100;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-bottom:0px;
+  margin-bottom:0px;
+  padding-left:40px;
+}
 .section_4{
   background-color:#29BB97;
 }
 .sections_h4{
   font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
   font-weight : bold;
-  font-size : 25px;
+  font-size : 22px;
   letter-spacing: .1em;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
-  padding-top:80px;
-  padding-bottom:100px;
+  padding-top:50px;
+  padding-bottom:60px;
 }
 .sections_p{
   font-family : Times;
-  font-size : 29px;
+  font-size : 25px;
   letter-spacing : -0.36px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.sections_h4_2{
+  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-weight : bold;
+  font-size : 22px;
+  letter-spacing: .1em;
+  color : #000;
   padding-top:50px;
+  padding-bottom:60px;
+}
+.sections_p_2{
+  font-family : Times;
+  font-size : 25px;
+  letter-spacing : -0.36px;
+  color : #000;
+  padding-top:40px;
   padding-bottom:40px;
 }
 .sections_h2_4{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 130px;
-  line-height : 120px;
+  font-size : 100px;
+  line-height : 1em;
   letter-spacing : -1.51px;
   color : #FCF130;
 }
@@ -179,8 +214,8 @@ body{
 .sections_h2_5{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 130px;
-  line-height : 120px;
+  font-size : 100px;
+  line-height : 1em;
   letter-spacing : -1.51px;
   color : #9A5CB4;
 }
@@ -190,8 +225,8 @@ body{
 .sections_h2_6{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 130px;
-  line-height : 120px;
+  font-size : 100px;
+  line-height : 1em;
   letter-spacing : -1.51px;
   color : #FECB2F;
 }
@@ -201,8 +236,8 @@ body{
 .sections_h2_7{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 130px;
-  line-height : 120px;
+  font-size : 100px;
+  line-height : 1em;
   letter-spacing : -1.51px;
   color : #F7966F;
 }
@@ -212,8 +247,8 @@ body{
 .sections_h2_8{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 130px;
-  line-height : 120px;
+  font-size : 100px;
+  line-height : 1em;
   letter-spacing : -1.51px;
   color : #FEB28F;
 }
@@ -223,8 +258,8 @@ body{
 .sections_h2_9{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
-  font-size : 130px;
-  line-height : 120px;
+  font-size : 100px;
+  line-height : 1em;
   letter-spacing : -1.51px;
   color : #FACC42;
 }
