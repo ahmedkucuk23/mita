@@ -30,13 +30,14 @@ body{
   padding-bottom: 20px;
 }
 .home_para{
-  font-family : Times;
-  font-size :23px;
-  letter-spacing : -0.31px;
-  font-weight: 100;
-  line-height:1.3em;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
+    color: #fff;
+    font-family:  "TabacG2","Times New","Times New Roman",serif;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-size: 20px;
 }
 .section_2{
   background-color: #fff;
@@ -72,8 +73,8 @@ body{
   margin-bottom: 0;
 }
 .section_tri_para{
-  font-family : Times;
-  font-size : 23px;
+  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-size : 21px;
   line-height:1.3em;
   color : #000000;
   color : rgb(0, 0, 0);
@@ -145,8 +146,8 @@ body{
 
 }
 .section_3_p{
-  font-family : Times;
-  font-size :25px;
+  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-size :22px;
   letter-spacing : -0.31px;
   font-weight: 100;
   color : #FFFFFF;
@@ -160,8 +161,8 @@ body{
   padding:15px 0;
 }
 .section_3_p_2{
-  font-family : Times;
-  font-size :20px;
+  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-size :18px;
   letter-spacing : -0.31px;
   line-height:1.3em;
   font-weight: 100;
@@ -185,8 +186,8 @@ body{
   padding-bottom:60px;
 }
 .sections_p{
-  font-family : Times;
-  font-size : 25px;
+  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-size : 22px;
   letter-spacing : -0.36px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
@@ -203,8 +204,8 @@ body{
   padding-bottom:60px;
 }
 .sections_p_2{
-  font-family : Times;
-  font-size : 25px;
+  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-size : 22px;
   letter-spacing : -0.36px;
   color : #000;
   padding-top:40px;
@@ -285,7 +286,7 @@ body{
     font-size: 45px;
   }
   .home_para{
-    font-size: 23px;
+    font-size: 16px;
   }
   .home_since{
     font-size: 28px;
@@ -376,4 +377,8 @@ body{
   .button_1{
     padding: 8px;
   }
+  .section_3_p_2{
+  padding-top:15px;
+  padding-left:0px;
+}
 }
