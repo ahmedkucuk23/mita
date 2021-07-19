@@ -21,6 +21,17 @@
   font-weight : 600;
   color : #FFFFFF;
 }
+.button_1_div:hover{
+  background-color: #1B1B1B;
+  border-radius: 15px;
+  padding:17px 26px;
+  color: #fff;
+  border: 0;
+  font-size:14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
+}
 @media only screen and (max-width: 1000px) {
   .button_1_div{
     font-size:14px;
