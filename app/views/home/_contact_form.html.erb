@@ -1,3 +1,4 @@
+<div class="contact">
 <%= form_for @contact, url: home_index_path, remote: true do |f| %>
     <div class="col-md-6">
         <%= f.label :name %></br>
@@ -21,3 +22,4 @@
   <div class="col-md-6" id="flash-message">
     <%= render 'flash' %>
   </div>
+</div>
