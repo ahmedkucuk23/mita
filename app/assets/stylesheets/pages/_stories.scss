@@ -11,6 +11,7 @@
 }
 .slika_tm_2{
   width:100%;
+  border-radius: 20px;
 }
 .section_12{
   padding: 0 15px;
@@ -31,6 +32,11 @@
   padding: 10px 0;
   margin-bottom : 0px;
 }
+.section_3_s{
+  background-color: #EC2227;
+  padding-bottom:100px;
+}
+
 .section_12_row_klijent{
   padding-bottom:50px;
 }
@@ -53,4 +59,18 @@
   letter-spacing : -1.12px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
+}
+
+.section_1_stories{
+  background-color: #EC2227;
+  padding-bottom: 80px;
+}
+.dot2{
+  background-color:#E6E7E8;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: absolute;
+  z-index:0;
 }
