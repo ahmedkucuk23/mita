@@ -5,7 +5,7 @@
       <%= simple_form_for @storie do |f| %>
         <%= f.input :name, required: true %>
         <%= f.input :description, required: true %>
-        <%= f.input :photo, as: :file, required: true %>
+        <%= f.input :photos, as: :file, input_html: { multiple: true } %>
         <%= f.input :first_header %>
         <%= f.input :first_description %>
         <%= f.input :second_header %>
