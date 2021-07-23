@@ -72,6 +72,9 @@
 <div class="section_1_stories" style="margin-top:50px; padding-top: 40px;">
   <div class="container">
     <h1 style="color: white; text-align: center; border: 1px solid white; ">Ovdje idu slike</h1>
+    <% @storie.photos.each do |photo| %>
+      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
   </div>
 </div>
 

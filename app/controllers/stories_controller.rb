@@ -43,7 +43,7 @@ class StoriesController < ApplicationController
   private
 
   def storie_params
-    params.require(:storie).permit(:name, :description, :photo, :first_header, :first_description, :second_header, :second_description, :third_header, :third_description, :fourth_header, :fourth_description, :first_number, :first_number_text, :second_number, :second_number_text, :third_number, :third_number_text, :fourth_number, :fourth_number_text, :fifth_number, :fifth_number_text, :six_number, :six_number_text )
+    params.require(:storie).permit(:name, :description, :first_header, :first_description, :second_header, :second_description, :third_header, :third_description, :fourth_header, :fourth_description, :first_number, :first_number_text, :second_number, :second_number_text, :third_number, :third_number_text, :fourth_number, :fourth_number_text, :fifth_number, :fifth_number_text, :six_number, :six_number_text, photos: [] )
   end
 
   def find_storie
