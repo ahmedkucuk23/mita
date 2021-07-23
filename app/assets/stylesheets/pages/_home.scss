@@ -3,6 +3,81 @@
 body{
   background-color: #fff;
 }
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translate3d(0, 15%, 0);
+    transform: translate3d(0, 15%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translate3d(0, 15%, 0);
+    transform: translate3d(0, 15%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+ }
+@-webkit-keyframes fadeInDown {
+0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -40%, 0);
+  transform: translate3d(0, -40%, 0);
+}
+100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+}
+@keyframes fadeInDown {
+0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -40%, 0);
+  transform: translate3d(0, -40%, 0);
+}
+100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+}
+
+
 .logo_client{
   width:310px;
   padding-bottom:40px;
@@ -197,6 +272,7 @@ body{
   padding-top:50px;
   padding-bottom:60px;
 }
+
 .sections_p_2{
   font-family:  "TabacG2","Times New","Times New Roman",serif;
   font-size : 22px;
@@ -213,8 +289,26 @@ body{
   letter-spacing : -1.51px;
   color : #FCF130;
 }
+.sections_h2_4:hover{
+  text-decoration: none;
+  color : #FCF111;
+
+
+
+}
 .section_5{
   background-color: #FECB2F;
+  .navbar-lewagon {
+  justify-content: space-between;
+  background: #FECB2F;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: white;
+  position: fixed;
+  width:100%;
+  z-index:4;
+}
 }
 .sections_h2_5{
   font-family: 'EB Garamond', serif;
@@ -376,7 +470,9 @@ body{
   padding-left:0px;
 }
 }
-
+.fade-in-init{
+  transition: 1s;
+}
 
 .contact{
   // app/assets/stylesheets/home.scss

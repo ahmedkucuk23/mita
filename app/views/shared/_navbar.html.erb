@@ -1,10 +1,10 @@
-<div class="navbar navbar-expand-sm navbar-lewagon" >
+<div class="navbar navbar-expand-sm navbar-lewagon box animate fadeInDown" >
   <%= link_to root_path , class: "navbar-brand" do %>
     <%= image_tag 'mita-logo.png', :class => "logo_mita" %>
     <% end %>
 
-  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="masfnfjn"><span class="navbar-toggler-icon"></span></div>
+  <button class="navbar-toggler navbar-dark  active" style="opacity: 1;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="masfnfjn" style="opacity: 1;"><span class="navbar-toggler-icon navbar-dark  active" style="opacity: 1;"></span></div>
   </button>
 
 
@@ -24,7 +24,7 @@
           <%= link_to "Careers", "/careers", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Contact", "/contact" , class: "nav-link text_nav" %>
+          <%= link_to "Contact", "/contact" , class: "nav-link" %>
         </li>
         <li class="nav-item dropdown">
           <%= image_tag 'https://i.pinimg.com/280x280_RS/85/a2/92/85a2925c526ac03f61d0fad865728c1b.jpg', class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
@@ -47,7 +47,7 @@
           <%= link_to "Careers", "/careers", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Contact", "/contact" , class: "nav-link text_nav" %>
+          <%= link_to "Contact", "/contact" , class: "nav-link" %>
         </li>
          <!-- <li class="nav-item">
           <%= link_to "Clients", "/clients", class: "nav-link" %>
@@ -57,3 +57,4 @@
     </ul>
   </div>
 </div>
+

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;600;500&display=swap');
+*{
 
+}
 .navbar-lewagon {
   justify-content: space-between;
   background: #EC2227;
@@ -7,6 +9,10 @@
   font-weight: 300;
   font-size: 12px;
   color: white;
+  position: fixed;
+  width:100%;
+  z-index:4;
+
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -37,23 +43,27 @@
 }
 
 .nav-link{
-  color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .2em;
   text-transform: uppercase;
-  font-weight : 500;
-  font-size : 15px;
-  letter-spacing : 1.15px;
-  color : rgb(255, 255, 255);
+  color : #fff ;
   opacity:0.8;
 }
 .nav-link:hover{
-  font-family: 'Open Sans', sans-serif;
+  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .2em;
   text-transform: uppercase;
-  font-weight : 500;
-  font-size : 15px;
-  letter-spacing : 1.15px;
-  color:#ffe;
+  color : #fff ;
   opacity:1;
+  transition:all 0.3s ease;
 }
 .nav-item:hover{
   font-family: 'Open Sans', sans-serif;
