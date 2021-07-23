@@ -36,7 +36,9 @@ to e-wallet</p>
       <% @stories.each do |storie| %>
         <%= link_to story_path(storie), class: "card_link col-lg-5 col-md-5 col-sm-12" do %>
           <div class="section_12_row_klijent">
-            <%= cl_image_tag storie.photo.key, :class => "slika_tm_2" %>
+            <% if storie.photos.attached? %>
+                <%= cl_image_tag storie.photos.first.key, :class => "slika_tm_2" %>
+              <% end %>
             <p class="role_2"><%= storie.name %></p>
             <p class="ime_2"><%= storie.description %></p>
           </div>
