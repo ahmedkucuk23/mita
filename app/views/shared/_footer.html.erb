@@ -2,23 +2,25 @@
 <div class="footer">
   <div class="container">
     <div class="footer_row_1 d-flex row justify-content-between" >
-      <div class="footer_row_row_slika col-lg-6 col-md-6 col-sm-12 justify-content-center">
+      <div class="footer_row_row_slika col-lg-6 col-md-6 col-sm-12 ">
+        <div class="footer_links_pic">
         <%= image_tag 'mita_footer.png', :class => "footer_mita" %>
           <ul class="social-icons">
-            <li><a class="facebook" href="https://www.facebook.com/MITAgroupBiH"><i class="fab fa-facebook"></i></a></li>
-            <li><a class="twitter" href="https://www.instagram.com/mita_group/"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="dribbble" href="https://www.youtube.com/user/mitaedina"><i class="fab fa-youtube"></i></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/company/mita-group-sarajevo/"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class="linkedin" href="https://twitter.com/MITAGroup"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/MITAgroupBiH" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/mita_group/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="youtube" href="https://www.youtube.com/user/mitaedina" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/company/mita-group-sarajevo/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/MITAGroup" target="_blank"><i class="fab fa-twitter"></i></a></li>
           </ul>
+        </div>
       </div>
       <div class="footer_row_row col-lg-6 col-md-6 col-sm-12">
         <h3 class="footer_text_h3">Get exclusive marketing tips</h3>
-        <input type="ahmed" name="Kucuk" class="footer_input" value="email">
-        <button class="button_2_div" style="margin-top: 30px; "><%= link_to "SIGN UP", "/services", class: "button_2", style: "margin-top:20px; width:100%; margin-right:5px;" %><%= image_tag 'strela2.png', :style => "width:17px;" %></button>
+        <input type="ahmed" name="Kucuk" class="footer_input" placeholder="email" style="padding: 10px; padding-left: 20px; color: grey;">
+        <button class="button_2_div" style="margin-top: 20px; "><%= link_to "SIGN UP", "/services", class: "button_2", style: "margin-top:20px; width:100%; margin-right:5px;" %><%= image_tag 'strela2.png', :style => "width:17px;" %></button>
       </div>
     </div>
-    <div class="footer_row_2 d-flex row justify-content-between">
+    <div class="footer_row_2 d-flex row ">
       <div class="footer_row_row_2">
          <p class="footer_text"> © 2021 MITA Group d.o.o. Sarajevo. All rights reserved.</p>
        </div>
