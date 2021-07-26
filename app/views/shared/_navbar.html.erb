@@ -12,7 +12,7 @@
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item">
-          <%= link_to "About", root_path, class: "nav-link" %>
+          <%= link_to "About", "/about", class: "nav-link" %>
         </li>
         <li class="nav-item">
           <%= link_to "Services", "/services", class: "nav-link" %>
@@ -20,9 +20,9 @@
         <li class="nav-item">
           <%= link_to "Stories", "/stories", class: "nav-link" %>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <%= link_to "Careers", "/careers", class: "nav-link" %>
-        </li>
+        </li> -->
         <li class="nav-item">
           <%= link_to "Contact", "/contact" , class: "nav-link" %>
         </li>
@@ -35,7 +35,7 @@
         </li>
       <% else %>
         <li class="nav-item">
-          <%= link_to "About", root_path, class: "nav-link" %>
+          <%= link_to "About", "/about", class: "nav-link" %>
         </li>
         <li class="nav-item">
           <%= link_to "Services", "/services", class: "nav-link" %>
@@ -43,9 +43,9 @@
         <li class="nav-item">
           <%= link_to "Stories", "/stories", class: "nav-link" %>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <%= link_to "Careers", "/careers", class: "nav-link" %>
-        </li>
+        </li> -->
         <li class="nav-item">
           <%= link_to "Contact", "/contact" , class: "nav-link" %>
         </li>

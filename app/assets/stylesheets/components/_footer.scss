@@ -63,9 +63,13 @@
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.youtube:hover
 {
-  background-color:#ea4c89
+  background-color:#DC3332;
+}
+.social-icons a.instagram:hover
+{
+  background-color:#195688;
 }
 @media (max-width:767px)
 {
@@ -146,6 +150,12 @@
   padding-bottom:40px;
 }
 
+.footer_row_2{
+  display:flex;
+  justify-content: space-between;
+}
+
+
 @media (max-width:767px){
 
   .sections_h2_6_black{
@@ -163,6 +173,19 @@
 }
 .footer_text{
   font-size:13px;
-  }
-
+  display:flex;
+  justify-content:center;
+}
+.footer-text-4{
+  display:flex;
+  justify-content:center;
+}
+.footer_row_2{
+  display:flex;
+  justify-content:center;
+}
+.footer_row_row_slika{
+  display:flex;
+  justify-content: center;
+}
 }

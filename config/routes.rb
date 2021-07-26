@@ -7,6 +7,7 @@ Rails.application.routes.draw do
    # get '/stories',    to: 'pages#stories'
    get '/services',    to: 'pages#services'
    get '/clients',    to: 'pages#clients'
+   get '/about',    to: 'pages#about'
 
   resources :stories
 end
