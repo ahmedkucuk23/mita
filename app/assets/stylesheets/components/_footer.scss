@@ -148,15 +148,21 @@
 
 @media (max-width:767px){
 
-.sections_h2_6_black{
+  .sections_h2_6_black{
+    font-size : 60px;
+    line-height:1.2em;
+  }
+  .sections_p_black{
+    font-size:20px;
+  }
+  .sections_h4_black{
+  font-size:21px;
+  }
+.footer_row_row_slika{
+  padding-bottom:50px;
+}
+.footer_text{
+  font-size:13px;
+  }
 
-  font-size : 60px;
-  line-height:1.2em;
-}
-.sections_p_black{
-  font-size:20px;
-}
-.sections_h4_black{
-font-size:21px;
-}
 }

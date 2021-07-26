@@ -6,6 +6,14 @@
   padding-top: 80px;
   padding-bottom:40px;
 }
+.section_7_steps_2{
+  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-weight:400;
+  font-size : 35px;
+  color : #000;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
 .home_heading_services{
   font-family: 'EB Garamond', serif;
   font-weight : bold;
@@ -121,6 +129,10 @@ ul {
 @media only screen and (max-width: 800px) {
   .section_7_steps{
     font-size: 46px;
+  }
+  .section_7_steps_2{
+    font-size: 30px;
+    text-align:left;
   }
   .section_tri_para{
     font-size: 20px;
