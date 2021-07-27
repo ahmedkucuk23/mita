@@ -1,9 +1,25 @@
 <div class="section_2" style="padding-bottom: 10px; padding-top: 80px;">
-  <div class="container">
+  <div class="container" style="padding-bottom: 200px;">
     <h1 class="home_heading_black box animate fadeInUp">Get in<br>touch with us</h1>
     <p class="section_tri_para box animate fadeInUp" style="margin-top: 45px; padding-bottom: 100px;">Postoji mnogo načina na koje nas možete kontaktirati ukoliko ste zaintersovani za naše usluge.
 Najjednostavniji je popunjavanjem kontakt forme ispod koja će nam dati većinu potrebnih informacija za
 kreiranje ponude.</p>
+
+     <h1 class="home_heading_black_small box animate fadeInUp" style="padding-top: 0px;">Contact Form</h1>
+        <form action="/send_contact" method="post">
+          <div class="container d-flex row justify-content-between">
+            <input name="name" type="name" class="form-control form_input_control mb-1" placeholder="Name" style="width: 51%;">
+            <input name="surname" type="surname" class="form-control form_input_control mb-1" placeholder="Surname" style="width: 46%;">
+          </div>
+          <input name="business_name" type="business_name" class="form-control form_input_control_2 mb-1" placeholder="Business Name">
+          <input name="email" type="email" class="form-control form_input_control_2 mb-1" placeholder="Email">
+          <input name="website" type="website" class="form-control form_input_control_2 mb-1" placeholder="Website URL">
+          <textarea name="message" class="form-control form_input_control_2" placeholder="Your message"></textarea>
+          <input name="budget" type="budget" class="form-control form_input_control_2 mb-1" placeholder="Any budget limitation?">
+          <button type="submit" class="form_button">GO!</button>
+        </form>
+
+
   </div>
 </div>
 <div class="section_career_red">
