@@ -9,5 +9,7 @@ Rails.application.routes.draw do
    get '/clients',    to: 'pages#clients'
    get '/about',    to: 'pages#about'
 
+  post "send_contact" => "pages#send_contact"
+
   resources :stories
 end
