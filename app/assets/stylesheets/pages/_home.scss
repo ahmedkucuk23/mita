@@ -362,6 +362,17 @@ animation-delay: 0.3s;
   letter-spacing : -1.51px;
   color : #FACC42;
 }
+.section_9_2{
+  background-color: #FACC42;
+}
+.sections_h2_9_2{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 100px;
+  line-height : 1em;
+  letter-spacing : -1.51px;
+  color : #F92329;
+}
 .col-padd{
   padding-left:50px;
 }
@@ -435,6 +446,10 @@ animation-delay: 0.3s;
     font-size:60px;
     line-height:50px;
   }
+    .sections_h2_9_2{
+    font-size:60px;
+    line-height:50px;
+  }
   .section_1{
     padding: 0 15px;
   }
@@ -462,6 +477,9 @@ animation-delay: 0.3s;
    .section_9{
     padding: 0 15px;
   }
+   .section_9_2{
+    padding: 0 15px;
+  }
   .button_1{
     padding: 8px;
   }
@@ -478,4 +496,6 @@ animation-delay: 0.3s;
   // app/assets/stylesheets/home.scss
 
 }
-
+.home_pictures{
+  width:100%;
+}
