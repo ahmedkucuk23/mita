@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
 
+  resources :contacts, only: [:new, :create]
+
   root to: 'pages#home'
    get '/contact',    to: 'pages#contact'
    get '/careers',    to: 'pages#careers'
