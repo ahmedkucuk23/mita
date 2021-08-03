@@ -32,6 +32,15 @@ config.action_mailer.smtp_settings = {
   authentication:       'plain',
   enable_starttls_auto: true  }
 
+ActionMailer::Base.smtp_settings = {
+  :port           => ENV['MAILGUN_SMTP_PORT'],
+  :address        => ENV['MAILGUN_SMTP_SERVER'],
+  :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
+  :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+  :domain         => 'https://mita-group.herokuapp.com/', # UPDATE THIS VALUE WITH YOUR OWN APP
+  :authentication => :plain,
+}
+ActionMailer::Base.delivery_method = :smtp
 
   # Ensures that a master key has been made available in either ENV["RAILS_MASTER_KEY"]
   # or in config/master.key. This key is used to decrypt credentials (and other encrypted files).
