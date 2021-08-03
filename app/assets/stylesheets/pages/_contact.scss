@@ -63,3 +63,17 @@
     width:100%;
   }
 }
+  input.form, input.formsubmit, select.form, option.form, textarea.form, input.captcha {
+  color:grey;
+  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:0;
+  margin: 40px 0;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 2.3px solid #000;
+  }
