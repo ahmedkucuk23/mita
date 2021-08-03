@@ -25,6 +25,12 @@
 .levak{
   padding-bottom: 50px;
   text-align:center;
+  height:90vh;
+}
+.levak-tel{
+  padding-bottom: 50px;
+  text-align:center;
+  width:100%;
 }
 .section_services_row_text{
   font-family:  "TabacG2","Times New","Times New Roman",serif;
@@ -120,11 +126,16 @@ ul {
 .section_services_sections{
   padding-bottom:50px;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 770px) {
   .levak{
-    height:100vh;
+    display:none;
   }
+}
+@media only screen and (min-width: 770px) {
+  .levak-tel{
+    display:none;
   }
+}
 @media only screen and (max-width: 800px) {
   .section_7_steps{
     font-size: 46px;
@@ -145,4 +156,12 @@ ul {
   .levak{
   width:100%;
   }
+}
+.levak{
+  padding-bottom: 50px;
+  text-align:center;
+}
+.levak-tel{
+  padding-bottom: 50px;
+  text-align:center;
 }
