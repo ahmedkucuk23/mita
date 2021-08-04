@@ -2,11 +2,12 @@
   "name": "mita",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.14.5",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
-    "bootstrap": "^5.0.2",
+    "bootstrap": "4.6",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
@@ -16,3 +17,12 @@
     "webpack-dev-server": "^3.11.2"
   }
 }
+"babel": {
+    "presets": [
+      "./node_modules/@rails/webpacker/package/babel/preset.js"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-private-methods"
+    ]
+ }
