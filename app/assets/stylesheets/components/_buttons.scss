@@ -93,8 +93,37 @@
   font-weight : 600;
   color : #FFFFFF;
 }
+.button_2_div:hover{
+  background-color: #D32C15;
+  border-radius: 10px;
+  padding:8px 20px;
+  width:100%;
+  color: #fff;
+  border: 0;
+  font-size:18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
+}
+
+.button_2_div_2{
+  background-color: #ED3833;
+  border-radius: 10px;
+  padding:8px 20px;
+  width:100%;
+  color: #fff;
+  border: 0;
+  font-size:18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
+}
 @media only screen and (max-width: 1000px) {
   .button_2_div{
+    font-size:14px;
+    width:100%;
+  }
+  .button_2_div_2{
     font-size:14px;
     width:100%;
   }
@@ -164,4 +193,7 @@
   .form_button{
     width:100%;
   }
+}
+.button_2_div_2{
+
 }
