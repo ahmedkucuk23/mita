@@ -30,7 +30,10 @@
          <p class="footer_text"> © 2021 MITA Group d.o.o. Sarajevo. All rights reserved.</p>
        </div>
        <div class="footer_row_row_2">
-         <p class="footer_text">Impressum | Terms & Conditions | Privacy | Cookies</p>
+        <%= link_to "Terms & Conditions ", terms_path , class: "footer_text" %><span style="color: grey;">|</span>
+
+        <%= link_to "Privacy ", privacy_path , class: "footer_text" %><span style="color: grey;">|</span>
+        <%= link_to "Cookies ", cookies_path , class: "footer_text" %>
        </div>
     </div>
   </div>
