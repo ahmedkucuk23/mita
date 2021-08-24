@@ -9,5 +9,9 @@ Rails.application.routes.draw do
    get '/clients',    to: 'pages#clients'
    get '/about',    to: 'pages#about'
 
+   get '/privacy',    to: 'pages#privacy'
+   get '/terms',    to: 'pages#terms'
+   get '/cookies',    to: 'pages#cookies'
+
   resources :stories
 end
