@@ -34,7 +34,7 @@ to e-wallet</p>
 
     <div class="section_12_row d-flex row justify-content-around">
       <% @stories.each do |storie| %>
-        <%= link_to story_path(storie), class: "card_link col-lg-5 col-md-5 col-sm-12" do %>
+        <%= link_to story_path(storie), class: "card_link card_link_storie col-lg-5 col-md-5 col-sm-12" do %>
           <div class="section_12_row_klijent">
             <% if storie.photos.attached? %>
                 <%= cl_image_tag storie.photos.first.key, :class => "slika_tm_2" %>
