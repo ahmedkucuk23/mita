@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-sm navbar-lewagon box animate fadeInDown" >
+<div class="navbar navbar-expand-sm navbar-lewagon box animate fadeIn" >
   <%= link_to root_path , class: "navbar-brand" do %>
     <%= image_tag 'mita-logo.png', :class => "logo_mita" %>
     <% end %>
@@ -8,7 +8,7 @@
   </button>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse animate fadeInUp" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item">
