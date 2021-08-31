@@ -154,9 +154,15 @@
   display:flex;
   justify-content: space-between;
 }
-
+.footer_row_row_2_2{
+  justify-content: around;
+}
 
 @media (max-width:767px){
+  .footer_row_row_2_2{
+    text-align:center;
+
+  }
 
   .sections_h2_6_black{
     font-size : 60px;
