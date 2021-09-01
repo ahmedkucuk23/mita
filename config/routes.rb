@@ -13,5 +13,6 @@ Rails.application.routes.draw do
    get '/terms',    to: 'pages#terms'
    get '/cookies',    to: 'pages#cookies'
 
+  delete "stories/:id", to: "stories#destroy"
   resources :stories
 end
