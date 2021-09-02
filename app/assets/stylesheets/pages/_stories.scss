@@ -18,8 +18,8 @@
 .slika_tm{
   width:100%;
   border-radius: 20px;
-  max-height:100vh;
-  object-fit:contain;
+  height:60vh;
+  object-fit:cover;
 }
 .section_12{
   padding: 0 15px;
@@ -208,6 +208,8 @@
 }
 .slika_section_show{
   width:100%;
+  max-height: 100vh;
+  object-fit:contain;
 }
 .section_tri_3{
   padding-bottom: 40px;
