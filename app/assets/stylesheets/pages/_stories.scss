@@ -12,14 +12,14 @@
 .slika_tm_2{
   width:100%;
   border-radius: 20px;
-  height:80vh;
+  height:100%;
   object-fit:cover;
 }
 .slika_tm{
   width:100%;
   border-radius: 20px;
-  height:60vh;
-  object-fit:cover;
+  max-height:100vh;
+  object-fit:contain;
 }
 .section_12{
   padding: 0 15px;
