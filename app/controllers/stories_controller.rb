@@ -8,7 +8,8 @@ class StoriesController < ApplicationController
   end
 
   def show
-    find_storie
+    @storie = Storie.friendly.find(params[:id])
+    authorize @storie
   end
 
   def new
