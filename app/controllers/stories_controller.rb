@@ -48,7 +48,7 @@ class StoriesController < ApplicationController
   end
 
   def find_storie
-    @storie = Storie.find(params[:id])
+    @storie = Storie.friendly.find(params[:id])
     authorize @storie
   end
 
