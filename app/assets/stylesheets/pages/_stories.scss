@@ -14,12 +14,24 @@
   border-radius: 20px;
   height:100%;
   object-fit:cover;
+  transition:all 0.3s ease;
 }
 .slika_tm{
+  justify-content: center;
+  text-align:center;
   width:100%;
   border-radius: 20px;
   height:60vh;
   object-fit:cover;
+  opacity:0.9;
+  transition:all 0.3s ease;
+}
+.slika_tm:hover{
+  width:100%;
+  border-radius: 20px;
+  height:60vh;
+  object-fit:cover;
+  opacity:1;
 }
 .section_12{
   padding: 0 15px;
@@ -34,7 +46,7 @@
 .role_2{
   font-family : 'Open Sans';
   font-weight : bold;
-  font-size : 18px;
+  font-size : 21px;
   color : #414042;
   color : rgb(65, 64, 66);
   padding: 10px 0;
@@ -226,6 +238,7 @@
 .card_link_storie{
   text-decoration:none;
   opacity:0.9;
+  transition:all 0.3s ease;
 }
 .card_link_storie:hover{
   opacity:1;
