@@ -21,10 +21,21 @@
 .slika_contact{
   width: 60px;
 }
+.sections_h2_6_black_contact_2{
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 1em;
+    letter-spacing: -1.51px;
+    color: #000;
+}
 @media only screen and (max-width: 800px) {
   .contact_heading{
     font-size:60px;
   }
+  .sections_h2_6_black_contact_2{
+    font-size: 50px;
+}
 }
 .form_row_1{
   padding-top:50px;
