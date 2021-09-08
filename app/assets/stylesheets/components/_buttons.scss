@@ -24,6 +24,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
+  width:300px;
 }
 .button_1_div_text{
   text-decoration:none;
@@ -33,7 +34,6 @@
   font-weight : 600;
   color : #FFFFFF;
 }
-
 .button_1_div:hover{
   background-color: #24241c;
   border-radius: 15px;
@@ -200,6 +200,9 @@
 }
 @media only screen and (max-width: 900px) {
   .form_button{
+    width:100%;
+  }
+  .button_1_div{
     width:100%;
   }
 }
