@@ -1,3 +1,8 @@
+<% content_for :meta_title, "#{@storie.name} is on #{DEFAULT_META["meta_product_name"]}" %>
+<% content_for :meta_description, @storie.description %>
+<% content_for :meta_image, cl_image_path(@storie.photo.path) %>
+
+
 <div class="section_1_stories" style="padding-top: 100px;">
   <div class="container">
     <h1 class="home_heading box animate fadeInUp"><%= @storie.first_header %></h1>
