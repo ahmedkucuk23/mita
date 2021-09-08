@@ -1,0 +1,6 @@
+
+meta_product_name: "Mita Group"
+meta_title: "Mita Group"
+meta_description: "Helping Brands Drive More Sales Since 1997."
+meta_image: "cover.png" # should exist in `app/assets/images/`
+twitter_account: "@MITAGroup"   # required for Twitter Cards
