@@ -8,6 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("custom/main")
+
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
