@@ -37,6 +37,8 @@
     <link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
     <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -65,5 +67,10 @@
     <%= render 'shared/flashes' %>
     <%= yield %>
     <%= render 'shared/footer' %>
+    <% if cookies[:allow_cookies].blank? %>
+      <%= render 'layouts/cookies_bar' %>
+    <% end %>
+
+
   </body>
 </html>
