@@ -18,38 +18,38 @@
 
 <div class="section_2">
   <div class="container">
-    <h1 class="home_heading_black box animate fadeInUp">Our results<br> say it all:</h1>
+    <h1 class="home_heading_black reveal ">Our results<br> say it all:</h1>
     <div class="section_tri d-flex row" style="padding-top: 100px; padding-bottom: 100px;">
       <div class="col-lg-4 col-md-4 col-sm-12 box animate fadeInUp">
         <span class="dot1"></span>
         <div class="section_tri_text">
-          <h2 class="section_tri_header">€50+ million</h2>
-          <p class="section_tri_para">generated sales <br>growth for our clients</p>
+          <h2 class="section_tri_header reveal">€50+ million</h2>
+          <p class="section_tri_para reveal">generated sales <br>growth for our clients</p>
         </div>
       </div>
       <div class="col-padd col-lg-4 col-md-4 col-sm-12 box animate fadeInUp">
         <span class="dot1"></span>
         <div class="section_tri_text">
-          <h2 class="section_tri_header">500.000+</h2>
-          <p class="section_tri_para">generated sales<br> leads</p>
+          <h2 class="section_tri_header reveal">500.000+</h2>
+          <p class="section_tri_para reveal">generated sales<br> leads</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 box animate fadeInUp">
         <span class="dot1"></span>
         <div class="section_tri_text">
-          <h2 class="section_tri_header">500.000+</h2>
-          <p class="section_tri_para">created ads</p>
+          <h2 class="section_tri_header reveal">500.000+</h2>
+          <p class="section_tri_para reveal">created ads</p>
         </div>
       </div>
   </div>
 </div>
 </div>
-<div class="section_3">
+<div class="section_3 ">
   <div class="container">
-    <h1 class="home_heading_second">We Know Better<br>Than Anyone Else</h1>
+    <h1 class="home_heading_second reveal">We Know Better<br>Than Anyone Else</h1>
     <div class="container">
       <div class="section_3_list" style="padding-top:20px; padding: 0 15px;">
-       <div class="section_3_list_first_row row d-flex ">
+       <div class="section_3_list_first_row row d-flex reveal">
           <div class="ab_home row align-items-center col-lg-12">
             <%= image_tag 'homeabout1.png', :class => "homeabout" %>
             <p class="section_3_p_2">1. What the optimal campaign period is; after that, the number of leads drops, and acquisition cost rises;</p>
@@ -97,12 +97,12 @@
     </div>
   </div>
 </div>
-<div class="section_11">
+<div class="section_11 reveal">
   <div class="container">
     <p style="padding-top: 30px; color: #fff;"><br> </p>
   </div>
 </div>
-<div class="section_4">
+<div class="section_4 reveal">
   <div class="container">
     <a href="stories/25k-sales-leads-generated-in-banking" style="text-decoration: none;">
       <div class="sections_rows d-flex row">
@@ -118,7 +118,7 @@
     </a>
   </div>
 </div>
-<div class="section_5">
+<div class="section_5 reveal">
   <div class="container">
     <a href="stories/we-increased-number-of-sales-leads-by-33" style="text-decoration: none;">
       <div class="sections_rows d-flex row">
@@ -134,7 +134,7 @@
     </a>
   </div>
 </div>
-<div class="section_6">
+<div class="section_6 reveal">
   <div class="container">
     <a href="stories/13x-more-registrations-to-e-wallet" style="text-decoration: none;">
       <div class="sections_rows d-flex row">
@@ -150,7 +150,7 @@
     </a>
   </div>
 </div>
-<div class="section_7">
+<div class="section_7 reveal">
   <div class="container">
     <a href="stories/meeting-sales-objectives-using-digital-adveertising" style="text-decoration: none;">
     <div class="sections_rows d-flex row">
@@ -166,7 +166,7 @@
     </a>
   </div>
 </div>
-<div class="section_8">
+<div class="section_8 reveal">
   <div class="container">
     <a href="stories/" style="text-decoration: none;">
     <div class="sections_rows d-flex row">
@@ -200,7 +200,7 @@
   </div>
 </div> -->
 
-<div class="section_9_2">
+<div class="section_9_2 reveal">
   <div class="container">
     <a href="stories/20k-app-downloads-in-the-first-month" style="text-decoration: none;">
     <div class="sections_rows d-flex row">
@@ -220,7 +220,7 @@
 
 </div>
 
-<div class="container">
+<div class="container reveal">
   <div class="d-flex row justify-content-center" style="padding-top: 0px;">
     <div class="col-lg-3 col-md-4 col-sm-6 col-6">
       <%= image_tag '01a.png', :class => "logo_pictures" %>
@@ -261,7 +261,27 @@
   </div>
 </div>
 
+  <script type="text/javascript">
+     window.addEventListener('scroll', reveal);
 
+     function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+     }
+    </script>
 
 
 <%= render 'shared/footer-contact' %>

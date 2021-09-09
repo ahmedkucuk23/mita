@@ -16,7 +16,12 @@
 //= require bootstrap/dist/css/bootstrap
 .hidden {
   display: none;
+}
+
+ html{
+  scroll-behavior: smooth;
  }
+
 .privacy_black{
   h1,h2,h3,h4{
     font-family: 'EB Garamond', serif;
