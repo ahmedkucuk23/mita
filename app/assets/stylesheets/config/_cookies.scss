@@ -1,72 +1,27 @@
-
-.cookies-bar {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 10px;
-  margin-left:10px;
-  padding: 0px 10px 5px 10px;
-  display:flex;
-
-  border: 1px solid #9CA3AF;
-  background-color: #F3F4F6;
-
-  .btn {
-    display: block;
-    border: 1px solid #4B5563;
-    background-color: #6B7280;
-    color: #FFF;
-    padding: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    text-decoration: none;
-
-    &.accept:hover {
-      background-color: #047857;
-    }
-    &.reject:hover {
-      background-color: #B91C1C;
-    }
-  }
-
-  @media (min-width: 768px) {
-    display: flex;
-    max-width: 700px;
-    align-items: center;
-    margin: 0 auto;
-    padding-bottom: 0;
-
-    .btn {
-      padding: 10px 20px;
-      margin-left: 10px;
-    }
-  }
-}
-
 .cookies_1{
+  .card {
+      flex-direction: column;
+      min-width: 0;
+      color: #000;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid #fff;
+      border-radius: 6px;
+      -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+      box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+  }
 
-.card {
-    flex-direction: column;
-    min-width: 0;
-    color: #000;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #fff;
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
-}
+  .learn-more {
+      text-decoration: none;
+      color: #000;
+      margin-top: 8px
+  }
 
-.learn-more {
-    text-decoration: none;
-    color: #000;
-    margin-top: 8px
-}
-
-.learn-more:hover {
-    text-decoration: none;
-    color: blue;
-    margin-top: 8px
-}
+  .learn-more:hover {
+      text-decoration: none;
+      color: blue;
+      margin-top: 8px
+  }
 }
