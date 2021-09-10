@@ -30,6 +30,31 @@ body{
     transform: none;
   }
 }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0.3;
+
+  }
+
+  to {
+    opacity: 1;
+
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
 .reveal{
   transform: translateY(150px);
   opacity: 0;
@@ -43,6 +68,11 @@ body{
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 .one {
 -webkit-animation-delay: 0.3s;

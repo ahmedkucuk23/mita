@@ -1,3 +1,5 @@
+<%= render 'shared/navbar_white_services' %>
+
 <div class="section_2" style="padding-top: 80px;">
   <div class="container">
     <h1 class="home_heading_black_per box animate fadeInUp">Performance<br>based advertising</h1>
@@ -6,61 +8,102 @@ platforms or just collect sales leads, the fight for every customer on the Inter
 day. Only well-designed and precisely implemented customer acquisition strategies will bring you a
 cost-effective conversion cost and business growth. Our strategies are based on seven key steps. </p>
     <h3 class="section_7_steps box animate fadeInUp">7 steps to drive more sales</h3>
-    <div class="container d-flex justify-content-center" style="padding-bottom: 50px; ">
+    <div class="container d-flex justify-content-center reveal" style="padding-bottom: 50px; ">
       <%= image_tag 'levak.png', :class => "levak" %>
       <%= image_tag 'levakTel.png', :class => "levak-tel", :style => "width:100%; height:100%;" %>
     </div>
   </div>
 </div>
-<div class="section_1">
+
+<div class="section_1" style="padding-bottom:100px;">
   <div class="container">
-    <h1 class="home_heading_services">Our services</h1>
-    <div class="section_services_row d-flex row align-items-center" style="padding-bottom: 140px;">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'eye.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>Branding & Strategy</p></div>
-        </div>
-        <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'like.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>Social Media Integration</p></div>
-        </div>
-        <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'filter.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>Customer Acquisition<br>& Media Buying</p></div>
-        </div>
-        <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'voice.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>Digital Advertising</p></div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'chat.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>SEO & Web <br>Optimisation</p></div>
-        </div>
-        <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'camera.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>Production &<br>Web Development</p></div>
-        </div>
-        <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'data.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>Data & Analytics</p></div>
-        </div>
-        <div class="section_services_row_elements d-flex row align-items-center">
-          <div class="emoji"><%= image_tag 'web.png', :class => "emoji_picture" %></div>
-          <div class="section_services_row_text"><p>Marketing Education</p></div>
-        </div>
-      </div>
+    <h1 class="home_heading_services reveal">Our services</h1>
+    <div class="row ">
+      <ol class="list-block__list col-lg-6 col-md-12">
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'eye.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>Branding & Strategy</p></div>
+          </div>
+        </li>
+
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'like.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>Social Media Integration</p></div>
+          </div>
+        </li>
+
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'filter.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>Customer Acquisition<br>& Media Buying</p></div>
+          </div>
+        </li>
+
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'voice.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>Digital Advertising</p></div>
+          </div>
+        </li>
+      </ol>
+      <ol class="list-block__list col-lg-6 col-md-12">
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'chat.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>SEO & Web <br>Optimisation</p></div>
+          </div>
+        </li>
+
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'camera.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>Production &<br>Web Development</p></div>
+          </div>
+        </li>
+
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'data.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>Data & Analytics</p></div>
+          </div>
+        </li>
+
+        <li class="list_pic row list-block__list-item align-items-center element-animated is-animated">
+          <div class="col-2">
+            <div class="emoji"><%= image_tag 'web.png', :class => "emoji_picture" %></div>
+          </div>
+          <div class="col-10 md-2 col-md-8">
+            <div class="section_services_row_text"><p>Marketing Education</p></div>
+          </div>
+        </li>
+      </ol>
     </div>
   </div>
 </div>
+
+
 <div class="section_2">
   <div class="container">
-    <h1 class="home_heading_black">Branding<br>& strategy</h1>
+    <h1 class="home_heading_black  reveal">Branding<br>& strategy</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para" style="margin-top: 60px;">The look of your brand or product can be your best competitive advantage. Regardless of whether you are creating a new brand or promoting or (re)designing the brand you already have, our creative department with more than a decade of experience will create your visual identity and choose the right colour palette, the tone of your communication, and the images and videos that will attract the attention of and emotionally communicate with your brand’s customers.</p>
+        <p class="section_tri_services_para  reveal" style="margin-top: 60px;">The look of your brand or product can be your best competitive advantage. Regardless of whether you are creating a new brand or promoting or (re)designing the brand you already have, our creative department with more than a decade of experience will create your visual identity and choose the right colour palette, the tone of your communication, and the images and videos that will attract the attention of and emotionally communicate with your brand’s customers.</p>
       </div>
       <!-- <div class="col-lg-1 col-md-1 col-sm-12">
         <%= image_tag 'eye2.png', :class => "emoji_services" %>
@@ -70,12 +113,12 @@ cost-effective conversion cost and business growth. Our strategies are based on 
 </div>
 <div class="section_4">
   <div class="container">
-    <h1 class="sections_h2_4 serv_padd">SEO & Web<br>Optimisation</h1>
+    <h1 class="sections_h2_4 serv_padd  reveal">SEO & Web<br>Optimisation</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para_white" style="margin-top: 60px;">SEO and web optimisation lie at the core of successful performance based advertising. Only the best experts in the field know that everything you do needs to be in line with SEO and web optimisation.</p>
+        <p class="section_tri_services_para_white  reveal" style="margin-top: 60px;">SEO and web optimisation lie at the core of successful performance based advertising. Only the best experts in the field know that everything you do needs to be in line with SEO and web optimisation.</p>
         <br>
-        <ul class="ul_services">
+        <ul class="ul_services  reveal">
           <strong style="font-family: 'Open Sans', sans-serif; font-weight: bold;">The right website optimisation and development allows you to:</strong>
           <li>create the best user experience for your target group (UI),</li>
           <li>have a simpler offer which takes a click less to complete compared to your competitors (UX),</li>
@@ -83,7 +126,7 @@ cost-effective conversion cost and business growth. Our strategies are based on 
           <li>get your website to load in under three seconds on an average mobile connection speed (development & web page optimisation).</li>
         </ul>
         <br>
-        <p class="section_tri_services_para_white">
+        <p class="section_tri_services_para_white  reveal">
        Some of the activities that need to be implemented include: branding, keyword research, copywriting, UI, UX, landing page optimisation, on-page and off-page optimisation, customised premium content (photo and video), social media integration, community and content management, YouTube, social media ads, data analytics...</p>
       </div>
   <!--     <div class="col-lg-1 col-md-1 col-sm-12">
@@ -94,10 +137,10 @@ cost-effective conversion cost and business growth. Our strategies are based on 
 </div>
 <div class="section_5">
   <div class="container">
-    <h1 class="sections_h2_5 serv_padd">Social Media<br>Integration</h1>
+    <h1 class="sections_h2_5 serv_padd  reveal">Social Media<br>Integration</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para" style="margin-top: 60px;">A significant amount of sales moved online, and most frequently customers come across your brand or see your ad for the first time on social media. Our strategies are based on thorough analyses of a large amount of data and massive experience and they help you to: improve the way you manage your social media accounts (Facebook, Instagram, LinkedIn, Google, TikTok, Twitter, YouTube...) and link your website with your communication on social media to improve your SEO and be more convincing in the digital world.
+        <p class="section_tri_services_para  reveal" style="margin-top: 60px;">A significant amount of sales moved online, and most frequently customers come across your brand or see your ad for the first time on social media. Our strategies are based on thorough analyses of a large amount of data and massive experience and they help you to: improve the way you manage your social media accounts (Facebook, Instagram, LinkedIn, Google, TikTok, Twitter, YouTube...) and link your website with your communication on social media to improve your SEO and be more convincing in the digital world.
 <br><br>
 Well-thought-out strategies as well as content and community activities will ensure that you establish relationships with more people, create brand awareness, promote offers, boost and award customer loyalty, collect sales contacts, research customer buying habits, promote offline activity, create better conversions, sell through Facebook and/or Instagram shops, and acquire more customers for a lower cost than your competitors.</p>
       </div>
@@ -109,10 +152,10 @@ Well-thought-out strategies as well as content and community activities will ens
 </div>
 <div class="section_6">
   <div class="container">
-    <h1 class="sections_h2_6 serv_padd">Photo & Video<br>Content Production</h1>
+    <h1 class="sections_h2_6 serv_padd  reveal">Photo & Video<br>Content Production</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para_white" style="margin-top: 60px;">Creativity is the most important aspect of conversion. We develop your visual elements, design and produce video materials showcasing the best side of your brands and giving you a competitive advantage over your competitors, create an emotional bond with your customers and increase your conversion rate.</p>
+        <p class="section_tri_services_para_white  reveal" style="margin-top: 60px;">Creativity is the most important aspect of conversion. We develop your visual elements, design and produce video materials showcasing the best side of your brands and giving you a competitive advantage over your competitors, create an emotional bond with your customers and increase your conversion rate.</p>
       </div>
       <!-- <div class="col-lg-1 col-md-1 col-sm-12">
         <%= image_tag 'camera2.png', :class => "emoji_services" %>
@@ -122,10 +165,10 @@ Well-thought-out strategies as well as content and community activities will ens
 </div>
 <div class="section_7 ">
   <div class="container">
-    <h1 class="sections_h2_7 serv_padd">Customer Acquisition<br>& Media Buying</h1>
+    <h1 class="sections_h2_7 serv_padd  reveal">Customer Acquisition<br>& Media Buying</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para_white" style="margin-top: 60px;">For each brand we create unique, cost-effective and scalable digital marketing strategies which are based on detailed analysis of data we collect from various sources (data companies, social media, Google Analytics...). We invest media budgets in a smarter way than others with an aim to ensure that your ad is shown to more people, at the right place, at the right time and with the highest return on advertising spend possible (ROAS).
+        <p class="section_tri_services_para_white  reveal" style="margin-top: 60px;">For each brand we create unique, cost-effective and scalable digital marketing strategies which are based on detailed analysis of data we collect from various sources (data companies, social media, Google Analytics...). We invest media budgets in a smarter way than others with an aim to ensure that your ad is shown to more people, at the right place, at the right time and with the highest return on advertising spend possible (ROAS).
 <br><br>
 For the past 24 years we have been communicating with customers on various advertising networks and building good relationships with the owners of media outlets. During the first stage of advertising, we skilfully navigate through the traditional media, a network of premium inventory and premium position web portals, social media (Facebook, Instagram, TikTok, YouTube), communication platforms (WhatsApp, Messenger, Viber), and search engines (Google) to reach the target group quickly, build brand awareness, collect data, and increase high quality targeted website/webshop traffic. During the second stage of advertising, we focus on repeating exposure to increase engagement, generate sales leads databases and close sales at the lowest conversion costs.</p>
       </div>
@@ -137,12 +180,12 @@ For the past 24 years we have been communicating with customers on various adver
 </div>
 <div class="section_8">
   <div class="container">
-    <h1 class="sections_h2_8 serv_padd">Data Analytics</h1>
+    <h1 class="sections_h2_8 serv_padd  reveal">Data Analytics</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para_white" style="margin-top: 60px;">The value of databases and sales leads is priceless. Performing data analysis on a daily basis in all implementation and development stages of an ad campaign lies at the core of performance-based advertising.</p>
+        <p class="section_tri_services_para_white  reveal" style="margin-top: 60px;">The value of databases and sales leads is priceless. Performing data analysis on a daily basis in all implementation and development stages of an ad campaign lies at the core of performance-based advertising.</p>
 <br><br>
-        <ul class="ul_services">
+        <ul class="ul_services  reveal">
           <strong style="font-family: 'Open Sans', sans-serif; font-weight: bold;">Data analysis and visualisation helps us to:</strong>
           <li>identify our target group's lifestyle and buying habits,</li>
           <li>determine the best place and time to place an ad,</li>
@@ -162,10 +205,10 @@ For the past 24 years we have been communicating with customers on various adver
 
 <div class="section_9">
   <div class="container">
-    <h1 class="sections_h2_9 serv_padd">Google Advertising</h1>
+    <h1 class="sections_h2_9 serv_padd  reveal">Google Advertising</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para_white" style="margin-top: 60px;">When you use Google Search ads and rent search keywords your customers see your website on the first page of Google search (the ultimate goal is to be in the first three ranks on a Google search result page). Both the efficiency and costs are directly related to the quality of your website's SEO (Search Engine Optimisation), social media integration, and to the keywords rented by an advertiser or advertising agency. The advertiser only pays: 1. for the clicks on the rented keywords and links leading visitors to the chosen landing page, 2. when customers get in touch with the advertiser.
+        <p class="section_tri_services_para_white  reveal" style="margin-top: 60px;">When you use Google Search ads and rent search keywords your customers see your website on the first page of Google search (the ultimate goal is to be in the first three ranks on a Google search result page). Both the efficiency and costs are directly related to the quality of your website's SEO (Search Engine Optimisation), social media integration, and to the keywords rented by an advertiser or advertising agency. The advertiser only pays: 1. for the clicks on the rented keywords and links leading visitors to the chosen landing page, 2. when customers get in touch with the advertiser.
 <br><br>
 Google Display ads allow us to reach and cover the largest percentage of our target group through display advertising on a network of web portals or through display ads in applications on all types of devices. Google Display advertising is efficient and several times cheaper than premium advertising on web portals. In addition, Google give you more options when it comes to targeting the audience you want to see your advertisement.
 <br><br>
@@ -179,24 +222,24 @@ Google Remarketing allows us to show our advertisements to people who have alrea
 </div>
 <div class="section_9">
   <div class="container">
-    <h1 class="sections_h2_9">Facebook & Instagram
+    <h1 class="sections_h2_9  reveal">Facebook & Instagram
 <br>Advertising</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para_white" style="margin-top: 60px;">Facebook advertising allows us to define and (re)target the preferred audience to achieve the aims we have set, drive sales and collect sales leads. Facebook is the ideal advertising tool which lets us find new clients, attract and keep their attention and achieve our sales targets. The advantages of advertising on Facebook are:</p>
+        <p class="section_tri_services_para_white  reveal" style="margin-top: 60px;">Facebook advertising allows us to define and (re)target the preferred audience to achieve the aims we have set, drive sales and collect sales leads. Facebook is the ideal advertising tool which lets us find new clients, attract and keep their attention and achieve our sales targets. The advantages of advertising on Facebook are:</p>
 
-<ul class="ul_services">
+<ul class="ul_services  reveal">
 <li>better user engagement,</li>
 <li>higher reach and potential reach when targeting specific audiences, and</li>
 <li>(re)targeting options (geo-targeting, demographic targeting, interest targeting, Facebook Pixel, custom audience, lookalike audience).</li>
 </ul>
 <br><br>
-<p class="section_tri_services_para_white" >
+<p class="section_tri_services_para_white  reveal" >
 INSTAGRAM ADS<br>
 As Instagram keeps growing in popularity, so do the opportunities for brands wishing to strengthen their influence through Instagram advertising or Instagram sales. Through Instagram ads (photo, video, carousel, stories), we attract the attention of your target group, share our stories and emotions with a highly engaged audience, increase the number of followers and meet business targets that we have set.
 <br><br>
 Facebook and Instagram account administration includes:</p>
-<ul class="ul_services">
+<ul class="ul_services  reveal">
 <li>creating and optimising Facebook and Instagram pages (if you do not have them),</li>
 <li>administering pages and creating a monthly content calendar together with a client,</li>
 <li>creating visual and textual content for new posts on Facebook and Instagram pages,</li>
@@ -212,10 +255,10 @@ Facebook and Instagram account administration includes:</p>
 </div>
 <div class="section_9">
   <div class="container">
-    <h1 class="sections_h2_9 ">YouTube Advertising</h1>
+    <h1 class="sections_h2_9  reveal">YouTube Advertising</h1>
     <div class="section_services_sections d-flex row align-items-end">
       <div class="col-lg-11 col-md-11 col-sm-12">
-        <p class="section_tri_services_para_white" style="margin-top: 60px;">YouTube allows us to use precise targeting options and transparent reporting on campaigns that were implemented. Advanced ad tools help us achieve the highest conversion rate and the lowest cost per conversion for our video ads or video content. We can select our target audience based on age, sex, location, and interest, and we are charged only when a user interacts with the ad or when a user watches the whole video.</p>
+        <p class="section_tri_services_para_white  reveal" style="margin-top: 60px;">YouTube allows us to use precise targeting options and transparent reporting on campaigns that were implemented. Advanced ad tools help us achieve the highest conversion rate and the lowest cost per conversion for our video ads or video content. We can select our target audience based on age, sex, location, and interest, and we are charged only when a user interacts with the ad or when a user watches the whole video.</p>
       </div>
       <!-- <div class="col-lg-1 col-md-1 col-sm-12">
         <%= image_tag 'voice2.png', :class => "emoji_services" %>
@@ -223,8 +266,6 @@ Facebook and Instagram account administration includes:</p>
     </div>
   </div>
 </div>
-
-
 
 
 <%= render 'shared/footer-contact' %>

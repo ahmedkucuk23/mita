@@ -25,6 +25,7 @@ gem 'mail_form'
 gem 'pundit'
 gem 'cloudinary', '~> 1.16.0'
 gem 'friendly_id', '~> 5.4.0'
+gem "active_link_to"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
