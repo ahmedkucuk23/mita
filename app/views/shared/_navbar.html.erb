@@ -1,4 +1,6 @@
-<div class="navbar navbar-expand-lg navbar-lewagon box animate fadeIn" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<div id="navbar" class="navbar navbar-expand-lg navbar-lewagon box animate fadeIn" >
   <%= link_to root_path , class: "navbar-brand" do %>
     <%= image_tag 'mita-logo.png', :class => "logo_mita" %>
     <% end %>
@@ -12,10 +14,10 @@
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item">
-          <%= link_to "About", "/about", class: "nav-link" %>
+          <%= active_link_to "About", "/about", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Services", "/services", class: "nav-link" %>
+          <%= active_link_to "Services", "/services", class: "nav-link" %>
         </li>
         <li class="nav-item">
           <%= link_to "Stories", "/stories", class: "nav-link" %>
@@ -38,13 +40,13 @@
         </li>
       <% else %>
         <li class="nav-item">
-          <%= link_to "About", "/about", class: "nav-link" %>
+          <%= active_link_to "About", "/about", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Services", "/services", class: "nav-link" %>
+          <%= active_link_to "Services", "/services", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Stories", "/stories", class: "nav-link" %>
+          <%= active_link_to "Stories", "/stories", class: "nav-link" %>
         </li>
         <!-- <li class="nav-item">
           <%= link_to "Careers", "/careers", class: "nav-link" %>
@@ -61,3 +63,34 @@
   </div>
 </div>
 
+
+<script type="text/javascript">
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+var top1 = $('#home').offset().top;
+var top2 = $('#featuredWork').offset().top;
+var top3 = $('#caseStudy').offset().top;
+
+$(document).scroll(function() {
+  var scrollPos = $(document).scrollTop();
+  if (scrollPos >= top1 && scrollPos < top2) {
+    $('#navbar').css('background', '#f00');
+  } else if (scrollPos >= top2 && scrollPos < top3) {
+    $('#navbar').css('background', '#0f0');
+  } else if (scrollPos >= top3) {
+    $('#navbar').css('background', '#00f');
+  }
+});
+
+</script>

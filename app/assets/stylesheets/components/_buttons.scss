@@ -5,6 +5,7 @@
   padding-right: 26px;
   color: #fff;
   opacity:1;
+  transition: all 2s ease;
 }
 .button_1:hover{
   text-decoration: none;
@@ -25,6 +26,7 @@
   font-weight : 600;
   color : #FFFFFF;
   width:300px;
+  transition: all 1s ease;
 }
 .button_1_div_text{
   text-decoration:none;
@@ -33,6 +35,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
+  transition: all 1s ease;
 }
 .button_1_div:hover{
   background-color: #24241c;
@@ -57,6 +60,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
+  transition: all 1s ease;
 }
 .button_1_div_2:hover{
   background-color: #24241c;
@@ -84,6 +88,7 @@
   border-radius: 5px;
   padding:5px;
   color: #fff;
+  transition: all 1s ease;
 }
 .button_2:hover{
   text-decoration: none;
@@ -101,6 +106,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
+  transition: all 1s ease;
 }
 .button_2_div:hover{
   background-color: #D32C15;
@@ -143,6 +149,7 @@
   padding:15px;
   color: #fff;
   text-align: center;
+  transition: all 1s ease;
 
 }
 .button_show:hover{
@@ -173,6 +180,7 @@
   transition: transform 80ms ease-in;
   margin: 50px 0px;
   margin-top:50px;
+  transition: all 1s ease;
 }
 .button_sec:hover{
   text-decoration: none;
@@ -193,6 +201,7 @@
   margin-top:50px;
   font-weight: 600;
   float: right;
+  transition: all 1s ease;
 }
 .form_button:hover{
   background-color:#fff;

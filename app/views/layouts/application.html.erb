@@ -56,20 +56,47 @@
       gtag('config', 'G-VYG8TK4KE0');
     </script>
 
+
+
   </head>
 
   <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7H63H6"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <%= render 'shared/navbar' %>
+
     <%= render 'shared/flashes' %>
     <%= yield %>
     <%= render 'shared/footer' %>
     <% if cookies[:allow_cookies].blank? %>
       <%= render 'layouts/cookies_bar' %>
     <% end %>
+
+
+      <script type="text/javascript">
+     window.addEventListener('scroll', reveal);
+
+     function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = -150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+     }
+    </script>
 
 
   </body>

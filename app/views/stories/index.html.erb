@@ -1,3 +1,6 @@
+<%= render 'shared/navbar_white_stories' %>
+
+
 <div class="section_2" style="padding-top: 80px;">
   <div class="container">
     <h1 class="home_heading_black box animate fadeInUp">Helping brands<br>drive more sales</h1>
@@ -9,7 +12,7 @@
     <div class="text_featured">
       <h1 class="home_heading_black_small box animate fadeInUp">Featured stories</h1>
     </div>
-    <div class="section_12_row d-flex row justify-content-around">
+    <div class="section_12_row d-flex row justify-content-around reveal">
         <div class="section_12_row_klijent col-lg-4 col-md-6 col-sm-12">
           <a href="stories/25k-sales-leads-generated-in-banking" style="text-decoration: none;">
             <%= image_tag 'story01.png',:class => "slika_tm", :style => "" %>
@@ -34,9 +37,9 @@
 </div>
 <div class="section_2">
   <div class="container">
-    <h1 class="home_heading_black" style="padding-bottom: 50px;">All stories</h1>
+    <h1 class="home_heading_black  reveal" style="padding-bottom: 50px;">All stories</h1>
 
-    <div class="section_12_row d-flex row justify-content-around">
+    <div class="section_12_row d-flex row justify-content-around reveal">
       <% @stories.each do |storie| %>
         <%= link_to story_path(storie), class: "card_link card_link_storie col-lg-5 col-md-5 col-sm-12" do %>
           <div class="section_12_row_klijent">
@@ -54,13 +57,13 @@
     <div id="hide_section_row_2">
       <div class="row_section_2 d-flex justify-content-center">
         <div class="section_12_row d-flex row justify-content-around">
-          <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12">
+          <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
             <%= image_tag 'slika_tm.png',:class => "slika_tm_2", :style => "" %>
             <p class="role_2">Naziv projekta</p>
             <p class="ime_2">Brendiranje kao<br>
 konkurentska prednost</p>
           </div>
-        <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12">
+        <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
           <%= image_tag 'slika_tm.png', :class => "slika_tm_2", :style => "" %>
           <p class="role_2">Naziv projekta</p>
           <p class="ime_2">3.4x increase<br>
@@ -70,13 +73,13 @@ in sales on social media</p>
     </div>
     <div class="row_section_2 d-flex justify-content-center">
          <div class="section_12_row d-flex row justify-content-around">
-          <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12">
+          <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
             <%= image_tag 'slika_tm.png',:class => "slika_tm_2", :style => "" %>
             <p class="role_2">Naziv projekta</p>
             <p class="ime_2">Brendiranje kao<br>
   konkurentska prednost</p>
           </div>
-          <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12">
+          <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
             <%= image_tag 'slika_tm.png', :class => "slika_tm_2", :style => "" %>
             <p class="role_2">Naziv projekta</p>
             <p class="ime_2">3.4x increase<br>
@@ -105,9 +108,9 @@ in sales on social media</p>
 
 <div class="section_3_s">
   <div class="container" style="padding:0 30px;">
-    <h1 class="home_heading_second" style="padding-bottom:40px;">We won many<br> awards for what<br>we do because...</h1>
+    <h1 class="home_heading_second reveal" style="padding-bottom:40px;">We won many<br> awards for what<br>we do because...</h1>
     <div class="section_stories_3_row d-flex row justify-content-between">
-      <div class="section_3_row col-lg-3">
+      <div class="section_3_row col-lg-3 reveal">
         <h2 class="blue_row_3">1. We are<br>
 always<br>
 learning</h2>
@@ -121,7 +124,7 @@ partner for achieving the
 objectives of our clients.
         </p>
       </div>
-      <div class="section_3_row col-lg-3">
+      <div class="section_3_row col-lg-3 reveal">
         <h2 class="blue_row_3">2. We make<br>
 decisions<br>
 based on data</h2>
@@ -129,7 +132,7 @@ based on data</h2>
         We do not listen to intuition and our emotions. We carefully analyse all campaigns and make decisions solely on the basis of detailed analysis.
         </p>
       </div>
-      <div class="section_3_row col-lg-3">
+      <div class="section_3_row col-lg-3 reveal">
         <h2 class="blue_row_3">3. We use a<br>
 methodological<br>
 approach</h2>
@@ -144,7 +147,7 @@ advertising.
 
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center reveal">
 
     <a class="button_1_div  inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; margin-top: 30px; width: 400px;  padding-left:0px;" >
 
