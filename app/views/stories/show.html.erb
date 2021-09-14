@@ -83,7 +83,7 @@
           <% if @storie.photos.attached? %>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                  <%   @storie.photos.each_with_index do |photo, index | %>
+                  <%   @storie.photos[1..-1].each_with_index do |photo, index | %>
                   <div class="<%= index == 0 ? 'carousel-item active' : 'carousel-item' %>">
                     <%= cl_image_tag photo.key, :class => "slika_section_show"  %>
                   </div>
