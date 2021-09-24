@@ -58,9 +58,28 @@ body{
 .reveal{
   transform: translateY(150px);
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 3s ease;
 }
 .reveal.active{
+  transform: translateY(0px);
+  opacity:1;
+}
+
+.reveal_2{
+  transform: translateY(0px);
+  opacity: 0;
+  transition: all 7s ease;
+}
+.reveal_2.active{
+  transform: translateY(0px);
+  opacity:1;
+}
+.reveal_3{
+  transform: translateY(600px);
+  opacity: 0;
+  transition: all 6s ease;
+}
+.reveal_3.active{
   transform: translateY(0px);
   opacity:1;
 }
@@ -85,7 +104,6 @@ animation-delay: 0.3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
 
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
@@ -115,7 +133,42 @@ animation-delay: 0.3s;
   transform: none;
 }
 }
+.homeilustracija{
+  width:100%;
+}
 
+.section_3_mita{
+  background: image-url( "ilustracijaweb.png" );
+  background-repeat:repeat;
+  background-size: 100%;
+  margin-bottom: -27px;
+
+  /*a little bit of reset*/
+#services-list, #services-list p, #services-list h3 {
+list-style: none;
+margin:0; padding:0;
+}
+
+#services-list > li{
+  float:left;
+  margin-right: 20px;
+  width: 130px;
+}
+
+#services-list > li > .image{
+  display:block;
+  float:left;
+  margin-right:10px;
+}
+
+/*
+this instructions are to force the dimensions of image and its container <a>
+*/
+#services-list > li > .image,
+#services-list > li > .image > img{
+  width:24px; height:24px;
+}
+}
 
 .logo_client{
   width:310px;
@@ -225,6 +278,39 @@ animation-delay: 0.3s;
   position:relative;
 }
 
+.section_3_h_2_novi{
+  font-family: 'Open Sans', sans-serif;
+  font-size :30px;
+  letter-spacing : -0.31px;
+  line-height:1.3em;
+  font-weight: 100;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-bottom:0px;
+  margin-bottom:0px;
+
+
+}
+.section_3_p_2_novi{
+  font-family: 'Open Sans', sans-serif;
+  font-size :20px;
+  letter-spacing : -0.31px;
+  line-height:1.3em;
+  font-weight: 100;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-bottom:0px;
+  margin-bottom:0px;
+
+}
+
+.section_black_cover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.row_3_padd{
+  padding: 30px 0;
+}
+
 .section_3{
   background-color: #EC2227;
   margin-bottom: -27px;
@@ -254,8 +340,6 @@ this instructions are to force the dimensions of image and its container <a>
 #services-list > li > .image > img{
   width:24px; height:24px;
 }
-
-
 }
 
 .section_11{
@@ -297,9 +381,6 @@ this instructions are to force the dimensions of image and its container <a>
   padding:15px 0;
   flex-wrap:none;
 }
-
-
-
 
 
 .section_3_p_2{
@@ -450,7 +531,27 @@ this instructions are to force the dimensions of image and its container <a>
   padding-left:50px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .section_3_mita{
+    background: image-url( "ilustracijaweb.png" );
+    background-repeat: repeat;
+    background-size: 180%;
+    background-position: center;
+    margin-bottom: -27px;
+  }
+}
+.home_heading_second_cover{
+  font-family: 'EB Garamond', serif;
+  font-weight : bold;
+  font-size : 120px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top: 40px;
+  line-height: 1.1em;
+
+}
 @media only screen and (max-width: 800px) {
+
   .home_heading{
     font-size: 45px;
   }
@@ -481,6 +582,10 @@ this instructions are to force the dimensions of image and its container <a>
   }
   .home_heading_second{
     font-size: 46px;
+    line-height:50px;
+  }
+   .home_heading_second_cover{
+    font-size: 70px;
     line-height:50px;
   }
   .section_3_h{
