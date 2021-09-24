@@ -76,7 +76,7 @@
     <% end %>
 
 
-      <script type="text/javascript">
+    <script type="text/javascript">
      window.addEventListener('scroll', reveal);
 
      function reveal(){
@@ -96,9 +96,51 @@
         }
       }
      }
-
     </script>
 
+    <script type="text/javascript">
+     window.addEventListener('scroll', reveal_2);
+
+     function reveal_2(){
+      var reveals = document.querySelectorAll('.reveal_2');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var reveal_2top = reveals[i].getBoundingClientRect().top;
+        var reveal_2point = -150;
+
+        if(reveal_2top < windowheight - reveal_2point){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+     }
+    </script>
+
+    <script type="text/javascript">
+     window.addEventListener('scroll', reveal_3);
+
+     function reveal_3(){
+      var reveals = document.querySelectorAll('.reveal_3');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var reveal_3top = reveals[i].getBoundingClientRect().top;
+        var reveal_3point = -150;
+
+        if(reveal_3top < windowheight - reveal_3point){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+     }
+    </script>
 
   </body>
 </html>
