@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-lg navbar-lewagon box animate " >
+<div id="navbar_w" class="navbar navbar-expand-lg navbar-lewagon box animate " >
   <%= link_to root_path , class: "navbar-brand" do %>
     <%= image_tag 'mita-logo-web-red.png', :class => "logo_mita" %>
     <% end %>
@@ -61,17 +61,4 @@
   </div>
 </div>
 
-<script type="text/javascript">
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar_w").style.top = "0";
-  } else {
-    document.getElementById("navbar_w").style.top = "-100px";
-  }
-  prevScrollpos = currentScrollPos;
-}
 
-</script>
