@@ -111,11 +111,13 @@
     <p class="section_tri_para" style="padding-top: 40px; padding-bottom: 20px;"><%= @storie.fourth_description %></p>
 
 
+    <% if @storie.link.present? %>
     <div class="frame_video">
       <div class="container">
         <iframe class="frameee video" width="100%" height="650px" frameborder="0" allowfullscreen src='https://www.youtube.com/embed/<%= @storie.link %>?rel=0&autoplay=<%= params[:autoplay] || 0 %>' ></iframe>
       </div>
     </div>
+    <% end %>
 
 
   </div>
