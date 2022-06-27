@@ -30,7 +30,20 @@ Rails.application.configure do
   end
 
   # config/environments/development.rb
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = {
+  :host => '<your_url_here>',
+  :protocol => 'http'
+  }
 
+  config.action_mailer.smtp_settings = {
+  :address => 'smtp.gmail.com',
+  :port => 601,
+  :user_name => <gmail_username>,
+  :password => <gmail_password>,
+  :authentication => 'plain',
+  :enable_starttls_auto => true
+  }
 
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
