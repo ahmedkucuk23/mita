@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :contacts
+  # resources :contacts
   devise_for :users
 
   root to: 'pages#home'
