@@ -26,6 +26,9 @@ gem 'pundit'
 gem 'cloudinary', '~> 1.16.0'
 gem 'friendly_id', '~> 5.4.0'
 gem "active_link_to"
+gem 'sitemap_generator'
+
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
