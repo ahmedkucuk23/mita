@@ -142,3 +142,22 @@ window.onscroll = function() {
 }
 
 </script> -->
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 850) {
+              document.getElementsByClassName("navbar-lewagon").style.backgroundColor = '#99C262';
+          } else if($(this).scrollTop() > 1200) {
+              $('.navbar-lewagon').style.backgroundColor = '#fff';
+          } else {
+              $('.navbar').removeClass('solidred').;
+          }
+        });
+    });
+</script>
+
