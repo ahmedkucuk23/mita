@@ -8,7 +8,7 @@
   width:100%;
   transition: top 1s;
   .nav-link{
-  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -19,7 +19,7 @@
   opacity:0.8;
 }
 .nav-link:hover{
-  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -35,34 +35,11 @@
 
 
 
-.navbar.solidwhite {
-  background-color: #fff;
-  transition: background-color 1s ease 0s;
-}
-.navbar-lewagon.solidred {
-  background-color: #EC2227;
-  transition: background-color 1s ease 0s;
-}
-#navbar.solidred {
-  background-color: #EC2227;
-  transition: background-color 1s ease 0s;
-}
-#navbar.solidwhite {
-  background-color: #fff;
-  transition: background-color 1s ease 0s;
-}
-
-.solidred{
-  background: #EC2227;
-}
-
-.solidwhite{
-  background: #fff;
-}
-
 #navbar_w{
   position: fixed;
   top: 0;
+  background-color: rgba(255,255,255,0.8);
+  backdrop-filter: blur(12px);
   width:100%;
   transition: top 1s;
 
@@ -97,7 +74,8 @@
 .navbar-lewagon {
   justify-content: space-between;
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #EC2227;
+  background-color: rgba(236,34,39,0.0);
+  backdrop-filter: blur(17px);
   font-weight: 300;
   font-size: 12px;
   color: white;

@@ -1,5 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+
 <%= render 'shared/navbar' %>
 
 <!-- <div class="main_margin">
@@ -20,20 +21,26 @@
   </div>
 </div> -->
 
-
 <div class="main_margin">
-<div class="section_1" id="home" style="padding-top: 80px;">
-  <div class="container">
-    <h1 class="home_heading box animate fadeInUp">So, you’ve decided to launch a webshop?</h1>
-    <p class="home_since box animate fadeInUp">Welcome to MITA Group, the leading <strong>One-Stop Shop</strong> for eCommerce.</p>
-    <p class="home_para box animate fadeInUp" style="padding-bottom: 70px;">Share your vision with us, and we will develop strategy, create content, code a web store, and generate sales using the best PPC advertising strategies and channels.</p>
-    <a class="button_1_div inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; margin-top: 30px; padding-left:0px; margin-right: 0; margin-left: 0;" >
-          <%= image_tag 'strelica.png', :style => "width:30px; margin-right:10px;" %>
-          Share now!
-    </a>
-  </div>
-</div>
 
+ <section class="section-ux-design">
+  <%= video_tag "video.MP4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video" %>
+  <div class="overlay-text">
+    <div class="section_1" id="home" style="padding-top: 80px;">
+      <div class="container">
+        <h1 class="home_heading box animate fadeInUp">So, you’ve decided to launch a webshop?</h1>
+        <p class="home_para box animate fadeInUp" style="font-weight: bold;">Welcome to MITA Group, the leading <strong>One-Stop Shop</strong> for eCommerce.</p>
+        <p class="home_para box animate fadeInUp" style="padding-bottom: 20px;">Share your vision with us, and we will develop strategy, create content, code a web store, and generate sales using the best PPC advertising strategies and channels.</p>
+        <a class="button_cta inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; margin-top: 30px; padding-left:0px; margin-right: 0; margin-left: 0;" >
+              <%= image_tag 'strelica.png', :style => "width:30px; margin-right:10px;" %>
+              Launch now!
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
 <div class="section_2" style="z-index: -100; padding-top:100px; padding-bottom:100px;">
   <div class="container d-flex justify-content-center">
     <div class="lista-home">
@@ -51,9 +58,9 @@
       </ol>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="services-div">
+<div class="services-div" style="padding-top:100px;">
   <div class="container">
     <h2 class="services_h2">1. PLANNING AND STRATEGY</h2>
     <p class="services_p2">The first task is to determine how your webshop should look, which products, at what price, and to which target group it is best to sell your products.
@@ -66,6 +73,9 @@
 <br><br>
 We are creating a strategy and timeline for your webshop based on research.
 </p>
+    <a class="button_cta inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; margin-top: 30px; padding-left:0px; margin-right: 0; margin-left: 0;" >
+      <%= image_tag 'strelica.png', :style => "width:25px; margin-right:10px;" %> Share now!
+    </a>
   </div>
 </div>
 
@@ -161,7 +171,7 @@ We are creating a strategy and timeline for your webshop based on research.
 <div class="services-div">
   <div class="container">
     <h2 class="services_h2">8. ADVERTISING AND SALES CONVERSIONS</h2>
-    <p class="services_p2">Once we've confirmed that everything on the site is working fine, we should start with an advertising strategy to inform the public about the new web store on the market.
+    <p class="services_p2" style="font-family: 'Quicksand', sans-serif;font-weight: 300;">Once we've confirmed that everything on the site is working fine, we should start with an advertising strategy to inform the public about the new web store on the market.
   <ul>
   <li>
   Well-designed communication strategies, content and activations with potential customers will ensure that you connect with more people, build brand awareness in the market, promote your products and get first orders.
