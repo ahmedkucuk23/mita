@@ -19,6 +19,12 @@ li {
 }
 
 
+.solid{
+  color: #000;
+}
+#video_animation{
+  width: 100%;
+}
 .section-ux-design {
     position: relative;
 }
@@ -413,6 +419,18 @@ this instructions are to force the dimensions of image and its container <a>
   padding-top: 70px;
   line-height:1.1em;
 }
+
+.home_heading_h2{
+  font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
+  font-weight : bold;
+  font-size : 50px;
+  text-align: center;
+  color : #EC2227;
+  padding-top: 70px;
+  line-height:1.1em;
+}
+
 .home_since{
   font-family: 'Open Sans', sans-serif;
   font-weight : bold;
@@ -433,13 +451,26 @@ this instructions are to force the dimensions of image and its container <a>
     letter-spacing: normal;
     font-size: 20px;
 }
+
+.home_para_black{
+  color: #5b5b5b;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  font-size: 20px;
+}
 .section_2{
   background-color: #fff;
 }
 .home_heading_black{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
-  font-size : 95px;
+  font-size : 62px;
   line-height : 1.1em;
   letter-spacing : -1.83px;
   color : #000000;
@@ -460,14 +491,14 @@ this instructions are to force the dimensions of image and its container <a>
   font-family: 'Open Sans', sans-serif;
   font-weight : bold;
   font-style : italic;
-  font-size : 52px;
+  font-size : 46px;
   color : #EC2227;
   color : rgb(236, 34, 39);
   z-index: 6;
   margin-bottom: 0;
 }
 .section_tri_para{
-  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-family: 'Quicksand', sans-serif;
   font-size : 21px;
   line-height:1.3em;
   color : #000000;
