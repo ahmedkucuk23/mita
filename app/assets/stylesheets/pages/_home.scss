@@ -4,13 +4,61 @@ body{
   background-color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
+}
+p{
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
+}
+li {
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
+
+}
+
+
+.solid{
+  color: #000;
+}
+#video_animation{
+  width: 100%;
+}
+.section-ux-design {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    color: #fff;
+
+    z-index: 0;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.overlay-text h2 {
+    text-align: left;
+}
+
+#video {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(70%);
+    object-fit:cover;
+    z-index: -1;
+}
+
 
 .services-div{
   padding:25px 0;
 }
 .services_h2{
   color: #FF0000;
-  font-family: helvetica;
+  font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
   font-weight: bold;
   font-size:40px;
   margin-bottom: 20px;
@@ -26,8 +74,8 @@ body{
 body {
   min-height: 100vh;
   color: white;
-
-  font-family: "Neuton", serif;
+  font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' opacity='0.1' viewBox='-100 -100 200 200' width='100' height='100'%3E%3Cg id='snowflake'%3E%3Cg opacity='0.5' fill='hsl(0, 0%25, 100%25)'%3E%3Ccircle cx='-35' cy='-25' r='3.5' /%3E%3Ccircle cx='30' cy='-40' r='2' /%3E%3Ccircle cx='-15' cy='35' r='2.5' /%3E%3Ccircle cx='25' cy='10' r='2' /%3E%3Crect transform='rotate(45)' x='-10' y='-10' width='20' height='20'/%3E%3Cpath d='M -20 0 a 12 12 0 0 1 -12 -12 12 12 0 0 1 -12 12 12 12 0 0 1 12 12 12 12 0 0 1 12 -12' /%3E%3Cpath transform='rotate(90)' d='M -20 0 a 12 12 0 0 1 -12 -12 12 12 0 0 1 -12 12 12 12 0 0 1 12 12 12 12 0 0 1 12 -12' /%3E%3Cpath transform='rotate(180)' d='M -20 0 a 12 12 0 0 1 -12 -12 12 12 0 0 1 -12 12 12 12 0 0 1 12 12 12 12 0 0 1 12 -12' /%3E%3Cpath transform='rotate(270)' d='M -20 0 a 12 12 0 0 1 -12 -12 12 12 0 0 1 -12 12 12 12 0 0 1 12 12 12 12 0 0 1 12 -12' /%3E%3C/g%3E%3Cg fill='none' stroke-width='2' stroke='hsl(0, 0%25, 100%25)'%3E%3Cpath d='M -30 0 h 60 m -30 -30 v 60' /%3E%3Cpath transform='rotate(45)' d='M -30 0 h 60 m -30 -30 v 60' /%3E%3C/g%3E%3C/g%3E%3Cuse href='%23snowflake' x='100' y='100' /%3E%3Cuse href='%23snowflake' x='100' y='-100' /%3E%3Cuse href='%23snowflake' x='-100' y='100' /%3E%3Cuse href='%23snowflake' x='-100' y='-100' /%3E%3C/svg%3E"), linear-gradient(to bottom left, #ec1313, #c20a0a);
   background-size: 120px, 100%;
   /* center the elements horizontally */
@@ -353,11 +401,17 @@ this instructions are to force the dimensions of image and its container <a>
   padding-bottom:40px;
 }
 .section_1{
-  background-color: #EC2227;
+  background: url('video.MP4');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
   margin-bottom: -27px;
 }
 .home_heading{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
   font-weight : bold;
   font-size : 105px;
   color : #FFFFFF;
@@ -365,18 +419,31 @@ this instructions are to force the dimensions of image and its container <a>
   padding-top: 70px;
   line-height:1.1em;
 }
+
+.home_heading_h2{
+  font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
+  font-weight : bold;
+  font-size : 50px;
+  text-align: center;
+  color : #EC2227;
+  padding-top: 70px;
+  line-height:1.1em;
+}
+
 .home_since{
   font-family: 'Open Sans', sans-serif;
   font-weight : bold;
-  font-size : 25px;
+  font-size : 20px;
   letter-spacing : 1.95px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 .home_para{
     color: #fff;
-    font-family:  "TabacG2","Times New","Times New Roman",serif;
+    font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -384,13 +451,26 @@ this instructions are to force the dimensions of image and its container <a>
     letter-spacing: normal;
     font-size: 20px;
 }
+
+.home_para_black{
+  color: #5b5b5b;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  font-size: 20px;
+}
 .section_2{
   background-color: #fff;
 }
 .home_heading_black{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
-  font-size : 95px;
+  font-size : 62px;
   line-height : 1.1em;
   letter-spacing : -1.83px;
   color : #000000;
@@ -398,7 +478,7 @@ this instructions are to force the dimensions of image and its container <a>
   padding-top: 70px;
 }
 .home_heading_black_per{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 95px;
   line-height : 1.1em;
@@ -408,17 +488,17 @@ this instructions are to force the dimensions of image and its container <a>
   padding-top: 70px;
 }
 .section_tri_header{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-style : italic;
-  font-size : 52px;
+  font-size : 46px;
   color : #EC2227;
   color : rgb(236, 34, 39);
   z-index: 6;
   margin-bottom: 0;
 }
 .section_tri_para{
-  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-family: 'Quicksand', sans-serif;
   font-size : 21px;
   line-height:1.3em;
   color : #000000;
@@ -525,7 +605,7 @@ this instructions are to force the dimensions of image and its container <a>
 
 }
 .home_heading_second{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 80px;
   color : #FFFFFF;
@@ -534,7 +614,7 @@ this instructions are to force the dimensions of image and its container <a>
   line-height: 1.1em;
 }
 .section_3_h{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 26px;
   color : #FFFFFF;
@@ -542,7 +622,7 @@ this instructions are to force the dimensions of image and its container <a>
 
 }
 .section_3_p{
-  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-family: 'Quicksand', sans-serif;
   font-size :22px;
   letter-spacing : -0.31px;
   font-weight: 100;
@@ -562,7 +642,7 @@ this instructions are to force the dimensions of image and its container <a>
 
 
 .section_3_p_2{
-  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-family: 'Quicksand', sans-serif;
   font-size :18px;
   letter-spacing : -0.31px;
   line-height:1.3em;
@@ -577,7 +657,7 @@ this instructions are to force the dimensions of image and its container <a>
   background-color:#29BB97;
 }
 .sections_h4{
-  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 22px;
   letter-spacing: .1em;
@@ -587,7 +667,7 @@ this instructions are to force the dimensions of image and its container <a>
   padding-bottom:60px;
 }
 .sections_p{
-  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-family: 'Quicksand', sans-serif;
   font-size : 22px;
   letter-spacing : -0.36px;
   color : #FFFFFF;
@@ -596,7 +676,7 @@ this instructions are to force the dimensions of image and its container <a>
   padding-bottom:40px;
 }
 .sections_h4_2{
-  font-family: Scandia,"Helvetica Neue",Helvetica,sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 22px;
   letter-spacing: .1em;
@@ -606,7 +686,7 @@ this instructions are to force the dimensions of image and its container <a>
 }
 
 .sections_p_2{
-  font-family:  "TabacG2","Times New","Times New Roman",serif;
+  font-family: 'Quicksand', sans-serif;
   font-size : 22px;
   letter-spacing : -0.36px;
   color : #000;
@@ -614,7 +694,7 @@ this instructions are to force the dimensions of image and its container <a>
   padding-bottom:40px;
 }
 .sections_h2_4{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -643,7 +723,7 @@ this instructions are to force the dimensions of image and its container <a>
 }
 }
 .sections_h2_5{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -654,7 +734,7 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #3B99D9;
 }
 .sections_h2_6{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -665,7 +745,7 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #A325DC;
 }
 .sections_h2_7{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -676,7 +756,7 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #D80F64;
 }
 .sections_h2_8{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -687,7 +767,7 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #F92329;
 }
 .sections_h2_9{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -696,9 +776,10 @@ this instructions are to force the dimensions of image and its container <a>
 }
 .section_9_2{
   background-color: #FACC42;
+  font-family: 'Quicksand', sans-serif;
 }
 .sections_h2_9_2{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -719,7 +800,7 @@ this instructions are to force the dimensions of image and its container <a>
   }
 }
 .home_heading_second_cover{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Oswald', sans-serif;
   font-weight : bold;
   font-size : 120px;
   color : #FFFFFF;
@@ -740,7 +821,7 @@ this instructions are to force the dimensions of image and its container <a>
     font-size: 18px;
   }
   .home_since{
-    font-size: 28px;
+    font-size: 20px;
   }
   .home_heading_black{
     font-size: 65px;
