@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   root to: 'pages#home'
-   get '/contact',    to: 'pages#contact'
+   get '/contacts',    to: 'contacts#new'
    get '/careers',    to: 'pages#careers'
    # get '/stories',    to: 'pages#stories'
    get '/services',    to: 'pages#services'
