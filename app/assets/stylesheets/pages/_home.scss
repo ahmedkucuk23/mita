@@ -18,6 +18,15 @@ li {
 
 }
 
+.services_h2_bigger{
+  color: #FF0000;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:50px;
+  margin-bottom: 20px;
+}
+
 
 .solid{
   color: #000;
@@ -452,6 +461,14 @@ this instructions are to force the dimensions of image and its container <a>
     font-size: 20px;
 }
 
+.cyber-col{
+  background: image-url("reds.png");
+  background-size: contain;
+  background-position:center center;
+  background-height: 100%;
+  background-repeat: no-repeat;
+}
+
 .home_para_black{
   color: #5b5b5b;
   text-align: center;
@@ -537,7 +554,7 @@ this instructions are to force the dimensions of image and its container <a>
 }
 
 .section_3_h_2_novi{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size :30px;
   letter-spacing : -0.31px;
   line-height:1.3em;
@@ -550,7 +567,7 @@ this instructions are to force the dimensions of image and its container <a>
 
 }
 .section_3_p_2_novi{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size :20px;
   letter-spacing : -0.31px;
   line-height:1.3em;
@@ -713,7 +730,7 @@ this instructions are to force the dimensions of image and its container <a>
   .navbar-lewagon {
   justify-content: space-between;
   background: #FECB2F;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 300;
   font-size: 12px;
   color: white;
