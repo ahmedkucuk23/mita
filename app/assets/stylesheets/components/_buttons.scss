@@ -21,11 +21,37 @@
   padding-left: 26px;
   color: #fff;
   border: 0;
-  font-size:14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
   width:300px;
+  transition: all 1s ease;
+}
+.button_cta_normal{
+  background-color: #ED3833;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
+  transition: all 1s ease;
+}
+.button_cta_normal:hover{
+  background-color: #ED9491;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
   transition: all 1s ease;
 }
 .button_cta{
@@ -33,14 +59,14 @@
   border-radius: 15px;
   padding-top: 17px;
   padding-bottom:17px;
-  padding-left: 15px;
+  padding-left: 10px;
   color: #fff;
   border: 0;
-  font-size:16px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
-  width: 200px;
+  width: 180px;
   transition: all 1s ease;
 }
 .button_cta:hover{
@@ -51,8 +77,8 @@
   padding-left: 15px;
   color: #fff;
   border: 0;
-  font-size:16px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
 }
@@ -61,8 +87,8 @@
 .button_1_div_text{
   text-decoration:none;
   color: #fff;
-  font-size:14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
   transition: all 1s ease;
@@ -75,8 +101,8 @@
   padding-left: 26px;
   color: #fff;
   border: 0;
-  font-size:14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
 }
@@ -86,8 +112,8 @@
   padding:17px 26px;
   color: #fff;
   border: 0;
-  font-size:14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
   transition: all 1s ease;
@@ -98,8 +124,8 @@
   padding:17px 26px;
   color: #fff;
   border: 0;
-  font-size:14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
 }
@@ -132,8 +158,8 @@
   width:100%;
   color: #fff;
   border: 0;
-  font-size:18px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
   transition: all 1s ease;
@@ -145,8 +171,8 @@
   width:100%;
   color: #fff;
   border: 0;
-  font-size:18px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
 }
@@ -158,8 +184,8 @@
   width:100%;
   color: #fff;
   border: 0;
-  font-size:18px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
 }
@@ -194,8 +220,8 @@
   padding:12px 50px;
   color: #fff;
   border: 0;
-  font-size:17px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
   font-weight : 600;
   color : #FFFFFF;
 }
@@ -218,12 +244,12 @@
   color: #ED3833;
 }
 .form_button{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   border-radius: 10px;
   border: 1px solid #53BB98;
   background-color: #53BB98;
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 40px;
   letter-spacing: 1px;
   transition: transform 80ms ease-in;
