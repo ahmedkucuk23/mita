@@ -8,19 +8,24 @@
 
      <h1 class="home_heading_black_small box animate fadeInUp" style="padding-top: 0px;">Contact Form</h1>
           <div class="container d-flex row justify-content-between">
-             <%= form.text_field :text_field, class:"form-control form_input_control mb-1", placeholder:"Name", style: "width: 51%" %>
+             <%= form.text_field :name, class:"form-control form_input_control mb-1", placeholder:"Name", style: "width: 51%" %>
 
                 <%= form.text_field :surname, class:"form-control form_input_control mb-1", placeholder:"Surname", style: "width: 46%"  %>
 
           </div>
               <%= form.text_field :business, class: "form-control form_input_control_2 mb-1", placeholder: "Business Name"  %>
 
-           <%= form.text_field :email, class: "form-control form_input_control_2 mb-1", placeholder: "Email"   %>
+           <%= form.text_field :email, class: "form-control form_input_control_2 mb-1", placeholder: "Email" %>
 
-          <input name="website" type="website" class="form-control form_input_control_2 mb-1" placeholder="Website URL">
-          <textarea name="message" class="form-control form_input_control_2" placeholder="Your message"></textarea>
-          <input name="budget" type="budget" class="form-control form_input_control_2 mb-1" placeholder="Any budget limitation?">
-          <button type="submit" class="form_button">GO!</button>
+           <%= form.text_field :website, class: "form-control form_input_control_2 mb-1", placeholder: "Website URL" %>
+
+           <%= form.text_area :message, class: "form-control form_input_control_2 mb-1", placeholder: "Your message" %>
+
+
+          <%= form.text_area :budget, class: "form-control form_input_control_2 mb-1", placeholder: "Any budget limitation?" %>
+
+              <%= form.submit  class: "form_button" %>
+
 
   </div>
 </div>
@@ -42,7 +47,7 @@
           <%= image_tag 'con1.png',:class => "slika_contact", :style => "" %>
         </div>
         <div class="text_carer">
-          <p class="contact_para">info@mita.agency</p>
+          <p class="contact_para">info@mita.ba</p>
         </div>
       </div>
     </div>
@@ -53,14 +58,6 @@
 
 
 
-  <div class="form-inputs">
 
-    <%= form.text_field :website %>
-    <%= form.text_field :message %>
-  </div>
-
-  <div class="form-actions">
-    <%= form.button :submit %>
-  </div>
 <% end %>
 

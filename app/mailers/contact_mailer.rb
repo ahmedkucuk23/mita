@@ -1,10 +1,10 @@
 class ContactMailer < ApplicationMailer
-  default from: 'ahmed.kucuk200@gmail.com'
+  default from: 'adnan@mita.ba'
 
-  def contact_mailer_email
-    @user = params[:user]
-    @message = params[:message]
+  # def contact_mailer_email
+  #   @email = params[:email]
+  #   @message = params[:message]
 
-    mail(to: @user.email, subject: "Your Contact Form is sent.")
-  end
+  #   mail(to: @contact.email, subject: "Your Contact Form is sent.")
+  # end
 end

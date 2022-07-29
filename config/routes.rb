@@ -4,6 +4,9 @@ Rails.application.routes.draw do
 
   root to: 'pages#home'
    get '/contacts',    to: 'contacts#new'
+   post '/contacts', to: 'contacts#create'
+
+
    get '/careers',    to: 'pages#careers'
    # get '/stories',    to: 'pages#stories'
    get '/services',    to: 'pages#services'
@@ -13,6 +16,7 @@ Rails.application.routes.draw do
    get '/privacy',    to: 'pages#privacy'
    get '/terms',    to: 'pages#terms'
    get '/cookies',    to: 'pages#cookies'
+
 
   delete "stories/:id", to: "stories#destroy"
   resources :stories

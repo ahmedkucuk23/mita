@@ -1,5 +1,6 @@
 class ContactsController < ApplicationController
-  # skip_before_action :authenticate_user!
+  skip_before_action :authenticate_user!, only: [ :index , :show, :new, :create]
+
   
   # GET /contacts or /contacts.json
   def index
@@ -15,6 +16,8 @@ class ContactsController < ApplicationController
   def new
 
     @contact = Contact.new
+    authorize @contact
+
   end
 
   # GET /contacts/1/edit
@@ -27,7 +30,8 @@ class ContactsController < ApplicationController
 
     respond_to do |format|
       if @contact.save
-        format.html { redirect_to contact_url(@contact), notice: "Contact was successfully created." }
+        ContactSubmissionMailer.with(contact: @contact).welcome_email.deliver_now
+        format.html { redirect_to contacts_url(@contact), notice: "Contact was successfully created." }
         format.json { render :show, status: :created, location: @contact }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -62,11 +66,15 @@ class ContactsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_contact
-      @contact = Contact.find(params[:id])
+      @contact = Contact.friendly.find(params[:id])
+      authorize @contact
+
     end
+
+  
 
     # Only allow a list of trusted parameters through.
     def contact_params
-      params.require(:contact).permit(:name, :business, :surname, :email, :website, :message)
+      params.require(:contact).permit(:name, :business, :surname, :email, :website, :message, :budget)
     end
 end
