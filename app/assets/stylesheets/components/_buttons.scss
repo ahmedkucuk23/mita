@@ -28,6 +28,36 @@
   width:300px;
   transition: all 1s ease;
 }
+.button_cta{
+  background-color: #ED3833;
+  border-radius: 15px;
+  padding-top: 17px;
+  padding-bottom:17px;
+  padding-left: 15px;
+  color: #fff;
+  border: 0;
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
+  width: 200px;
+  transition: all 1s ease;
+}
+.button_cta:hover{
+  background-color: #24241c;
+  border-radius: 15px;
+  padding-top: 17px;
+  padding-bottom:17px;
+  padding-left: 15px;
+  color: #fff;
+  border: 0;
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight : 600;
+  color : #FFFFFF;
+}
+
+
 .button_1_div_text{
   text-decoration:none;
   color: #fff;
