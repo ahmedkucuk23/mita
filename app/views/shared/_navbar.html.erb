@@ -145,17 +145,50 @@ window.onscroll = function() {
 
 
 
+
 <script type="text/javascript">
   $(document).ready(function() {
         // Transition effect for navbar
         $(window).scroll(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
-          if($(this).scrollTop() > 850) {
-            $('#navbar').addId('solid').;
+          if($(this).scrollTop() > 650) {
+              $('.navbar').addClass('solid');
           } else {
-            $('#navbar').removeClass('solid').;
+              $('.navbar').removeClass('solid');
           }
         });
     });
 </script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 650) {
+              $('.nav-link').addClass('solid');
+          } else {
+              $('.nav-link').removeClass('solid');
+          }
+        });
+    });
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 650) {
+              $('.nav-link:hover').addClass('solid');
+          } else {
+              $('.nav-link:hover').removeClass('solid');
+          }
+        });
+    });
+</script>
+
+
+
 
