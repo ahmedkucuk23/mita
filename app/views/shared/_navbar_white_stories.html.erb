@@ -1,14 +1,15 @@
+
 <div id="navbar_w" class="navbar navbar-expand-lg navbar-lewagon box animate " >
   <%= link_to root_path , class: "navbar-brand" do %>
     <%= image_tag 'mita-logo-web-red.png', :class => "logo_mita" %>
-    <% end %>
+  <% end %>
 
   <button class="navbar-toggler navbar-light  active" style="opacity: 1;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <div class="masfnfjn" style="opacity: 1;"><span class="navbar-toggler-icon navbar-dark  active" style="opacity: 1;"></span></div>
   </button>
 
 
-  <div class="collapse navbar-collapse animate fadeIn" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse animate" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item <%=is_active('services')%>">

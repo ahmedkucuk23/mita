@@ -9,9 +9,9 @@
   transition: top 1s;
   transition:all 0.3s ease;
     .nav-link{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: .2em;
@@ -20,10 +20,7 @@
     transition:all 0.3s ease;
     }
     .nav-link:hover{
-      font-family: 'Oswald', sans-serif;
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
       line-height: 20px;
       color: #fff;
       letter-spacing: .2em;
@@ -75,7 +72,6 @@
 }
 .navbar {
   justify-content: space-between;
-  font-family: 'Oswald', sans-serif;
   background-color: rgba(255,255,255,0.6);
   backdrop-filter: blur(25px);
   font-weight: 300;
@@ -91,9 +87,12 @@
 #navbar .navbar-collapse {
   flex-grow: 0;
 }
+.navbar-collapse {
+  flex-grow: 0;
+}
 
 #navbar .navbar-brand img {
-  width: 230px;
+  width: 260px;
 }
 .logo_mita{
   width:230px;
@@ -105,7 +104,7 @@
 .nav-item{
   padding:10px 20px;
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   font-weight : 500;
   font-size : 20px;
@@ -125,7 +124,7 @@
 
 }
 .text_nav{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   font-weight : 500;
   font-size : 15px;
@@ -223,7 +222,7 @@
 }
 
 .nav-link {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -237,6 +236,7 @@
 .navbar.solid {
   background-color: rgba(255,255,255,0.8);
   transition: background-color 1s ease 0s;
+  backdrop-filter: blur(30px);
   color: #000;
 }
 .nav-link.solid {
@@ -248,3 +248,14 @@
     color: #000 !important;
     opacity: 0.8;
 }
+
+@media only screen and (max-width: 800px) {
+  .navbar-collapse{
+    background-color: rgba(0,0,0,0.9);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    z-index: 100;
+  }
+
+  }
+

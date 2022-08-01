@@ -26,33 +26,143 @@
  <section class="section-ux-design">
   <%= video_tag "video.MP4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video" %>
   <div class="overlay-text">
-    <div class="section_1" id="home" style="padding-top: 80px;">
-      <div class="container">
-        <h1 class="home_heading box animate fadeInUp">So, you’ve decided to launch a webshop?</h1>
-        <p class="home_para box animate fadeInUp reveal" style="font-weight: bold;">Welcome to MITA Group, the leading <strong>One-Stop Shop</strong> for eCommerce.</p>
-        <p class="home_para box animate fadeInUp" style="padding-bottom: 20px;">We help brands drive more sales since 1997. Share your vision with us, and we will develop strategy, create<br> content, code a web store, and generate sales using the best PPC advertising strategies and channels.</p>
-        <a class="button_cta inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; margin-top: 30px; padding-left:0px; margin-right: 0; margin-left: 0;" >
-              <%= image_tag 'strelica.png', :style => "width:30px; margin-right:10px;" %>
-              Start now
-        </a>
+    <div class="section_1 home_section_1 container" id="home">
+      <div class="d-flex row align-items-center justify-content-center">
+        <div class="col-lg-12">
+          <div class="above_header">European-based eCommerce agency.</div>
+          <h1 class="home_heading box animate fadeInUp">So, you’ve decided to launch a webshop?</h1>
+          <p class="home_para box animate fadeInUp reveal" style="font-weight: bold;">Welcome to MITA Group, the leading Full-Service eCommerce Agency.</p>
+          <p class="home_para box animate fadeInUp" style="padding-bottom: 20px;">We help brands drive more sales since 1997. Share your vision with us, and we will develop strategy, create<br> content, code a web store, and generate sales using the best PPC advertising strategies and channels.</p>
+          <a class="button_cta inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; padding-left:0px; margin-right: 0; margin-left: 0;" >
+                <%= image_tag 'strelica.png', :style => "width:30px; margin-right:10px;" %>
+                Start now
+          </a>
+        </div>
+        <!--  <div class="col-lg-5 box animate fadeInUp" >
+          <%= image_tag 'herotest.webp', :style => "width:100%;", class: "section_float" %>
+        </div> -->
       </div>
     </div>
   </div>
 </section>
 
-
-<div class="services-div" style="padding-top: 200px; padding-bottom:50px;">
+<div class="services-div" style="padding-top: 120px; padding-bottom:110px;">
   <div class="container">
     <div class="d-flex row align-items-center" style="vertical-align: top;">
-    <div class="col-lg-6">
-    <h2 class="services_h2_bigger reveal">We build responsive, fast, powerful, and highly optimised online stores.</h2>
-    <p class="services_p2 reveal" style="padding-bottom: 20px;">We'd love to assist you in reaching new heights in your business, whether you're new to eCommerce or already have a store.</p>
-    <a class="button_cta_normal reveal" href="/services">Learn More</a>
-  </div>
-  <div class="cyber-col col-lg-6" >
-    <%= image_tag "design.gif", id: "video_animation" %>
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger reveal">We build powerful, fast, responsive, and highly optimised online stores. </h2>
+        <p class="services_p2 reveal" style="padding-bottom: 20px;">The online store is the most important part of your business. Getting it right from the start is crucial. We will focus on great design, highlighting your products, optimising your store and single product pages, and simplifying the checkout process.</p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+    </div>
   </div>
 </div>
+
+<div class="services-div_red" style="padding-top: 150px; padding-bottom:150px;">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger_white reveal">We design beautiful websites and online stores that drive sales. </h2>
+        <p class="services_p2_white reveal" style="padding-bottom: 20px;">The layout of your webshop (UI) and the way that customers navigate through the page  (UX) communicate directly with your customers, providing them with all of the vital information about the products your business offers.</p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="services-div" style="padding-top: 120px; padding-bottom:110px;">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger reveal">We produce content that will engage and convert visitors into customers. </h2>
+        <p class="services_p2 reveal" style="padding-bottom: 20px;">Online success depends on the stories you write, testimonials, photos and videos you produce and share on your online store, blog or social media. </p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="services-div_red" style="padding-top: 150px; padding-bottom:150px;">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger_white reveal">We create adverts that will convert visitors to customers. </h2>
+        <p class="services_p2_white reveal" style="padding-bottom: 20px;">Visual identity and content will differentiate you from the competitors, attract attention and convert better than anything else.</p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="services-div" style="padding-top: 120px; padding-bottom:110px;">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger reveal">We help clients drive more bookings and sales with digital, PPC advertising.</h2>
+        <p class="services_p2 reveal" style="padding-bottom: 20px;">Our paid media experts will work to develop a strategy and approach that will help you achieve sales goals with less advertising money spent.</p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="services-div_red" style="padding-top: 150px; padding-bottom:150px;">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger_white reveal">We create powerful strategies for SEO optimisation to rank your online store on Google. </h2>
+        <p class="services_p2_white reveal" style="padding-bottom: 20px;">The best industry experts will help you create the best strategy to list your web store on the first page of Search Engine Results (SEO) without additional payment.</p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="services-div" style="padding-top: 120px; padding-bottom:110px;">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger reveal">We create customer support, loyalty programs and social media strategies to increase your sales. </h2>
+        <p class="services_p2 reveal" style="padding-bottom: 20px;">Sales have moved online, and social media is the most common place where customers first come into contact with a brand or advertisement. Our strategies are based on detailed analyses of large amounts of data and vast experience. </p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="services-div_red" style="padding-top: 150px; padding-bottom:150px;">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="cyber-col col-lg-6" >
+        <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="services_h2_bigger_white reveal">We advise based on three decades of experience and provide ongoing support. </h2>
+        <p class="services_p2_white reveal" style="padding-bottom: 20px;">Based on desktop research and three decades of experience, we will determine how your online store should look, which products, at what price, and to which target group it is best to sell your products. </p>
+        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+      </div>
+    </div>
   </div>
 </div>
 
