@@ -23,6 +23,8 @@ body{
   animation: float 1.8s ease-in-out infinite;
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 /* font-family: 'Oswald', sans-serif;*/
@@ -41,7 +43,7 @@ li {
 .services_h2_bigger{
   color: #FF0000;
   font-family: 'Poppins', sans-serif;
-  text-transform: capitalize;
+  text-transform: inherit;
   font-weight: bold;
   font-size:50px;
   margin-bottom: 20px;
@@ -54,7 +56,7 @@ li {
 .services_h2_bigger_white{
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  text-transform: capitalize;
+  text-transform: inherit;
   font-weight: bold;
   font-size:50px;
   margin-bottom: 20px;
@@ -467,7 +469,7 @@ this instructions are to force the dimensions of image and its container <a>
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   font-weight : bold;
-  font-size : 80px;
+  font-size : 60px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   line-height:1.1em;
@@ -875,6 +877,7 @@ this instructions are to force the dimensions of image and its container <a>
 .services-div{
   padding-top: 120px;
   padding-bottom:110px ;
+  flex-wrap:wrap;
 }
 .services-div_red{
   padding-top: 120px;
@@ -891,6 +894,17 @@ this instructions are to force the dimensions of image and its container <a>
 @media only screen and (max-width: 800px) {
   .above_header{
     padding-top: 110px;
+  }
+
+  .left {
+      order:2;
+  }
+
+  .right {
+      order:1;
+  }
+  .mobitel_slika_hom{
+    display: none;
   }
   .services-div{
     padding-top: 30px;
@@ -982,7 +996,7 @@ this instructions are to force the dimensions of image and its container <a>
   .section_1{
     padding: 0 15px;
   }
-   .section_2{
+  .section_2{
     padding: 0 15px;
   }
    .section_3{

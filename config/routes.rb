@@ -16,7 +16,7 @@ Rails.application.routes.draw do
    get '/privacy',    to: 'pages#privacy'
    get '/terms',    to: 'pages#terms'
    get '/cookies',    to: 'pages#cookies'
-
+   get '/ecommerce',    to: 'pages#ecommerce'
 
   delete "stories/:id", to: "stories#destroy"
   resources :stories
