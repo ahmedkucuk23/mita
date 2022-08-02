@@ -52,6 +52,28 @@
   color : #FFFFFF;
   transition: all 1s ease;
 }
+.button_cta_normal_white{
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  border: 0;
+  text-decoration: none;
+  font-size:18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight : 600;
+  color : #ED3833;
+  transition: all 1s ease;
+}
+.button_cta_normal_white:hover{
+  background-color: #e9e9e9;
+  border-radius: 15px;
+  padding: 10px 20px;
+  border: 0;
+  text-decoration: none;
+  font-weight : 600;
+  color : #ED3833;
+  transition: all 1s ease;
+}
 .button_cta{
   background-color: #ED3833;
   border-radius: 15px;
