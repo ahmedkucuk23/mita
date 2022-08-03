@@ -1,25 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-
 <%= render 'shared/navbar' %>
-
-<!-- <div class="main_margin">
-<div class="section_1" id="home" style="padding-top: 80px;">
-  <div class="container">
-    <h1 class="home_heading box animate fadeInUp">Helping Brands<br>Drive More Sales</h1>
-    <p class="home_since box animate fadeInUp">since 1997</p>
-    <p class="home_para box animate fadeInUp">We have created and implemented tens of thousands of advertising campaigns for various kinds of businesses since 1997. From day one, we analyse consumer behaviour and monitor their habits. We also analyse what kind of ads to run, and where and when to run them. That is how we achieve maximum efficiency, successfully create sale leads databases, acquire new customers, and drive sales.</p>
-
-    <a class="button_1_div inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; margin-top: 30px; padding-left:0px; margin-right: 0; margin-left: 0;" >
-        <div>
-          <%= image_tag 'strelica.png', :style => "width:30px; margin-right:10px;" %>
-        </div>
-        <div>
-          Learn more
-        </div>
-    </a>
-  </div>
-</div> -->
 
 <div class="homepage_container">
 
@@ -70,7 +50,7 @@
       <div class="col-lg-6">
         <h2 class="services_h2_bigger_white reveal">We design beautiful websites and online stores that drive sales. </h2>
         <p class="services_p2_white reveal" style="padding-bottom: 20px;">The layout of your webshop (UI) and the way that customers navigate through the page  (UX) communicate directly with your customers, providing them with all of the vital information about the products your business offers.</p>
-        <div class="reveal"><a class="reveal button_cta_normal_white" href="/services">Learn More</a></div>
+        <div class="reveal"><a class="reveal button_cta_normal_white" href="/webdesign">Learn More</a></div>
       </div>
     </div>
   </div>
@@ -82,7 +62,7 @@
       <div class="left col-lg-6">
         <h2 class="services_h2_bigger reveal">We produce content that will engage and convert visitors into customers. </h2>
         <p class="services_p2 reveal" style="padding-bottom: 20px;">Online success depends on the stories you write, testimonials, photos and videos you produce and share on your online store, blog or social media. </p>
-        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+        <a class="reveal button_cta_normal" href="/content-creation">Learn More</a>
       </div>
       <div class="right cyber-col col-lg-6" >
         <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
@@ -100,7 +80,7 @@
       <div class="col-lg-6">
         <h2 class="services_h2_bigger_white reveal">We create adverts that will convert visitors to customers. </h2>
         <p class="services_p2_white reveal" style="padding-bottom: 20px;">Visual identity and content will differentiate you from the competitors, attract attention and convert better than anything else.</p>
-        <a class="reveal button_cta_normal_white" href="/services">Learn More</a>
+        <a class="reveal button_cta_normal_white" href="/graphic-design">Learn More</a>
       </div>
     </div>
   </div>
@@ -112,7 +92,7 @@
       <div class="left col-lg-6">
         <h2 class="services_h2_bigger reveal">We help clients drive more bookings and sales with digital, PPC advertising.</h2>
         <p class="services_p2 reveal" style="padding-bottom: 20px;">Our paid media experts will work to develop a strategy and approach that will help you achieve sales goals with less advertising money spent.</p>
-        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+        <a class="reveal button_cta_normal" href="/ppc-marketing">Learn More</a>
       </div>
       <div class="right cyber-col col-lg-6" >
         <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
@@ -130,7 +110,7 @@
       <div class="col-lg-6">
         <h2 class="services_h2_bigger_white reveal">We create powerful strategies for SEO optimisation to rank your online store on Google. </h2>
         <p class="services_p2_white reveal" style="padding-bottom: 20px;">The best industry experts will help you create the best strategy to list your web store on the first page of Search Engine Results (SEO) without additional payment.</p>
-        <a class="reveal button_cta_normal_white" href="/services">Learn More</a>
+        <a class="reveal button_cta_normal_white" href="/seo">Learn More</a>
       </div>
     </div>
   </div>
@@ -142,7 +122,7 @@
       <div class="left col-lg-6">
         <h2 class="services_h2_bigger reveal">We create customer support, loyalty programs and social media strategies to increase your sales. </h2>
         <p class="services_p2 reveal" style="padding-bottom: 20px;">Sales have moved online, and social media is the most common place where customers first come into contact with a brand or advertisement. Our strategies are based on detailed analyses of large amounts of data and vast experience. </p>
-        <a class="reveal button_cta_normal" href="/services">Learn More</a>
+        <a class="reveal button_cta_normal" href="/social-media">Learn More</a>
       </div>
       <div class="right cyber-col col-lg-6" >
         <%= image_tag "phase2.gif", class: "reveal" ,id: "video_animation" %>
@@ -160,336 +140,10 @@
       <div class="col-lg-6">
         <h2 class="services_h2_bigger_white reveal">We advise based on three decades of experience and provide ongoing support. </h2>
         <p class="services_p2_white reveal" style="padding-bottom: 20px;">Based on desktop research and three decades of experience, we will determine how your online store should look, which products, at what price, and to which target group it is best to sell your products. </p>
-        <a class="reveal button_cta_normal_white" href="/services">Learn More</a>
+        <a class="reveal button_cta_normal_white" href="/consulting">Learn More</a>
       </div>
     </div>
   </div>
-</div>
-
-
-<!-- <div class="section_2 list-mita-ser container" style="z-index: -100; padding-top:10px; padding-bottom:70px;">
-  <h2 class="home_heading_h2"><br> Choose our services</h2>
-  <hr style="width: 150px; text-align: center; color:#5b5b5b;">
-  <p class="home_para_black">We will do it for you</p>
-  <section class="dl-blurbs first_dl" style="padding-top:50px;">
-    <dl>
-      <dt> <%= image_tag '01planning.png', :style => "width:60px; margin-right:10px;" %> PLANNING </dt>
-      <dd>Research (Industry, Market, Customers) <br>Strategy (Market plan, Timeline)</dd>
-      <dt><%= image_tag '02legalfinance.png', :style => "width:60px; margin-right:10px;" %> LEGAL&FINANCE </dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-      <dt><%= image_tag '03uxui.png', :style => "width:60px; margin-right:10px;" %> UX&UI</dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-      <dt><%= image_tag '04graphicdesign.png', :style => "width:60px; margin-right:10px;" %> DESIGN </dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-      <dt><%= image_tag '05content.png', :style => "width:60px; margin-right:10px;" %> CONTENT</dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-    </dl>
-    <dl>
-      <dt><%= image_tag '06development.png', :style => "width:60px; margin-right:10px;" %> DEVELOPMENT </dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-      <dt><%= image_tag '07seo.png', :style => "width:60px; margin-right:10px;" %> SEO </dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-      <dt><%= image_tag '08sales.png', :style => "width:60px; margin-right:10px;" %> SALES & ADVERTISING</dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-      <dt><%= image_tag '09customersupport.png', :style => "width:60px; margin-right:10px;" %> CUSTOMER SUPPORT </dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-      <dt> <%= image_tag '10support.png', :style => "width:60px; margin-right:10px;" %> SUPPORT&IMPROVEMENT </dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
-    </dl>
-    </section>
-</div>
- -->
-
-  <!-- <div class="container d-flex justify-content-center">
-    <div class="lista-home">
-      <ol>
-        <li>PLANNING</li>
-        <li>LEGAL&FINANCE</li>
-        <li>UX & UI</li>
-        <li>DESIGN</li>
-        <li>CONTENT</li>
-        <li>DEVELOPMENT</li>
-        <li>SEO</li>
-        <li>SALES & ADVERTISING</li>
-        <li>CUSTOMER SUPPORT</li>
-        <li>SUPPORT & IMPROVEMENT</li>
-      </ol>
-    </div>
-  </div> -->
-
-<div class="services-div" style="padding-top:100px;">
-  <div class="container">
-    <h2 class="services_h2">1. PLANNING AND STRATEGY</h2>
-    <%= video_tag "Phase1.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    <p class="services_p2">The first task is to determine how your webshop should look, which products, at what price, and to which target group it is best to sell your products.
-<br><br>
-<strong>BASIC RESEARCH:</strong> Which products are best to sell, which prices, delivery time acceptable to customers, rebate policy, who are potential customers, how to attract and convert them
-<br><br>
-<strong>INDUSTRY RESEARCH:</strong> Sales and advertising of the entire industry, organic and paid search, SEO keywords, rebates, coupons, and customers.
-<br><br>
-<strong>COMPETITION RESEARCH:</strong> Who is primary and who is secondary competition, how they sell, rebate policy, delivery terms, customer support, UX&UI of their web stores, advantages and disadvantages, budgets they use for advertising, how they advertise, how their ads look, how to win the battle for customers.
-<br><br>
-We are creating a strategy and timeline for your webshop based on research.
-</p>
-    <a class="button_cta inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/services" style="text-decoration: none; margin-top: 30px; padding-left:0px; margin-right: 0; margin-left: 0;" >
-      <%= image_tag 'strelica.png', :style => "width:25px; margin-right:10px;" %> Share now!
-    </a>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">2. LEGAL AND FINANCE</h2>
-    <%= video_tag "phase2.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    <p class="services_p2"><strong>GDPR:</strong> The European Union has stringent laws regulating the storage and use of private data in countries outside the EU. When creating a web store, we advise you on creating and highlighting Privacy and Cookies Policies.
-<br><br>
-<strong>EASY RETURN POLICY:</strong> 33% of online customers decide about a purchase based on the possibility of simply returning the product if unsatisfied. We will create a system for you that merely works and does not require a large workforce.
-<br><br>
-<strong>PAYMENT:</strong> We advise you about payment suppliers and integrate the best payment options on your market - Visa, MasterCard, American Express, Klarna, PayPal, and Direct Payment.
-<br><br>
-<strong>DELIVERY:</strong> 53% of online customers expect free and fast delivery (within 24 hours). We will help you select delivery suppliers and create an automated delivery system. Everything after the purchase will run smoothly without the extensive involvement of human labour.
-</p>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">3. WEB DESIGN (UX/UI)</h2>
-    <%= video_tag "phase3.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    <p class="services_p2">The layout of your webshop (UI) and the way that customers navigate through the page (UX) is a vital part of the project development. Before we start with design, we create a detailed wireframe.
-<br><br>
-<strong>MOBILE FIRST:</strong> We optimise appearance, speed and experience according to customers' mobile phone use habits. Big letters, great photos, video, navigation.
-<br><br>
-<strong>DESIGN:</strong> We create attractive web pages without unnecessary elements that distract attention from products, sales promotions and sales messages for no reason.
-<br><br>
-<strong>PRESENTATION:</strong> We consider what customers see first when they visit the website. We focus on the most sought-after and best-selling products, recommend complementary products, and combine 3D renderings and product photos with video presentations.
-<br><br>
-<strong>PRODUCT DESCRIPTION:</strong> We highlight essential product information in the way potential customers expect. We treat dimensions, weights, quality and dedication to ecology especially. In addition, we equip all descriptions with high-quality photos, 3D renderings and detailed video presentations.
-</p>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2 reveal">4. GRAPHIC DESIGN</h2>
-    <div class="d-flex row align-items-center" style="vertical-align: top;">
-    <div class="col-lg-6">
-    <p class="services_p2 reveal">To complete the web store or web page, we need to design many materials.
-      <br><br><strong>NAME AND LOGO</strong> is the first impression you leave online, so we care about colours, fonts, logo design, and graphic standards to use in the future.
-      <br><br><strong>BANNERS</strong> – static, dynamic, HTML ads
-      <br><br><strong>NEWSLETTERS, CATALOGUES, LEAFLETS</strong>
-      <br><br><strong>SOCIAL MEDIA CONTENT, COUPONS,</strong>
-      <br><br><strong>BLOGS, NATIVE ADS</strong>
-    </p>
-  </div>
-  <div class="cyber-col col-lg-6" >
-    <%= image_tag "design.gif", id: "video_animation" %>
-  </div>
-</div>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">5. CONTENT</h2>
-    <hr style="width:100px; text-align: left; margin-left: 0;">
-    <div class="d-flex row align-items-center" style="vertical-align: top;">
-    <div class="col-lg-6">
-      <p class="services_p2">Mali uvod:
-      <br><br><strong>COPYWRITING</strong> is the way you tell the story about your products and services. It has to be clear, SEO optimised, dodatno
-      <br><br><strong>PHOTO</strong> moramo napisati zašto je važno, kakve trebaju biti fotke….
-      <br><br><strong>VIDEO</strong> moramo napisati zašto je važno.
-      <br><br><strong>PRODUCT DESCRIPTION</strong> moramo napisati zašto je važno, 1200 karaktera da bio bio web optimiziran.
-      <br><br><strong>BLOGS</strong> moramo napisati zašto je važno – optimizacija…</p>
-    </div>
-    <div class="col-lg-6" >
-      <%= video_tag "phase5.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    </div>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">6. DEVELOPMENT</h2>
-    <%= video_tag "phase6.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    <p class="services_p2">DSP environment and coding according to the highest standards are crucial to avoid major problems. During the creation of the web store, we use three different types of servers:
-<br><br><strong>The DEVELOPMENT SERVER</strong> is for the first version of the web store and before the launch: coding, installation of the necessary plugins, and customization of the theme. After the website gets its outlines and is filled with the demo content, we are going to the next level.
-<br><br><strong>The STAGING SERVER</strong> is a locked environment for the administrator and team working on the web store. All future changes, even after the launch, will be done on a staging server, and testing (QA) before being published on the production server.
-<br><br><strong>The PRODUCTION SERVER</strong> is the live website publicly available to all users. It is crucial to host the web store on reliable and fast cloud systems with optimized costs so you do not pay more than you need.
-<br><br>The development phase is the most intensive part of the process. Here are the steps we will follow to develop the web store
-<ul>
-  <li>Creating and <strong>loading static content</strong></li>
-  <li>Creating <strong>categories and taxonomies</strong></li>
-  <li><strong>Product entry and product options,</strong> technical specifications</li>
-  <li><strong>Plugins</strong> - malo pojašnjenja</li>
-  <li><strong>Loading speed optimization</strong> The web store must load in under 3 seconds at the average rate of a 3G mobile network. We pay special attention to optimisation for search engines to rank your web page better</li>
-  <li><strong>SECURITY:</strong> personal data is crucial, so we often use free CDN-type products that protect against threats like SQL injection attacks and identity theft. We take care of website performance and speed up load times using its multiple data centres worldwide.</li>
-  <li><strong>QA testing</strong> – The site is ready for testing when all its visual elements and content (products, prices, categories, blogs, texts) are loaded. We ensure proper QA testing to confirm that all web page links work and that the page can load correctly on all browsers and devices. After launch, testing and optimization do not end. We use specialized tools to investigate how visitors use the web store, what parts they click on and what we need to change.</li>
-  <li><strong>Fixing bugs</strong> – provjeriti Before launching, we'll review the page meta titles and descriptions one last time. Even how the words are arranged in the meta title can affect a page's performance on search engines. We must check all payment methods and make test purchases.</li>
-</ul>
-</p>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">7. SEO OPTIMISATION</h2>
-    <%= video_tag "phase7.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    <p class="services_p2">SEO and web optimization are the foundations of Performance Based Advertising and rankings on the Google Search Engine. The best industry experts will help you create the best strategy to list your web store on the first page of search results (SEO) without additional payment.
-  <ul>
-    <li><strong>SEO STRATEGY</strong> involves analyzing keywords in the industry through specialized software to choose the words according to the difficulty of organic recognition by Google search engines. We first select the easiest, then the more complex until we index all the essential words important for our web store.</li>
-    <li><strong>ACTIVITIES</strong> that have to be done are: Copywriting (texts approx. 1200 characters), writing blogs, generating backlinks, UI, UX, Landing Page Optimization, On-Page and Off-Page Optimization, Customized Premium Content (Photo and Video), Social Media Integration, Community and Content Management</li>
-  </ul>
-</p>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">8. ADVERTISING AND SALES CONVERSIONS</h2>
-    <%= video_tag "phase8.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    <p class="services_p2" style="font-family: 'Quicksand', sans-serif;font-weight: 300;">Once we've confirmed that everything on the site is working fine, we should start with an advertising strategy to inform the public about the new web store on the market.
-  <ul>
-  <li>
-  Well-designed communication strategies, content and activations with potential customers will ensure that you connect with more people, build brand awareness in the market, promote your products and get first orders.
-  </li>
-  <li>
-  The best PPC and advertising strategists will create a unique, cost-effective, scalable digital marketing strategy based on data analysis. We'll invest your media budget smarter than others to ensure more people see your ad, in the right place, at the right time and with the highest ROAS (return on advertising).
-  </li>
-  </ul>
-  We Know Better Than Anyone Else:
-  <ul>
-    <li>
-    What the optimal campaign period is; after that, the number of leads drops, and acquisition cost rises;
-    </li>
-    <li>
-    The percentage of all visits and leads coming from mobile phones;
-    </li>
-    <li>
-    The part of ad customers do not like, when potential customers stop viewing video ads and how to improve video ad conversion;
-    </li>
-    <li>
-    The difference in conversation rates of video ads and simple animations;
-    </li>
-    <li>
-    The percentage of leads generated within the first five days of the campaign and the percentage of leads generated after that;
-    </li>
-    <li>
-    The most effective web banners and the second best ones;
-    </li>
-    <li>
-    The best ratio between Google Display and Premium ads on publishers and ads with the best conversion rate and conversion cost;
-    </li>
-    <li>
-    Which digital channels work for different target groups.
-    </li>
-  </ul>
-
-  PPC optimisation means…
-  PAID CAMPAIGNS (o svemu pomalo napisati – može I više zbog SEO optimizacije)
-  Search
-  Publishers
-  Display
-  Video
-  Social Media
-  Messenger, Viber, WhatsApp
-  YouTube
-  Cross networks
-  Programmatic
-  Native ads
-  PR
-  Coupons, Giveaways, Discounts (popraviti u anmiaciji – nedostaje D)
-  E-mail marketing
-
-</p>
-  </div>
-</div>
-
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">9. CUSTOMER SUPPORT</h2>
-    <%= video_tag "phase9.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video_animation" %>
-    <p class="services_p2">
-    <strong>COUPONS AND DISCOUNTS:</strong> 42% of online shoppers expect regular discounts, sales promotions and coupons/vouchers with an additional discount as a loyalty reward. We integrate automated systems for creating coupons/vouchers that can only be used once.
-    <br><br>
-    <strong>REVIEWS FROM OTHER CUSTOMERS:</strong> The credibility of the web store is proven by the ratings of satisfied customers, and more than 35% of online customers decide on a purchase based on ratings. We encourage customers to leave ratings, integrate credible quality rating systems like TrustPilot and highlight ratings in customer-verified locations.
-    <br><br>
-    <strong>SOCIAL MEDIA INTEGRATION:</strong> 22% of online shoppers check comments on social networks. We advise clients on how to create content, regularly maintain profiles, and respond to inquiries, complaints and compliments.
-    <br><br>
-    <strong>LOYALTY PROGRAMS:</strong> 27% of online customers expect regular loyalty programs and receive points or discounts for activity. We create the best strategies and loyalty programs that will help you keep existing and get new customers.
-    <br><br>
-    <strong>PROMOTIONS,</strong> SALES AND VOUCHERS: We carefully choose for you where to place ads/banners that encourage shopping. We create static and dynamic web banners that attract customers' attention.
-    <br><br>
-    <strong>SWEEPSTAKES/GIVEAWAYS:</strong> We advise, strategize and encourage customers to participate in prize-winning games to gather data on potential customers for future sales. We carefully choose where to place them on the webpage and create attractive HTML ads that properly promote the actions we carry out.
-    <br><br>
-    <strong>BLOG:</strong> Blogs are an essential tool for attracting the attention of potential and active customers and for SEO of webshops. We choose and propose topics, clearly define keywords that will integrate, and equip blogs with photos and video presentations.
-    </p>
-  </div>
-</div>
-
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2 reveal">10. SOCIAL MEDIA & CONTENT MANAGEMENT</h2>
-  <div class="d-flex row align-items-center">
-    <div class="text-left col-lg-6">
-      <p class="services_p2 reveal">
-      Sales have moved online, and social media is the most common place where customers first come into contact with a brand or advertisement. Our strategies are based on detailed analyses of large amounts of data and vast experience.<br><br> The social media strategy will help you to:
-      <ul class="reveal">
-        <li>
-        improve management of pages on social media (Facebook, Instagram, Linkedin, Google, TikTok, Twitter, YouTube...) and
-        </li>
-        <li>
-        link social media communication with your website to improve SEO and be persuasive in the digital world.
-        </li>
-      </ul>
-      </p>
-      <p class="services_p2 reveal"> Well-designed social media strategy, content and community activities will ensure that: you connect with more people, build brand awareness, promote offers, increase and reward customer loyalty, collect sales leads, research buying habits, promote offline activities, convert better, sell through Facebook and Instagram shop and get more customers for less money than your competition.</p>
-    </div>
-    <div class="video-right col-lg-6">
-      <%= image_tag "bezveze.gif", class: "video_homepage_right reveal" %>
-    </div>
-  </div>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-  <h2 class="services_h2 reveal">11. DATA ANALYTICS</h2>
-  <div class="d-flex row align-items-center">
-    <div class="text-right col-lg-6">
-      <%= image_tag "03uxui.png", class: "video_homepage_right reveal" %>
-    </div>
-    <div class="text-left col-lg-6">
-      <p class="services_p2 reveal">The value of databases and sales leads is priceless. Daily analysis of data in all stages of implementation and development of campaigns is the basis of performance-based advertising.
-      <br><br>Data analysis and visualization help us to:
-      <ul class="reveal">
-        <li>we recognize the shopping and lifestyle habits of the target group,</li>
-        <li>determine the touch points and the best time to place the ad,</li>
-        <li>we monitor changes in behaviour,</li>
-        <li>measure sentiment,</li>
-        <li>we monitor the rate of leaving the website/webshop,</li>
-        <li>we create and improve the sales funnel,</li>
-        <li>increase the effectiveness of advertising and reduce the conversion rate for each ad.</li>
-      </ul>
-      </p>
-    </div>
-  </div>
-  </div>
-</div>
-
-<div class="services-div">
-  <div class="container">
-    <h2 class="services_h2">12. MAINTAINING</h2>
-    <p class="services_p2">Maintaining a web shop is essential for lasting health and success. Maintenance service should include WP updates, theme and plugin updates, WP backups and security, analytics monitoring and reporting.
-    <br><br>There are two options: independent maintenance and through a MITA agency, but also a combination (e.g. client training for part of the backend, product input).
-    <br><br>We recommend a self-maintenance to all clients for webshops because products have to be constantly added, quantities and other content updated. In this case, we will train you to use the content (product) management system (CMS) in person or remotely using ZOOM, Microsoft Teams and other screen-sharing applications.
-    <br><br>The agency is also available for regular technical maintenance of the webshop and SEO optimisation for a monthly fee.
-</p>
-  </div>
-</div>
-
 </div>
 
 
@@ -746,6 +400,57 @@ We are creating a strategy and timeline for your webshop based on research.
   </div>
 </div>
  -->
+
+<!-- <div class="section_2 list-mita-ser container" style="z-index: -100; padding-top:10px; padding-bottom:70px;">
+  <h2 class="home_heading_h2"><br> Choose our services</h2>
+  <hr style="width: 150px; text-align: center; color:#5b5b5b;">
+  <p class="home_para_black">We will do it for you</p>
+  <section class="dl-blurbs first_dl" style="padding-top:50px;">
+    <dl>
+      <dt> <%= image_tag '01planning.png', :style => "width:60px; margin-right:10px;" %> PLANNING </dt>
+      <dd>Research (Industry, Market, Customers) <br>Strategy (Market plan, Timeline)</dd>
+      <dt><%= image_tag '02legalfinance.png', :style => "width:60px; margin-right:10px;" %> LEGAL&FINANCE </dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+      <dt><%= image_tag '03uxui.png', :style => "width:60px; margin-right:10px;" %> UX&UI</dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+      <dt><%= image_tag '04graphicdesign.png', :style => "width:60px; margin-right:10px;" %> DESIGN </dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+      <dt><%= image_tag '05content.png', :style => "width:60px; margin-right:10px;" %> CONTENT</dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+    </dl>
+    <dl>
+      <dt><%= image_tag '06development.png', :style => "width:60px; margin-right:10px;" %> DEVELOPMENT </dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+      <dt><%= image_tag '07seo.png', :style => "width:60px; margin-right:10px;" %> SEO </dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+      <dt><%= image_tag '08sales.png', :style => "width:60px; margin-right:10px;" %> SALES & ADVERTISING</dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+      <dt><%= image_tag '09customersupport.png', :style => "width:60px; margin-right:10px;" %> CUSTOMER SUPPORT </dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+      <dt> <%= image_tag '10support.png', :style => "width:60px; margin-right:10px;" %> SUPPORT&IMPROVEMENT </dt>
+      <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+    </dl>
+    </section>
+</div>
+ -->
+
+  <!-- <div class="container d-flex justify-content-center">
+    <div class="lista-home">
+      <ol>
+        <li>PLANNING</li>
+        <li>LEGAL&FINANCE</li>
+        <li>UX & UI</li>
+        <li>DESIGN</li>
+        <li>CONTENT</li>
+        <li>DEVELOPMENT</li>
+        <li>SEO</li>
+        <li>SALES & ADVERTISING</li>
+        <li>CUSTOMER SUPPORT</li>
+        <li>SUPPORT & IMPROVEMENT</li>
+      </ol>
+    </div>
+  </div> -->
+
 
 <%= render 'shared/footer-contact' %>
 
