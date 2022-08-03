@@ -33,7 +33,7 @@
   border-radius: 5px;
   padding: 10px 20px;
   color: #fff;
-  border: 0;
+  border: 1px solid transparent;
   text-decoration: none;
   font-size:18px;
   font-family: 'Poppins', sans-serif;
@@ -42,8 +42,9 @@
   transition: all 1s ease;
 }
 .button_cta_normal:hover{
-  background-color: #ED9491;
-  color : #FFFFFF;
+  background-color: #fff;
+  color : #ED3833;
+  border: 1px solid #ED3833;
   text-decoration: none;
   transition: all 1s ease;
 }
