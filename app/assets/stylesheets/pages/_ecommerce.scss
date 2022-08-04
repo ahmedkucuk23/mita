@@ -24,3 +24,31 @@
 .services_p2 > strong {
   font-weight:600 ;
 }
+
+.cyber-col-web{
+  background: image-url("vizual01.png");
+  background-size: contain;
+  background-position:center center;
+  background-height: 100%;
+  background-repeat: no-repeat;
+}
+
+#image-mobile-bezveze{
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+
+#video_animation_mobile{
+  width: 100%;
+}
+#video_animation_smaller{
+  width: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+  #video_animation_mobile{
+    width: 50%;
+  }
+
+  }

@@ -18,9 +18,40 @@ body{
   }
 }
 
+@keyframes float_2 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(+20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
 .section_float {
   transform: translatey(0);
   animation: float 1.8s ease-in-out infinite;
+}
+.section_float_2 {
+  transform: translatey(0);
+  animation: float_2 1.8s ease-in-out infinite;
+}
+
+.cyber-col{
+  background: image-url("back-cyber-2.png");
+  background-size: contain;
+  background-position:center center;
+  background-height: 100%;
+  background-repeat: no-repeat;
+}
+.cyber-col-white{
+  background: image-url("back-cyber-white-2.png");
+  background-size: contain;
+  background-position:center center;
+  background-height: 100%;
+  background-repeat: no-repeat;
 }
 
 
@@ -50,7 +81,7 @@ li {
 }
 
 .services-div_red{
-  background-color: #FF0000;
+  background-color: #FF0F0F;
 }
 
 .services_h2_bigger_white{
@@ -68,6 +99,8 @@ li {
 }
 #video_animation{
   width: 100%;
+  min-height: 400px;
+  object-fit: contain;
 }
 .section-ux-design {
     position: relative;
@@ -507,13 +540,6 @@ this instructions are to force the dimensions of image and its container <a>
     font-size: 18px;
 }
 
-.cyber-col{
-  background: image-url("red-blob.svg");
-  background-size: contain;
-  background-position:center center;
-  background-height: 100%;
-  background-repeat: no-repeat;
-}
 
 .home_para_black{
   color: #5b5b5b;
