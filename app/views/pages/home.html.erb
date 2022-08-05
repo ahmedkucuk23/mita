@@ -4,13 +4,13 @@
 <div class="homepage_container">
 
  <section class="section-ux-design">
-  <%= video_tag "video.MP4", autoplay: :autoplay, loop: :loop, muted: :muted, id: "video" %>
+  <%= video_tag "video.MP4", playsinline: :playsinline, autoplay: :autoplay, loop: :loop, muted: :muted, id: "video" %>
   <div class="overlay-text">
     <div class="section_1 home_section_1 container" id="home">
       <div class="d-flex row align-items-center justify-content-center">
         <div class="col-lg-7">
           <div class="above_header box animate fadeInUp">European-based eCommerce agency.</div>
-          <h1 class="home_heading box animate fadeInUp">So, you’ve decided to launch a webshop?</h1>
+          <h1 class="home_heading box animate fadeInUp">So, you’ve decided to launch a <span style="">webshop?</span></h1>
           <p class="home_para box animate fadeInUp" style="font-weight: bold;">Welcome to MITA Group, the leading Full-Service eCommerce Agency.</p>
           <p class="home_para box animate fadeInUp" style="padding-bottom: 20px;">We help brands drive more sales since 1997. Share your vision with us, and we will develop strategy, create content, code a web store, and generate sales using the best PPC advertising strategies and channels.</p>
           <a class="button_cta inline-block d-flex row align-items-center justify-content-center box animate fadeInUp" href="/ecommerce" style="text-decoration: none; padding-left:0px; margin-right: 0; margin-left: 0;" >
@@ -88,7 +88,7 @@
         <%= image_tag "https://i.im.ge/2022/08/04/FYRnMC.PHASE04.gif", class: "reveal" ,id: "video_animation" %>
       </div>
       <div class="col-lg-6">
-        <h2 class="services_h2_bigger_white reveal">We <span style="color:#000;">design adverts</span>,promo materials and HTML banners that drive results </h2>
+        <h2 class="services_h2_bigger_white reveal">We <span style="color:#000;">design adverts</span>, promo materials and HTML banners that drive results </h2>
         <p class="services_p2_white reveal" style="padding-bottom: 20px;">Visual identity and content will differentiate you from the competitors, attract attention and convert better than anything else.</p>
         <a class="reveal button_cta_normal_white" href="/graphic-design">Learn More</a>
       </div>
@@ -104,7 +104,7 @@
         <p class="services_p2 reveal" style="padding-bottom: 20px;">Our paid media experts will work to develop a strategy and approach that will help you achieve sales goals with less advertising money spent.</p>
         <a class="reveal button_cta_normal" href="/ppc-marketing">Learn More</a>
       </div>
-      <div class="right cyber-col col-lg-6" >
+      <div class="right cyber-col-white col-lg-6" >
         <%= image_tag "https://i.im.ge/2022/08/04/FY8eKS.PHASE08.gif", class: "reveal" ,id: "video_animation" %>
       </div>
     </div>
@@ -157,8 +157,8 @@
 </div>
 
 
-<div class="section_2" id="featuredWork">
-  <div class="container" style="padding: 100px 0;">
+<div class="section_2 margin-2-sec" id="featuredWork">
+  <div class="container">
     <h1 class="home_heading_black reveal">Helping brands drive more sales since 1997:</h1>
     <div class="section_tri d-flex row reveal" style="padding-top: 50px; padding-bottom: 30px;">
       <div class="col-lg-4 col-md-4 col-sm-12">
@@ -229,7 +229,6 @@
   </div>
 </div>
     <div class="container">
-
       <a class="button_1_div inline-block d-flex row align-items-center justify-content-center reveal" href="/services" style="text-decoration: none; padding-left:0px; margin-right: 0; margin-left: 0;" >
         <div>
           <%= image_tag 'strelica.png', :style => "width:30px; margin-right:10px;" %>

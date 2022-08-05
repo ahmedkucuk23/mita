@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Open+Sans:ital,wght@0,400;500;0,600;0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 body{
   background-color: #fff;
 }
@@ -53,6 +54,9 @@ body{
   background-height: 100%;
   background-repeat: no-repeat;
 }
+#video_animation-80{
+  width: 80%;
+}
 
 
 
@@ -99,7 +103,7 @@ li {
 }
 #video_animation{
   width: 100%;
-  min-height: 400px;
+  min-height: 450px;
   object-fit: contain;
 }
 .section-ux-design {
@@ -403,7 +407,7 @@ this instructions are to force the dimensions of image and its container <a>
 .home_heading_black_per{
   font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 90px;
+  font-size : 70px;
   line-height : 1.1em;
   letter-spacing : -1.83px;
   color : #000000;
@@ -580,7 +584,7 @@ this instructions are to force the dimensions of image and its container <a>
   background-color:#29BB97;
 }
 .sections_h4{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
   font-size : 22px;
   letter-spacing: .1em;
@@ -590,7 +594,7 @@ this instructions are to force the dimensions of image and its container <a>
   padding-bottom:60px;
 }
 .sections_p{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size : 22px;
   letter-spacing : -0.36px;
   color : #FFFFFF;
@@ -599,7 +603,7 @@ this instructions are to force the dimensions of image and its container <a>
   padding-bottom:40px;
 }
 .sections_h4_2{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
   font-size : 22px;
   letter-spacing: .1em;
@@ -609,7 +613,7 @@ this instructions are to force the dimensions of image and its container <a>
 }
 
 .sections_p_2{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size : 22px;
   letter-spacing : -0.36px;
   color : #000;
@@ -617,9 +621,9 @@ this instructions are to force the dimensions of image and its container <a>
   padding-bottom:40px;
 }
 .sections_h2_4{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 100px;
+  font-size : 80px;
   line-height : 1em;
   letter-spacing : -1.51px;
   color : #FCF130;
@@ -646,9 +650,9 @@ this instructions are to force the dimensions of image and its container <a>
 }
 }
 .sections_h2_5{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 100px;
+  font-size : 80px;
   line-height : 1em;
   letter-spacing : -1.51px;
   color : #9A5CB4;
@@ -657,9 +661,9 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #3B99D9;
 }
 .sections_h2_6{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 100px;
+  font-size : 80px;
   line-height : 1em;
   letter-spacing : -1.51px;
   color : #FECB2F;
@@ -668,9 +672,9 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #A325DC;
 }
 .sections_h2_7{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 100px;
+  font-size : 80px;
   line-height : 1em;
   letter-spacing : -1.51px;
   color : #F7966F;
@@ -679,9 +683,9 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #D80F64;
 }
 .sections_h2_8{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 100px;
+  font-size : 80px;
   line-height : 1em;
   letter-spacing : -1.51px;
   color : #FEB28F;
@@ -690,19 +694,19 @@ this instructions are to force the dimensions of image and its container <a>
   background-color: #F92329;
 }
 .sections_h2_9{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 100px;
+  font-size : 80px;
   line-height : 1em;
   letter-spacing : -1.51px;
   color : #FACC42;
 }
 .section_9_2{
   background-color: #FACC42;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .sections_h2_9_2{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
   font-size : 100px;
   line-height : 1em;
@@ -723,9 +727,9 @@ this instructions are to force the dimensions of image and its container <a>
   }
 }
 .home_heading_second_cover{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight : bold;
-  font-size : 120px;
+  font-size : 70px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   padding-top: 40px;
@@ -751,15 +755,32 @@ this instructions are to force the dimensions of image and its container <a>
   width: 100%;
 }
 
-@media only screen and (max-width: 800px) {
-  .above_header{
-    padding-top: 110px;
+@media only screen and (max-width: 990px) {
+  .mobitel_slika_hom{
+    display: none;
+  }
   }
 
+  .margin-2-sec{
+    padding: 100px 15px;
+  }
+
+@media only screen and (max-width: 990px) {
+  .above_header{
+    padding-top: 100px;
+  }
   .left {
       order:2;
   }
+  .section_black_cover{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 
+  .overlay-text{
+    padding-right: 15px;
+    padding-left:15px;
+  }
   .right {
       order:1;
   }
@@ -769,13 +790,26 @@ this instructions are to force the dimensions of image and its container <a>
   .services-div{
     padding-top: 30px;
     padding-bottom:50px ;
+    padding-right:15px ;
+    padding-left:15px;
+  }
+  .margin-2-sec{
+    padding: 10px 15px;
   }
   .services-div_red{
     padding-top: 30px;
     padding-bottom:50px ;
+    padding-right:15px ;
+    padding-left:15px;
   }
   .cyber-col{
-    margin: 40px 0;
+    margin: 40px 15px;
+  }
+  .cyber-col-white{
+    margin: 40px 15px;
+  }
+  .cyber-col-web{
+    margin: 40px 15px;
   }
   .home_heading{
     font-size: 50px;
@@ -790,7 +824,12 @@ this instructions are to force the dimensions of image and its container <a>
     font-size: 20px;
   }
   .home_heading_black{
-    font-size: 65px;
+    font-size: 50px;
+    line-height : 1.3em;
+  }
+  .section
+  .home_heading_black{
+    font-size: 50px;
     line-height : 1.3em;
   }
   .home_heading_black_per{
