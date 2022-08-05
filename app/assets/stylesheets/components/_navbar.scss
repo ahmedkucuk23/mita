@@ -16,7 +16,7 @@
     line-height: 20px;
     letter-spacing: .2em;
     text-transform: uppercase;
-    opacity:0.8;
+    opacity:0.7;
     transition:all 0.3s ease;
     }
     .nav-link:hover{
@@ -50,8 +50,8 @@
   line-height: 20px;
   letter-spacing: .2em;
   text-transform: uppercase;
-  color : #121c25 ;
-  opacity:0.5;
+  color : #000 ;
+  opacity:0.7;
 }
 .nav-link:hover{
   font-style: normal;
@@ -231,7 +231,7 @@
     letter-spacing: .2em;
     text-transform: uppercase;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 /* Solid class attached on scroll past first section */
 .navbar.solid {
@@ -242,7 +242,7 @@
 }
 .nav-link.solid {
   color:#000;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .nav-link.solid:hover {
