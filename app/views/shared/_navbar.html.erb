@@ -201,6 +201,19 @@ window.onscroll = function() {
         });
     });
 </script>
+<script type="text/javascript">
+  $(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 640) {
+              $('.dropbtn').addClass('solid');
+          } else {
+              $('.dropbtn').removeClass('solid');
+          }
+        });
+    });
+</script>
 
 
 
