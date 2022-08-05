@@ -1,6 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
 <div id="navbar" class="navbar navbar-expand-lg box animate " >
+<div class="container">
   <%= link_to root_path , class: "navbar-brand" do %>
     <%= image_tag 'logo-mita-modern.png', :class => "logo_mita" %>
     <% end %>
@@ -29,7 +29,7 @@
           <%= link_to "Clients", "/clients" , class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Contact", "/contact" , class: "nav-link" %>
+          <%= link_to "Contact", "/contacts" , class: "nav-link" %>
         </li>
         <li class="nav-item dropdown">
           <%= image_tag 'https://i.pinimg.com/280x280_RS/85/a2/92/85a2925c526ac03f61d0fad865728c1b.jpg', class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
@@ -42,9 +42,21 @@
         <li class="nav-item">
           <%= active_link_to "About", "/about", class: "nav-link" %>
         </li>
-        <li class="nav-item">
-          <%= active_link_to "Services", "/services", class: "nav-link" %>
-        </li>
+        <div class="dropdown">
+          <a class="dropbtn" href="/services">Services
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content" style="z-index: 100;">
+            <a href="/ecommerce">eCommerce</a>
+            <a href="/webdesign">Web Design</a>
+            <a href="/content-creation">Content Creation</a>
+            <a href="/graphic-design">Graphic Design</a>
+            <a href="/ppc-marketing">PPC Marketing</a>
+            <a href="/seo">SEO</a>
+            <a href="/social-media">Social Media</a>
+            <a href="/consulting">Consulting</a>
+          </div>
+        </div>
         <li class="nav-item">
           <%= active_link_to "Stories", "/stories", class: "nav-link" %>
         </li>
@@ -55,12 +67,13 @@
           <%= link_to "Clients", "/clients", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Contact", "/contact" , class: "nav-link" %>
+          <%= link_to "Contact", "/contacts" , class: "nav-link" %>
         </li>
 
       <% end %>
     </ul>
   </div>
+</div>
 </div>
 
 
@@ -126,7 +139,7 @@
     </ul>
   </div>
 </div>
-
+</div>
 <!--
  <script type="text/javascript">
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
