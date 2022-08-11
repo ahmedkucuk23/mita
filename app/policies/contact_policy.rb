@@ -16,7 +16,7 @@ class ContactPolicy < ApplicationPolicy
   # def edit?
   #   if user == record.user
   #     true
-  #   else
+  #   else2
   #     false
   #   end
   # end
