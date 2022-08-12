@@ -4,7 +4,6 @@ class ContactsController < ApplicationController
   
   # GET /contacts or /contacts.json
   def index
-
     @contacts = Contact.all
   end
 
@@ -27,6 +26,7 @@ class ContactsController < ApplicationController
   # POST /contacts or /contacts.json
   def create
     @contact = Contact.new(contact_params)
+    authorize @contact
 
     respond_to do |format|
       if @contact.save
@@ -68,10 +68,7 @@ class ContactsController < ApplicationController
     def set_contact
       @contact = Contact.friendly.find(params[:id])
       authorize @contact
-
     end
-
-  
 
     # Only allow a list of trusted parameters through.
     def contact_params
