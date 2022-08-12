@@ -7,9 +7,9 @@ config.action_mailer.default_url_options = {
 }
 config.action_mailer.smtp_settings = {
 :address => 'smtp.gmail.com',
-:port => 465,
+:port => 587,
 :user_name => 'adnan@mita.ba',
-:password => 'mcxsrgctixdndeis',
+:password => 'ndivpmbrtsqyeekc',
 :authentication => 'plain',
 :enable_starttls_auto => true
 }
