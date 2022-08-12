@@ -1,20 +1,34 @@
 Rails.application.configure do
-  config.action_mailer.default_url_options = { host: "http://localhost:3000" }
-  config.action_mailer.delivery_method = :smtp
-config.action_mailer.default_url_options = { 
-:host => 'http://localhost:3000', 
-:protocol => 'http'
-}
+# config.action_mailer.delivery_method = :smtp
+# config.action_mailer.default_url_options = { 
+# :host => 'http://localhost:3000', 
+# :protocol => 'http'
+# }
+# config.action_mailer.smtp_settings = {
+# :address => 'smtp.gmail.com',
+# :port => 587,
+# :user_name => 'adnan@mita.ba',
+# :password => 'mcxsrgctixdndeis',
+# :authentication => 'plain',
+# :enable_starttls_auto => true
+# }
+
+
+config.action_mailer.default_url_options = {host:'localhost'}
+config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
-:address => 'smtp.gmail.com',
-:port => 465,
-:user_name => 'adnan@mita.ba',
-:password => 'mcxsrgctixdndeis',
-:authentication => 'plain',
-:enable_starttls_auto => true
-}
+  address:              'smtp.gmail.com',
+  port:                 587,
+  user_name:            'adnan@mita.ba',
+  password:             'ndivpmbrtsqyeekc',
+  authentication:       'plain',
+  enable_starttls_auto: true,
+  open_timeout:         5,
+  read_timeout:         5 }
 
   # Settings specified here will take precedence over those in config/application.rb.
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
@@ -50,17 +64,7 @@ config.action_mailer.smtp_settings = {
   # :protocol => 'http'
   # }
 
-  config.action_mailer.delivery_method = :smtp
-  host = 'localhost:3000'
-  config.action_mailer.default_url_options = { :host => 'localhost:3000', protocol: 'http' }
-  config.action_mailer.smtp_settings = {
-    :address              => "smtp.gmail.com",
-    :port                 => 587,
-    :user_name            => "mail",
-    :password             => "pass",
-    :authentication       => "plain",
-    :enable_starttls_auto => true
-  }
+
 
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
