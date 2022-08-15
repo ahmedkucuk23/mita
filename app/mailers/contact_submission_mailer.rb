@@ -3,7 +3,7 @@ class ContactSubmissionMailer < ApplicationMailer
 
     def welcome_email
         @contact = params[:contact]
-        mail(to: "Adnan.biber2@gmail.com", subject: 'Kontakt forma mita.agency', body: 'Ciao')
+        mail(to: 'Adnan.biber2@gmail.com', subject: 'Kontakt forma mita.agency')
     end
 
 
