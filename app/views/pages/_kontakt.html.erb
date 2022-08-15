@@ -1,0 +1,28 @@
+<%= form_with(model: contact) do |form| %>
+<div class="section_2" style="padding-bottom: 10px; padding-top: 80px;">
+  <div class="container" style="padding-bottom: 200px;">
+   
+
+          <div class="container d-flex row justify-content-between">
+             <%= form.text_field :name, class:"form-control form_input_control mb-1", placeholder:"Name", style: "width: 51%" %>
+
+                <%= form.text_field :surname, class:"form-control form_input_control mb-1", placeholder:"Surname", style: "width: 46%"  %>
+
+          </div>
+              <%= form.text_field :business, class: "form-control form_input_control_2 mb-1", placeholder: "Business Name"  %>
+
+           <%= form.text_field :email, class: "form-control form_input_control_2 mb-1", placeholder: "Email" %>
+
+           <%= form.text_field :website, class: "form-control form_input_control_2 mb-1", placeholder: "Website URL" %>
+
+           <%= form.text_area :message, class: "form-control form_input_control_2 mb-1", placeholder: "Your message" %>
+
+
+          <%= form.text_area :budget, class: "form-control form_input_control_2 mb-1", placeholder: "Any budget limitation?" %>
+
+              <%= form.submit "SEND", class: "form_button" %>
+
+
+  </div>
+</div>
+<% end %>
