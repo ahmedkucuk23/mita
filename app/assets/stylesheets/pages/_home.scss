@@ -776,7 +776,10 @@ this instructions are to force the dimensions of image and its container <a>
     padding-top: 100px;
   }
   #video{
-    display: none;
+    object-fit: cover;
+  }
+  #video > iframe{
+    object-fit: cover;
   }
   .left {
       order:2;
