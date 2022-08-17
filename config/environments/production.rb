@@ -1,27 +1,11 @@
 Rails.application.configure do
-#   config.action_mailer.default_url_options = { host: "https://mita.agency" }
-#   config.action_mailer.delivery_method = :smtp
-# config.action_mailer.default_url_options = { 
-# :host => 'https://mita.agency', 
-# :protocol => 'https'
-# }
-# config.action_mailer.smtp_settings = {
-# :address => 'smtp.gmail.com',
-# :port => 587,
-# :user_name => 'adnan@mita.ba',
-# :password => 'ndivpmbrtsqyeekc',
-# :authentication => 'plain',
-# :enable_starttls_auto => true
-# }
-
-
 config.action_mailer.default_url_options = {host:'https://mita.agency'}
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
   address:              'smtp.gmail.com',
   port:                 587,
   user_name:            'adnan@mita.ba',
-  password:             'ndivpmbrtsqyeekc',
+  password:             'gzpliimeqfknocdy',
   authentication:       'plain',
   enable_starttls_auto: true,
   open_timeout:         5,
