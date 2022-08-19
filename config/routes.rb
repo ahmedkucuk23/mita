@@ -7,6 +7,7 @@ Rails.application.routes.draw do
    post '/contacts', to: 'contacts#create'
 
 
+
    get '/careers',    to: 'pages#careers'
    # get '/stories',    to: 'pages#stories'
    get '/services',   to: 'pages#services'
@@ -28,4 +29,7 @@ Rails.application.routes.draw do
 
   delete "stories/:id",     to: "stories#destroy"
   resources :stories
+
+  delete "blogs/:id",     to: "blogs#destroy"
+  resources :blogs
 end
