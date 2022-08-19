@@ -1,0 +1,34 @@
+<%= render 'shared/navbar_white' %>
+<div class="container" style="padding-top:150px;padding-bottom: 150px;">
+
+<p id="notice"><%= notice %></p>
+
+<h1>Blogs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Published</th>
+      <th>Published at</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @blogs.each do |blog| %>
+      <tr>
+        <td><%= blog.title %></td>
+        <td><%= blog.description %></td>
+        <td><%= blog.published %></td>
+        <td><%= blog.published_at %></td>
+        <td><%= link_to 'Show', blog %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+</div>
