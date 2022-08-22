@@ -1,3 +1,81 @@
+.dropdown-mobile{
+  float: left;
+  overflow: hidden;
+}
+.dropdown-mobile .dropbtn {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  color: #000;
+  background-color: inherit;
+  margin: 0;
+}
+.dropdown-mobile .dropbtn.solid {
+  color: #000;
+}
+.dropdown-mobile .dropbtn.darker{
+  color: #000;
+}
+.dropdown-mobile .dropbtn.darker:hover{
+  color: #000;
+}
+
+
+.dropdown-mobile:hover {
+  overflow: visible;
+  text-decoration:none;
+}
+.dropdown-mobile .dropbtn:hover {
+  text-decoration:none;
+  color: #000;
+  opacity:1;
+}
+.dropdown-mobile .dropbtn.solid:hover {
+  text-decoration:none;
+  color: #000;
+  opacity:1;
+}
+
+.dropdown-mobile .dropdown-content {
+  display: none;
+  position: relative;
+  backdrop-filter: blur(20px);
+  min-width: 230px;
+  font-family: "Poppins", sans-serif;
+  z-index: 1;
+}
+
+.dropdown-mobile .dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #000;
+  opacity: 0.8;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-mobile .dropdown-content a:hover {
+  backdrop-filter: blur(20px);
+  opacity:1;
+}
+
+.dropdown-mobile:hover .dropdown-content {
+  display: block ;
+}
+
 
 .dropdown {
   float: left;
@@ -47,7 +125,7 @@
   opacity:1;
 }
 
-.dropdown-content {
+.dropdown .dropdown-content {
   display: none;
   position: absolute;
   background-color: rgba(27,27,27,0.7);
@@ -58,7 +136,7 @@
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown .dropdown-content a {
   float: none;
   color: #fff;
   padding: 12px 16px;
@@ -79,7 +157,7 @@
   backdrop-filter: blur(20px);
 }
 
-.dropdown-content a:hover {
+.dropdown .dropdown-content a:hover {
   background-color: rgba(27,27,27,1);
   backdrop-filter: blur(20px);
   opacity:1;
