@@ -17,19 +17,19 @@ iframe {
   transform: translate(-50%, -50%);
 }
 
-@media (min-aspect-ratio: 16/9) {
-  .video-container iframe {
-    height: 100vh;
-    object-fit: cover;
-  }
-}
 @media (max-aspect-ratio: 16/9) {
   .video-container iframe {
-    width: 100%;
-    object-fit: cover;
+    display: none;
+    background-color: #000;
+  }
+  .video-container{
+    background: url('https://imagedelivery.net/kbdeQbZSIKXp-ZjvXBIJDQ/7466328c-fb51-4a4d-8082-7b684b700e00/public');
+    background-size: cover;
+    background-position:center center;
+    background-height: 100%;
+    background-repeat: no-repeat;
   }
 }
-
 
 
 .video-col{
