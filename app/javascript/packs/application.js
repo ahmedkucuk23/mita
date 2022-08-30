@@ -9,6 +9,9 @@ require("@rails/activestorage").start()
 require("channels")
 require("custom/main")
 require("custom/scroll-out")
+require("typeface-quicksand");
+require("typeface-cardo");
+
 
 //= require jquery
 //= require jquery_ujs
@@ -39,6 +42,6 @@ import "bootstrap";
 // import { initSelect2 } from '../components/init_select2';
 
 document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  // initSelect2();
+    // Call your functions here, e.g:
+    // initSelect2();
 });
