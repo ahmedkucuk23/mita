@@ -1,0 +1,125 @@
+.home_since_black{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 25px;
+  letter-spacing : 1.95px;
+  color : #000;
+  padding-bottom: 20px;
+}
+.slika_tekst{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 50px;
+  line-height : 1.2em;
+  letter-spacing : -0.8px;
+  color : #231F20;
+  color : rgb(35, 31, 32);
+}
+.section_nasa_slika{
+  min-height: 100vh;
+}
+.nasaslika{
+  background: image-url("NasaSlika.png");
+  background-size: 100%;
+  height:100vh;
+  width:100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.section_career_red{
+  padding: 0 15px;
+}
+.section_text_za_carer{
+  padding: 0 15px;
+}
+.section_slika_cont{
+  padding: 0 15px;
+}
+.slika_tm{
+  width:300px;
+}
+.ime{
+  font-family: 'Poppins', sans-serif;
+  font-size : 21px;
+  color : #414042;
+  color : rgb(65, 64, 66);
+  margin-bottom:0;
+  padding-top:12px;
+}
+.role{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 18px;
+  color : #414042;
+  color : rgb(65, 64, 66);
+}
+.home_heading_black_2{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 70px;
+  line-height : 1em;
+  letter-spacing : -1.83px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  padding-top:30px;
+}
+.section_tri_para_2{
+  font-family: 'Poppins', sans-serif;
+  font-size : 21px;
+  line-height:1.3em;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top:-20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .home_heading_black_2{
+    font-size:50px;
+  }
+  .section_tri_para_2{
+  font-family: 'Poppins', sans-serif;
+  font-size : 18px;
+  line-height:1.3em;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top:-20px;
+}
+}
+.section_career_red{
+  background-color:#F92329;
+}
+.carer_heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 80px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top: 70px;
+  line-height:1.1em;
+}
+
+.carer_since{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 23px;
+  letter-spacing : 1.95px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-bottom: 0px;
+  margin-bottom:5px;
+}
+.carer_para{
+  font-family: 'Poppins', sans-serif;
+  font-size :18px;
+  line-height:1.3em;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.slika_carer{
+  width: 90px;
+}
+.carer_picture_text{
+  padding: 15px 0;
+}
