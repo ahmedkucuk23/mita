@@ -1,0 +1,11 @@
+.logo_pictures{
+  width:100%;
+  opacity:0.8;
+  transition: all .2s ease-in-out;
+
+}
+.logo_pictures:hover{
+  width:100%;
+  opacity:1;
+  transform: scale(1.1);
+}
