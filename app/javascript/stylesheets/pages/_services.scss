@@ -1,0 +1,175 @@
+.section_7_steps{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 60px;
+  color : #000;
+  padding-top: 80px;
+  padding-bottom:40px;
+}
+.section_7_steps_2{
+  font-family: 'Poppins', sans-serif;
+  font-weight:400;
+  font-size : 35px;
+  color : #000;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+.home_heading_services{
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
+  font-size : 70px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  padding-top: 80px;
+}
+.levak{
+  padding-bottom: 50px;
+  text-align:center;
+  height:90vh;
+}
+.levak-tel{
+  padding-bottom: 50px;
+  text-align:center;
+  width:100%;
+}
+.row_3_padd_2{
+  padding: 10px 0;
+}
+.section_services_row_text{
+  font-family: 'Poppins', sans-serif;
+  font-weight : 400;
+  font-weight: bold;
+  font-size : 22px;
+  line-height : 36.9px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  margin-left: 30px;
+}
+.section_services_row_elements{
+  padding:25px;
+}
+.emoji_picture{
+  width:60px;
+
+}
+.emoji_services{
+  width:90px;
+  }
+.emoji{
+
+}
+
+.list_pic{
+  padding: 20px 0;
+}
+.serv_padd{
+  padding-top:80px;
+}
+.section_tri_services_para{
+  font-family: 'Poppins', sans-serif;
+  font-size : 20px;
+  letter-spacing : -0.32px;
+  line-height:30px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+}
+.ul_services{
+  font-family: 'Poppins', sans-serif;
+  font-size : 22px;
+  line-height : 28px;
+  font-weight:lighter;
+  letter-spacing : -0.32px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.section_4{
+ul {
+  list-style: none;
+}
+  ul li::before {
+  content: "\2022";
+  color: #FCF130;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  }
+}
+.section_8{
+ul {
+  list-style: none;
+}
+  ul li::before {
+  content: "\2022";
+  color:  #FEB28F;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  }
+}
+.section_9{
+ul {
+  list-style: none;
+}
+  ul li::before {
+  content: "\2022";
+  color: #FCF130;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  }
+}
+.section_tri_services_para_white{
+  font-family: 'Poppins', sans-serif;
+  font-size : 21px;
+  line-height : 28px;
+  font-weight:lighter;
+  letter-spacing : -0.32px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.section_services_sections{
+  padding-bottom:50px;
+}
+@media only screen and (max-width: 770px) {
+  .levak{
+    display:none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .levak-tel{
+    display:none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .section_7_steps{
+    font-size: 46px;
+  }
+  .section_7_steps_2{
+    font-size: 30px;
+    text-align:left;
+  }
+  .section_tri_para{
+    font-size: 20px;
+  }
+  .home_heading_services{
+    font-size: 40px;
+  }
+  .section_services_row_text{
+    font-size:20px;
+    margin-left: 0;
+  }
+  .levak{
+  width:100%;
+  }
+}
+.levak{
+  padding-bottom: 50px;
+  text-align:center;
+}
+.levak-tel{
+  padding-bottom: 50px;
+  text-align:center;
+}
