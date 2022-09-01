@@ -14,7 +14,6 @@ require("typeface-cardo");
 require("typeface-poppins");
 
 
-
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
