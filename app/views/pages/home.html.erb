@@ -5,14 +5,8 @@
 
 <div class="homepage_container">
  <section class="section-ux-design">
-  <%
-=begin%>
- <%= video_tag "https://customer-iifeqvttd8luvzt8.cloudflarestream.com/91a0dff1bc21db1000d9346a3c05502c/watch" %> 
-<%
-=end%>
 
-<div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-iifeqvttd8luvzt8.cloudflarestream.com/91a0dff1bc21db1000d9346a3c05502c/iframe?muted=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-iifeqvttd8luvzt8.cloudflarestream.com%2F91a0dff1bc21db1000d9346a3c05502c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
-
+ <%= video_tag "video.webm", playsinline: :playsinline, autoplay: :autoplay, loop: :loop, muted: :muted, id: "video" %> 
 
   <div class="overlay-text">
     <div class="section_1 home_section_1 container" id="home">
