@@ -1,15 +1,15 @@
 {
-  "application.js": "/packs/js/application-2a30781e6ebf4545e415.js",
-  "application.js.map": "/packs/js/application-2a30781e6ebf4545e415.js.map",
+  "application.js": "/packs/js/application-c1e182793e0f1c700b6d.js",
+  "application.js.map": "/packs/js/application-c1e182793e0f1c700b6d.js.map",
   "critical.js": "/packs/js/critical-fc2f88763e1be48af532.js",
   "critical.js.map": "/packs/js/critical-fc2f88763e1be48af532.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-2a30781e6ebf4545e415.js"
+        "/packs/js/application-c1e182793e0f1c700b6d.js"
       ],
       "js.map": [
-        "/packs/js/application-2a30781e6ebf4545e415.js.map"
+        "/packs/js/application-c1e182793e0f1c700b6d.js.map"
       ]
     },
     "critical": {
@@ -27,6 +27,42 @@
   "media/files/cardo-latin-400italic.woff2": "/packs/media/files/cardo-latin-400italic-97e92e58.woff2",
   "media/files/cardo-latin-700.woff": "/packs/media/files/cardo-latin-700-ef75c385.woff",
   "media/files/cardo-latin-700.woff2": "/packs/media/files/cardo-latin-700-0ec41159.woff2",
+  "media/files/poppins-latin-100.woff": "/packs/media/files/poppins-latin-100-9eef15e6.woff",
+  "media/files/poppins-latin-100.woff2": "/packs/media/files/poppins-latin-100-ab66112c.woff2",
+  "media/files/poppins-latin-100italic.woff": "/packs/media/files/poppins-latin-100italic-4eb0979c.woff",
+  "media/files/poppins-latin-100italic.woff2": "/packs/media/files/poppins-latin-100italic-16e9e4a7.woff2",
+  "media/files/poppins-latin-200.woff": "/packs/media/files/poppins-latin-200-6661712e.woff",
+  "media/files/poppins-latin-200.woff2": "/packs/media/files/poppins-latin-200-7f0cadcc.woff2",
+  "media/files/poppins-latin-200italic.woff": "/packs/media/files/poppins-latin-200italic-b12214af.woff",
+  "media/files/poppins-latin-200italic.woff2": "/packs/media/files/poppins-latin-200italic-d1d46323.woff2",
+  "media/files/poppins-latin-300.woff": "/packs/media/files/poppins-latin-300-8583fb07.woff",
+  "media/files/poppins-latin-300.woff2": "/packs/media/files/poppins-latin-300-82a53579.woff2",
+  "media/files/poppins-latin-300italic.woff": "/packs/media/files/poppins-latin-300italic-aea0270e.woff",
+  "media/files/poppins-latin-300italic.woff2": "/packs/media/files/poppins-latin-300italic-e62b386e.woff2",
+  "media/files/poppins-latin-400.woff": "/packs/media/files/poppins-latin-400-c14093ce.woff",
+  "media/files/poppins-latin-400.woff2": "/packs/media/files/poppins-latin-400-5b8f3ba8.woff2",
+  "media/files/poppins-latin-400italic.woff": "/packs/media/files/poppins-latin-400italic-b7d6c86b.woff",
+  "media/files/poppins-latin-400italic.woff2": "/packs/media/files/poppins-latin-400italic-15597034.woff2",
+  "media/files/poppins-latin-500.woff": "/packs/media/files/poppins-latin-500-ff86872b.woff",
+  "media/files/poppins-latin-500.woff2": "/packs/media/files/poppins-latin-500-dc16a359.woff2",
+  "media/files/poppins-latin-500italic.woff": "/packs/media/files/poppins-latin-500italic-3dda6a60.woff",
+  "media/files/poppins-latin-500italic.woff2": "/packs/media/files/poppins-latin-500italic-fbe8f878.woff2",
+  "media/files/poppins-latin-600.woff": "/packs/media/files/poppins-latin-600-8c4516c5.woff",
+  "media/files/poppins-latin-600.woff2": "/packs/media/files/poppins-latin-600-e49343f0.woff2",
+  "media/files/poppins-latin-600italic.woff": "/packs/media/files/poppins-latin-600italic-8c85f26b.woff",
+  "media/files/poppins-latin-600italic.woff2": "/packs/media/files/poppins-latin-600italic-5530d574.woff2",
+  "media/files/poppins-latin-700.woff": "/packs/media/files/poppins-latin-700-eb23bc4e.woff",
+  "media/files/poppins-latin-700.woff2": "/packs/media/files/poppins-latin-700-9690ce62.woff2",
+  "media/files/poppins-latin-700italic.woff": "/packs/media/files/poppins-latin-700italic-2c2e5a89.woff",
+  "media/files/poppins-latin-700italic.woff2": "/packs/media/files/poppins-latin-700italic-bd8a2d38.woff2",
+  "media/files/poppins-latin-800.woff": "/packs/media/files/poppins-latin-800-2923e77e.woff",
+  "media/files/poppins-latin-800.woff2": "/packs/media/files/poppins-latin-800-8314fda1.woff2",
+  "media/files/poppins-latin-800italic.woff": "/packs/media/files/poppins-latin-800italic-a7db6fce.woff",
+  "media/files/poppins-latin-800italic.woff2": "/packs/media/files/poppins-latin-800italic-5b40529f.woff2",
+  "media/files/poppins-latin-900.woff": "/packs/media/files/poppins-latin-900-b71e24fd.woff",
+  "media/files/poppins-latin-900.woff2": "/packs/media/files/poppins-latin-900-52f87476.woff2",
+  "media/files/poppins-latin-900italic.woff": "/packs/media/files/poppins-latin-900italic-623b100a.woff",
+  "media/files/poppins-latin-900italic.woff2": "/packs/media/files/poppins-latin-900italic-babad407.woff2",
   "media/files/quicksand-latin-300.woff": "/packs/media/files/quicksand-latin-300-c7342fbf.woff",
   "media/files/quicksand-latin-300.woff2": "/packs/media/files/quicksand-latin-300-c21933f5.woff2",
   "media/files/quicksand-latin-400.woff": "/packs/media/files/quicksand-latin-400-55896949.woff",
