@@ -11,6 +11,8 @@ require("custom/main")
 require("custom/scroll-out")
 require("typeface-quicksand");
 require("typeface-cardo");
+require("typeface-poppins");
+
 
 
 //= require jquery
