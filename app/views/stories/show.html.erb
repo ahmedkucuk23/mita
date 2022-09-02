@@ -1,6 +1,5 @@
-<% content_for :meta_title, "#{@storie.name} is on #{DEFAULT_META["meta_product_name"]}" %>
-<% content_for :meta_description, @storie.description %>
-<% content_for :meta_image, cl_image_path(@storie.photos.first.key) %>
+<%= title @storie.name %>
+<%= description @storie.description %>
 
 <%= render 'shared/navbar_white_stories' %>
 
