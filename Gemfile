@@ -28,6 +28,8 @@ gem 'friendly_id', '~> 5.4.0'
 gem "active_link_to"
 gem 'sitemap_generator'
 gem 'meta-tags'
+gem 'recaptcha', :require => 'recaptcha/rails'
+gem 'dotenv-rails', groups: [:development, :test]
 
 
 # Use Active Storage variant
@@ -43,7 +45,6 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'dotenv-rails'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
