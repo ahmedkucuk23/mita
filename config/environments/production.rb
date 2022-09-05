@@ -14,7 +14,8 @@ config.action_mailer.smtp_settings = {
 
   # Code is not reloaded between requests.
   config.cache_classes = true
-
+  recaptcha_public_key= "[PUBLIC KEY]"
+  recaptcha_private_key= "[PRIVATE KEY]"
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
