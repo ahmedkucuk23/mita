@@ -15,7 +15,6 @@
   <div class="container" style="padding-bottom: 200px;">
     <h1 class="home_heading_black box animate fadeInUp">Get in touch with us</h1>
     <p class="section_tri_para box animate fadeInUp" style="margin-top: 45px; padding-bottom: 100px;">You can reach out to us in several ways if you are interested in our services. The easiest way is to complete the below given form and provide us with most of the information we need to create an offer for you.</p>
-
      <h2 class="home_heading_black_small box animate fadeInUp" style="padding-top: 0px;">Contact Form</h2>
           <div class="container d-flex row justify-content-between">
              <%= form.text_field :name, class:"form-control form_input_control mb-1", placeholder:"Name", style: "width: 51%" %>
@@ -33,7 +32,13 @@
 
 
           <%= form.text_area :budget, class: "form-control form_input_control_2 mb-1", placeholder: "Any budget limitation?" %>
-    <%= recaptcha_tags %>
+    <%= recaptcha_tags  %>
+
+
+
+   <%= form.check_box :termsofuse %>
+   <%= form.label :termsofuse, "I consent to Terms & Conditions" %>
+       
 
               <%= form.submit "SEND", class: "form_button btn-block" , style: "float: left" %>
 
