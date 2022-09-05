@@ -843,7 +843,9 @@ this instructions are to force the dimensions of image and its container <a>
 .margin-2-sec {
     padding: 100px 15px;
 }
-
+.logo_mita .solid1{
+  filter: brightness(0) invert(1);
+}
 @media only screen and (max-width: 990px) {
     .above_header {
         padding-top: 100px;
