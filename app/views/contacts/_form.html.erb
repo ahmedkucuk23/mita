@@ -37,8 +37,11 @@
 
 
    <%= form.check_box :termsofuse %>
-   <%= form.label :termsofuse, "I consent to Terms & Conditions" %>
-       
+   <%= form.label :termsofuse  do 
+      "I agree to #{link_to('Terms & Conditions', '/terms')}".html_safe
+
+
+      end %>
 
               <%= form.submit "SEND", class: "form_button btn-block" , style: "float: left" %>
 
