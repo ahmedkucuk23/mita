@@ -15,7 +15,6 @@ class ContactsController < ApplicationController
 
   # GET /contacts/new
   def new
-
     @contact = Contact.new
     authorize @contact
 
@@ -31,12 +30,12 @@ class ContactsController < ApplicationController
     authorize @contact
 
     respond_to do |format|
-      if @contact.save && verify_recaptcha(:model => @contact, :notice => "Oh! It's error with reCAPTCHA!")
+      if @contact.save && verify_recaptcha(:model => @contact )
         ContactSubmissionMailer.with(contact: @contact).welcome_email.deliver_now
-        format.html { redirect_to contacts_url(@contact) }
+        format.html { redirect_to "/thankyou", notice: "Your message was successfully delivered." }
         format.json { render :show, status: :created, location: @contact }
       else
-        redirect_to @contact
+        redirect_to contacts_path
         format.json { render json: @contact.errors, status: :unprocessable_entity }
       end
     end
