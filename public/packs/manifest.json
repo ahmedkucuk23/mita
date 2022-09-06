@@ -1,15 +1,15 @@
 {
-  "application.js": "/packs/js/application-db1239110931fd4ca9a3.js",
-  "application.js.map": "/packs/js/application-db1239110931fd4ca9a3.js.map",
+  "application.js": "/packs/js/application-2a30781e6ebf4545e415.js",
+  "application.js.map": "/packs/js/application-2a30781e6ebf4545e415.js.map",
   "critical.js": "/packs/js/critical-dc29755e6acd31854e3b.js",
   "critical.js.map": "/packs/js/critical-dc29755e6acd31854e3b.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-db1239110931fd4ca9a3.js"
+        "/packs/js/application-2a30781e6ebf4545e415.js"
       ],
       "js.map": [
-        "/packs/js/application-db1239110931fd4ca9a3.js.map"
+        "/packs/js/application-2a30781e6ebf4545e415.js.map"
       ]
     },
     "critical": {
@@ -27,22 +27,6 @@
   "media/files/cardo-latin-400italic.woff2": "/packs/media/files/cardo-latin-400italic-97e92e58.woff2",
   "media/files/cardo-latin-700.woff": "/packs/media/files/cardo-latin-700-ef75c385.woff",
   "media/files/cardo-latin-700.woff2": "/packs/media/files/cardo-latin-700-0ec41159.woff2",
-  "media/files/poppins-all-300-normal.woff": "/packs/media/files/poppins-all-300-normal-9541f56e.woff",
-  "media/files/poppins-all-400-normal.woff": "/packs/media/files/poppins-all-400-normal-6fbfdac9.woff",
-  "media/files/poppins-all-500-normal.woff": "/packs/media/files/poppins-all-500-normal-4716bc1d.woff",
-  "media/files/poppins-all-600-normal.woff": "/packs/media/files/poppins-all-600-normal-ef66d5ce.woff",
-  "media/files/poppins-devanagari-300-normal.woff2": "/packs/media/files/poppins-devanagari-300-normal-8236e953.woff2",
-  "media/files/poppins-devanagari-400-normal.woff2": "/packs/media/files/poppins-devanagari-400-normal-64d5f06e.woff2",
-  "media/files/poppins-devanagari-500-normal.woff2": "/packs/media/files/poppins-devanagari-500-normal-f43b6ebf.woff2",
-  "media/files/poppins-devanagari-600-normal.woff2": "/packs/media/files/poppins-devanagari-600-normal-3343afa6.woff2",
-  "media/files/poppins-latin-300-normal.woff2": "/packs/media/files/poppins-latin-300-normal-39576fe9.woff2",
-  "media/files/poppins-latin-400-normal.woff2": "/packs/media/files/poppins-latin-400-normal-405055dd.woff2",
-  "media/files/poppins-latin-500-normal.woff2": "/packs/media/files/poppins-latin-500-normal-08491d3f.woff2",
-  "media/files/poppins-latin-600-normal.woff2": "/packs/media/files/poppins-latin-600-normal-91145014.woff2",
-  "media/files/poppins-latin-ext-300-normal.woff2": "/packs/media/files/poppins-latin-ext-300-normal-b0bb003a.woff2",
-  "media/files/poppins-latin-ext-400-normal.woff2": "/packs/media/files/poppins-latin-ext-400-normal-4f38b433.woff2",
-  "media/files/poppins-latin-ext-500-normal.woff2": "/packs/media/files/poppins-latin-ext-500-normal-b59bcdf2.woff2",
-  "media/files/poppins-latin-ext-600-normal.woff2": "/packs/media/files/poppins-latin-ext-600-normal-d08f0891.woff2",
   "media/files/quicksand-latin-300.woff": "/packs/media/files/quicksand-latin-300-c7342fbf.woff",
   "media/files/quicksand-latin-300.woff2": "/packs/media/files/quicksand-latin-300-c21933f5.woff2",
   "media/files/quicksand-latin-400.woff": "/packs/media/files/quicksand-latin-400-55896949.woff",

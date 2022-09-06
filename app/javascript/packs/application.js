@@ -12,11 +12,7 @@ require("custom/scroll-out")
 require("typeface-quicksand");
 require("typeface-cardo");
 
-import "@fontsource/poppins"
-import "@fontsource/poppins/400.css"; // Weight 400.
-import "@fontsource/poppins/500.css"; // Weight 400.
-import "@fontsource/poppins/300.css"; // Weight 400.
-import "@fontsource/poppins/600.css"; // Weight 400.
+
 
 
 
