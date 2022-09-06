@@ -32,7 +32,7 @@ class ContactsController < ApplicationController
     respond_to do |format|
       if @contact.save && verify_recaptcha(:model => @contact )
         ContactSubmissionMailer.with(contact: @contact).welcome_email.deliver_now
-        format.html { redirect_to "/thankyou", notice: "Your message was successfully delivered." }
+        format.html { redirect_to "/thankyou" }
         format.json { render :show, status: :created, location: @contact }
       else
         redirect_to contacts_path
