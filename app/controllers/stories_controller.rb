@@ -5,7 +5,7 @@ class StoriesController < ApplicationController
   def index
     @stories = Storie.all
     @storie = policy_scope(Storie)
-    @stories = Storie.order('created_at: :desc')
+    @stories = Storie.order('created_at desc')
   end
 
   def show
