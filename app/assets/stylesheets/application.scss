@@ -1,6 +1,14 @@
 @import "bootstrap/scss/bootstrap";
 @import "components/index";
 @import "pages/index";
+@font-face {
+    font-family: 'Poppins';
+    src: asset_url('fonts/akagi-th-webfont.eot');
+    src: asset_url('fonts/akagi-th-webfont.eot?#iefix') format('embedded-opentype'), asset_url('fonts/akagi-th-webfont.woff') format('woff'), asset_url('fonts/akagi-th-webfont.ttf') format('truetype'), asset_url('fonts/akagi-th-webfont.svg#akagithin') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
 .hidden {
     display: none;
 }
