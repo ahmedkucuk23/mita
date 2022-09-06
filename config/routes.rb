@@ -26,6 +26,7 @@ Rails.application.routes.draw do
    get '/content-creation', to: 'pages#contentcreation'
    get '/seo',              to: 'pages#seo'
    get '/consulting',       to: 'pages#consulting'
+   get '/thankyou',        to: 'pages#thankyou'
 
   delete "stories/:id",     to: "stories#destroy"
   resources :stories
