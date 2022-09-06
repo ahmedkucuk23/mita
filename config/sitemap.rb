@@ -15,14 +15,5 @@ SitemapGenerator::Sitemap.create do
   add '/consulting', :changefreq => 'weekly'
   add '/stories', :changefreq => 'weekly'
   add '/clients', :changefreq => 'weekly'
-
-
-
-
-
-
-
-
-
 end
 
