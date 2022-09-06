@@ -30,6 +30,7 @@ gem 'sitemap_generator'
 gem 'meta-tags'
 gem 'recaptcha', :require => 'recaptcha/rails'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cookies_eu'
 
 
 # Use Active Storage variant

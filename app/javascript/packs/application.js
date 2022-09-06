@@ -22,8 +22,10 @@ require("typeface-cardo");
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require cookies_eu
 //= require bootstrap
 //= require_tree .
+
 window.$ = window.jQuery = require("jquery");
 import "bootstrap/dist/js/bootstrap.bundle.js"
 
