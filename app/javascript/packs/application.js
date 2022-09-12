@@ -9,14 +9,6 @@ require("@rails/activestorage").start()
 require("channels")
 require("custom/main")
 require("custom/scroll-out")
-require("typeface-quicksand");
-require("typeface-cardo");
-
-
-
-
-
-
 
 
 //= require jquery
