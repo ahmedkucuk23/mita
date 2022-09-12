@@ -1,30 +1,14 @@
 {
-  "application.js": "/packs/js/application-af30bc20a6868a90bf85.js",
-  "application.js.map": "/packs/js/application-af30bc20a6868a90bf85.js.map",
+  "application.js": "/packs/js/application-63109ff68a2e3fd08644.js",
+  "application.js.map": "/packs/js/application-63109ff68a2e3fd08644.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-af30bc20a6868a90bf85.js"
+        "/packs/js/application-63109ff68a2e3fd08644.js"
       ],
       "js.map": [
-        "/packs/js/application-af30bc20a6868a90bf85.js.map"
+        "/packs/js/application-63109ff68a2e3fd08644.js.map"
       ]
     }
-  },
-  "media/files/cardo-latin-400.woff": "/packs/media/files/cardo-latin-400-3ff299b1.woff",
-  "media/files/cardo-latin-400.woff2": "/packs/media/files/cardo-latin-400-a732e163.woff2",
-  "media/files/cardo-latin-400italic.woff": "/packs/media/files/cardo-latin-400italic-79f7fbd5.woff",
-  "media/files/cardo-latin-400italic.woff2": "/packs/media/files/cardo-latin-400italic-97e92e58.woff2",
-  "media/files/cardo-latin-700.woff": "/packs/media/files/cardo-latin-700-ef75c385.woff",
-  "media/files/cardo-latin-700.woff2": "/packs/media/files/cardo-latin-700-0ec41159.woff2",
-  "media/files/quicksand-latin-300.woff": "/packs/media/files/quicksand-latin-300-c7342fbf.woff",
-  "media/files/quicksand-latin-300.woff2": "/packs/media/files/quicksand-latin-300-c21933f5.woff2",
-  "media/files/quicksand-latin-400.woff": "/packs/media/files/quicksand-latin-400-55896949.woff",
-  "media/files/quicksand-latin-400.woff2": "/packs/media/files/quicksand-latin-400-4632f3d1.woff2",
-  "media/files/quicksand-latin-500.woff": "/packs/media/files/quicksand-latin-500-e16bfdc4.woff",
-  "media/files/quicksand-latin-500.woff2": "/packs/media/files/quicksand-latin-500-4ff6e5b9.woff2",
-  "media/files/quicksand-latin-600.woff": "/packs/media/files/quicksand-latin-600-6891aedf.woff",
-  "media/files/quicksand-latin-600.woff2": "/packs/media/files/quicksand-latin-600-07a3480d.woff2",
-  "media/files/quicksand-latin-700.woff": "/packs/media/files/quicksand-latin-700-82849a6e.woff",
-  "media/files/quicksand-latin-700.woff2": "/packs/media/files/quicksand-latin-700-e38cff2d.woff2"
+  }
 }
