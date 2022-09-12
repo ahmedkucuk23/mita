@@ -8,7 +8,6 @@ Rails.application.routes.draw do
 
 
 
-   get '/careers',    to: 'pages#careers'
    # get '/stories',    to: 'pages#stories'
    get '/services',   to: 'pages#services'
    get '/clients',    to: 'pages#clients'
