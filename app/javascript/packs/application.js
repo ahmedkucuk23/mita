@@ -44,6 +44,10 @@ import "bootstrap";
 document.addEventListener('turbolinks:load', () => {
     // Call your functions here, e.g:
     // initSelect2();
+<<<<<<< HEAD
 });
 require("trix")
 require("@rails/actiontext")
+=======
+});
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e

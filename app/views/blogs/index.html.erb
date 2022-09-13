@@ -21,7 +21,11 @@
     <% @blogs.each do |blog| %>
       <tr>
         <td><%= blog.title %></td>
+<<<<<<< HEAD
         <td><%= blog.body %></td>
+=======
+        <td><%= blog.description %></td>
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
         <td><%= blog.published %></td>
         <td><%= blog.published_at %></td>
         <td><%= link_to 'Show', blog %></td>
