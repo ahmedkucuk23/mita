@@ -5,7 +5,10 @@
     "@babel/plugin-proposal-private-methods": "^7.14.5",
     "@fontsource/poppins": "^4.5.9",
     "@rails/actioncable": "^6.0.0",
+<<<<<<< HEAD
     "@rails/actiontext": "^6.0.5",
+=======
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "^5.4.3",
@@ -14,7 +17,10 @@
     "node-sass": "^7.0.1",
     "popper.js": "^1.16.1",
     "postcss-purgecss": "^2.0.3",
+<<<<<<< HEAD
     "trix": "^1.2.0",
+=======
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
     "turbolinks": "^5.2.0",
     "typeface-cardo": "^1.1.13",
     "typeface-poppins": "^1.1.13",

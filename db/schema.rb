@@ -10,11 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2022_09_12_125734) do
+=======
+ActiveRecord::Schema.define(version: 2022_09_05_132556) do
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+<<<<<<< HEAD
   create_table "action_text_rich_texts", force: :cascade do |t|
     t.string "name", null: false
     t.text "body"
@@ -25,6 +30,8 @@ ActiveRecord::Schema.define(version: 2022_09_12_125734) do
     t.index ["record_type", "record_id", "name"], name: "index_action_text_rich_texts_uniqueness", unique: true
   end
 
+=======
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
     t.string "record_type", null: false
@@ -48,13 +55,20 @@ ActiveRecord::Schema.define(version: 2022_09_12_125734) do
 
   create_table "blogs", force: :cascade do |t|
     t.string "title"
+<<<<<<< HEAD
+=======
+    t.text "description"
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
     t.boolean "published"
     t.datetime "published_at"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
     t.string "slug"
+<<<<<<< HEAD
     t.text "body"
+=======
+>>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
     t.index ["slug"], name: "index_blogs_on_slug", unique: true
   end
 
