@@ -19,10 +19,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '~> 4.0'
-<<<<<<< HEAD
 gem 'image_processing', '~> 1.2'
-=======
->>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'mail_form'

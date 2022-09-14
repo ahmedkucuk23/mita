@@ -6,7 +6,4 @@ DOMAIN=mita.agency
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
-<<<<<<< HEAD
 log
-=======
->>>>>>> ae76c3ba17f899b7f58246484ec22dd14fd3563e
