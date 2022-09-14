@@ -1,53 +1,31 @@
+<%= title @blog.title %>
+<%= description @blog.description1 %>
+
 <%= render 'shared/navbar_white' %>
 <div class="container" style="padding-top:150px;padding-bottom: 150px;">
 
-<p id="notice"><%= notice %></p>
-
+<% if @blog.photos.attached? %>
+  <%= cl_image_tag @blog.photos.second.key, :class => "slika_blog_show" %>
+<% end %>
 <p>
-  <strong>Title:</strong>
+  <strong>Published at:</strong>
+  <%= @blog.published_at.strftime("%B %d %Y, %l:%M%P") %>
+</p>
+
+<p class="blog_ime">
   <%= @blog.title %>
 </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @blog.description %>
+<p class="blog_desc">
+  <%= @blog.description1 %>
 </p>
-
-<p>
-  <strong>Published:</strong>
-  <%= @blog.published %>
-</p>
-
-<p>
-  <strong>Published at:</strong>
-  <%= @blog.published_at %>
-</p>
-
-<p>
-  <strong>Rich Body:</strong>
-  <%= @blog.rich_body %>
-</p>
-
-<p>
-  <strong>Body v2:</strong>
-  <%= @blog.body %>
-</p>
-
-<!-- <p>
-  <strong>Description:</strong>
-  <%= @blog.description %>
-</p> -->
-
-<!-- <p>
-  <strong>Published:</strong>
-  <%= @blog.published %>
-</p> -->
 
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
-<%= link_to 'Back', blogs_path %>
+<%= link_to 'Back', blogs_path %> |
 
 <% if policy(@blog).destroy? %>
-    <%= link_to "Delete", blog_path(@blog), method: :delete, data: { confirm: "Are you sure you want to delete this story?"} %>
-  <% end %>
+  <%= link_to "Delete", blog_path(@blog), method: :delete, data: { confirm: "Are you sure you want to delete this story?"} %>
+<% end %>
 </div>
+
