@@ -1,35 +1,26 @@
+<% title 'MITA Group Blog: Creating Successful Stories Since 1997!' %>
+<% description 'MITA Group created and implemented tens of thousands of advertising campaigns for various kinds of businesses since 1997. See in full detail on the MITA Group blog!' %>
+<% keywords 'Mita group blog' %>
+
 <%= render 'shared/navbar_white' %>
-<div class="container" style="padding-top:150px;padding-bottom: 150px;">
-<% title 'Blog' %>
 
-<p id="notice"><%= notice %></p>
-
-<h1>Blogs</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Published</th>
-      <th>Published at</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @blogs.each do |blog| %>
-      <tr>
-        <td><%= blog.title %></td>
-        <td><%= blog.body %></td>
-        <td><%= blog.published %></td>
-        <td><%= blog.published_at %></td>
-        <td><%= link_to 'Show', blog %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
+<div class="container" style="padding-top:100px;padding-bottom: 150px;">
+<div class="section_2">
+  <div class="container">
+    <h2 class="home_heading_black  reveal" style="padding-bottom: 50px;">All Blogs</h2>
+     <div class="section_12_row d-flex row justify-content-around reveal">
+      <% @blogs.each do |blog| %>
+        <%= link_to blog_path(blog), class: "blog_svaki card_link card_link_storie col-lg-6 col-md-6 col-sm-12" do %>
+          <% if blog.photos.attached? %>
+            <%= cl_image_tag blog.photos.first.key, :class => "slika_blog_index" %>
+          <% end %>
+          <%= blog.published_at.strftime("%B %d %Y, %l:%M%P") %>
+          <p class="blog_ime"><%= blog.title %></p>
+          <p class="blog_desc"><%= blog.description1 %></p>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
 
 </div>

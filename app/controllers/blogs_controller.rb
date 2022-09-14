@@ -53,22 +53,17 @@ class BlogsController < ApplicationController
     end
   end
 
-  # DELETE /blogs/1 or /blogs/1.json
   def destroy
     set_blog
     @blog.destroy
 
-    respond_to do |format|
-      format.html { redirect_to blogs_url, notice: "Blog was successfully destroyed." }
-      format.json { head :no_content }
-    end
   end
 
 
   private
 
     def blog_params
-      params.require(:blog).permit( :title, :body, :rich_body, :description, :published, :published_at, photos: [])
+      params.require(:blog).permit( :title, :body, :rich_body, :description1, :published, :published_at, photos: [])
     end
 
     def set_blog

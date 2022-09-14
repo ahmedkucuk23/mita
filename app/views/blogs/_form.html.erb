@@ -5,8 +5,9 @@
 
   <div class="form-inputs">
     <%= f.input :title %>
-    <%= f.rich_text_area :body %>
+    <%= f.input :photos, as: :file, input_html: { multiple: true } %>
     <%= f.input :body %>
+    <%= f.input :description1 %>
     <%= f.input :published %>
     <%= f.input :published_at %>
   </div>
