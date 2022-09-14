@@ -17,6 +17,9 @@
         <li class="nav-item">
           <%= active_link_to "Services", services_path, class: "nav-link" %>
         </li>
+         <li class="nav-item">
+          <%= link_to "Blog", blogs_path , class: "nav-link" %>
+        </li>
         <li class="nav-item">
           <%= link_to "Stories", stories_path, class: "nav-link" %>
         </li>
@@ -25,6 +28,9 @@
         </li>
         <li class="nav-item">
           <%= link_to "Contact", contacts_path , class: "nav-link" %>
+        </li>
+         <li class="nav-item">
+          <%= link_to "SIGNOUT", destroy_user_session_path , class: "nav-link" %>
         </li>
         <li class="nav-item dropdown">
           <%= image_tag 'https://i.pinimg.com/280x280_RS/85/a2/92/85a2925c526ac03f61d0fad865728c1b.jpg', class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
