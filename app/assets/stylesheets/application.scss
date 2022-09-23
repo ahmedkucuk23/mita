@@ -18,7 +18,9 @@ html {
 .icon-bar-2 {
   width: 80%;
 }
-
+.icon-bar-23 {
+  width: 90%;
+}
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -474,6 +476,9 @@ h1 {
     }
     .navbar {
         display: none
+    }
+    .icon-bar-23 {
+      width: 95%;
     }
 }
 
