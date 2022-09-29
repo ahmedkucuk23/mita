@@ -30,6 +30,6 @@ Rails.application.routes.draw do
   delete "stories/:id",     to: "stories#destroy"
   resources :stories
 
-  delete "blogs/:id",     to: "blogs#destroy"
-  resources :blogs
+  # delete "blogs/:id",     to: "blogs#destroy"
+  # resources :blogs
 end
