@@ -7,5 +7,4 @@ DOMAIN=mita.agency
 yarn-debug.log*
 .yarn-integrity
 log
-log
 log/development.log
