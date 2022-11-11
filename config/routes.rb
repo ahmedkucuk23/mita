@@ -11,6 +11,7 @@ Rails.application.routes.draw do
    # get '/stories',    to: 'pages#stories'
    get '/clients',    to: 'pages#clients'
    get '/about',      to: 'pages#about'
+   get '/services',    to: 'pages#services'
 
    get '/privacy',          to: 'pages#privacy'
    get '/terms',            to: 'pages#terms'
