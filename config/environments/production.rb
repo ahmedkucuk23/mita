@@ -4,8 +4,8 @@ config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
   address:              'smtp.gmail.com',
   port:                 587,
-  user_name:            'adnan@mita.ba',
-  password:             'gzpliimeqfknocdy',
+  user_name:            'marketing@mita.ba',
+  password:             'cxfcufdqvjksnlcq',
   authentication:       'plain',
   enable_starttls_auto: true,
   open_timeout:         5,
