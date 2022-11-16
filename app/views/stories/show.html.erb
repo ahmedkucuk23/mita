@@ -84,7 +84,7 @@
             <div class="carousel-inner">
               <% @storie.photos[1..-1].each_with_index do |photo, index | %>
                 <div class="<%= index == 0 ? 'carousel-item active' : 'carousel-item' %>">
-                  <%= cl_image_tag photo.key, :class => "slika_section_show"  %>
+                  <%= cl_image_tag photo.key, :class => "slika_section_show", alt: "Storie Photo", title: "Storie Photo"   %>
                 </div>
               <% end %>
             </div>

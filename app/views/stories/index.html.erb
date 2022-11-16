@@ -47,7 +47,7 @@
         <%= link_to story_path(storie), class: "card_link card_link_storie col-lg-5 col-md-5 col-sm-12" do %>
           <div class="section_12_row_klijent">
             <% if storie.photos.attached? %>
-                <%= cl_image_tag storie.photos.first.key, :class => "slika_tm_2" %>
+                <%= cl_image_tag storie.photos.first.key, :class => "slika_tm_2", alt: "Stories Cover Photo", title: "Stories Cover Photo"  %>
               <% end %>
             <p class="role_2"><%= storie.name %></p>
             <p class="ime_2"><%= storie.description %></p>
