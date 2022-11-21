@@ -425,6 +425,10 @@ h1 {
     left: 0
 }
 
+#navbar .navbar-brand img, .logo_mita_2 {
+    width: 220px;
+}
+
 #navbar2 .nav-link {
     font-family: Oswald, sans-serif;
     font-style: normal;
@@ -844,7 +848,7 @@ p {
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 55px;
     color: #fff;
     line-height: 1.1em
 }
@@ -857,7 +861,7 @@ p {
     font-stretch: normal;
     line-height: 30px;
     letter-spacing: normal;
-    font-size: 18px
+    font-size: 17px
 }
 
 .home_section_1 {

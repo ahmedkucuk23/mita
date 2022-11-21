@@ -1,5 +1,5 @@
 <div class="page mobitel-mavbar">
-<header tabindex="0"><a href="/"><%= image_tag 'logo-mita-modern.png', :class => "logo_mita", :alt => "Mita Group logo image" %></a></header>
+<header tabindex="0"><a href="/"><%= image_tag 'logo-mita-modern.png', :class => "logo_mita_2", :alt => "Mita Group logo image" %></a></header>
 <div id="nav-container" >
   <div class="bg"></div>
   <div class="button" tabindex="0">
@@ -33,3 +33,18 @@
   </div>
 </div>
 </div>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() < 650) {
+              $('header').addClass('solid');
+          } else {
+              $('header').removeClass('solid');
+          }
+        });
+    });
+</script>
