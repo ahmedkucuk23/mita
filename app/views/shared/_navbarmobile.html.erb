@@ -55,10 +55,10 @@
         // Transition effect for navbar
         $(window).scroll(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
-          if($(this).scrollTop() > 640) {
-              $('.logo_mita_2').addClass('solid1');
+          if($(this).scrollTop() < 640) {
+              $('.logo_mita_2').addClass('solid');
           } else {
-              $('.logo_mita_2').removeClass('solid1');
+              $('.logo_mita_2').removeClass('solid');
           }
         });
     });

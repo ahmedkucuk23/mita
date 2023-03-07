@@ -625,11 +625,11 @@ h1 {
     align-items: center
 }
 
-.logo_mita_2 .solid1{
-  filter: brightness(1) invert(0);
+.logo_mita_2.solid{
+  filter: brightness(0) invert(1);
 }
 .logo_mita_2{
-  filter: brightness(0) invert(1);
+  filter: brightness(1) invert(0);
 }
 
 .header-1.solid {
