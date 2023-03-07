@@ -1,5 +1,5 @@
-<div class="page mobitel-mavbar">
-<header tabindex="0"><a href="/"><%= image_tag 'logo-mita-modern.png', :class => "logo_mita_2", :alt => "Mita Group logo image" %></a></header>
+<div class="page mobitel-mavbar ">
+<div class="header-1" tabindex="0"><a href="/"><%= image_tag 'logo-mita-modern.png', :class => "logo_mita_2", :alt => "Mita Group logo image" %></a></div>
 <div id="nav-container" >
   <div class="bg"></div>
   <div class="button" tabindex="0">
@@ -11,7 +11,7 @@
     <ul>
       <li><a href="/about">About</a></li>
       <li><div class="dropdown-mobile">
-          <a class="dropbtn" href="/">Services
+          <a class="dropbtn" href="/">Service
             <i class="fa fa-caret-down"></i>
           </a>
           <div class="dropdown-content" style="z-index: 100;">
@@ -35,16 +35,34 @@
 </div>
 
 
+
 <script type="text/javascript">
   $(document).ready(function() {
         // Transition effect for navbar
         $(window).scroll(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
-          if($(this).scrollTop() < 650) {
-              $('header').addClass('solid');
+          if($(this).scrollTop() > 640) {
+              $('.header-1').addClass('solid');
           } else {
-              $('header').removeClass('solid');
+              $('.header-1').removeClass('solid');
           }
         });
     });
 </script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 640) {
+              $('.logo_mita_2').addClass('solid1');
+          } else {
+              $('.logo_mita_2').removeClass('solid1');
+          }
+        });
+    });
+</script>
+
+
+
