@@ -121,24 +121,24 @@ li {
 }
 
 .services_h2_bigger {
-    color: #FF0000;
-    font-family: 'Poppins', sans-serif;
+    color: #EC1C23;
+    font-family: Outfit, sans-serif;
     text-transform: inherit;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
 .services-div_red {
-    background-color: #FF0F0F;
+    background-color: #EC1C23;
 }
 
 .services_h2_bigger_white {
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: Outfit, sans-serif;
     text-transform: inherit;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
@@ -205,13 +205,13 @@ li {
 }
 
 .services_p2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: Outfit, sans-serif;
     margin-top: 20px;
     font-size: 18px;
 }
 
 .services_p2_white {
-    font-family: 'Poppins', sans-serif;
+    font-family: Outfit, sans-serif;
     margin-top: 20px;
     font-size: 18px;
     color: #fff;
@@ -474,7 +474,9 @@ this instructions are to force the dimensions of image and its container <a>
 
 .section_tri_para {
     font-family: 'Poppins', sans-serif;
-    font-size: 21px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-style: normal;
     line-height: 1.3em;
     color: #000000;
     color: rgb(0, 0, 0);
@@ -844,6 +846,15 @@ this instructions are to force the dimensions of image and its container <a>
   filter: brightness(0) invert(1);
 }
 @media only screen and (max-width: 990px) {
+    .services_h2_bigger{
+      margin-top:20px;
+      font-size:35px;
+    }
+    .services_h2_bigger_white{
+      margin-top:20px;
+      font-size:35px;
+    }
+
     .above_header {
         padding-top: 100px;
     }
@@ -853,6 +864,10 @@ this instructions are to force the dimensions of image and its container <a>
       object-fit: cover;
       z-index: -1;
     }
+    #video_animation {
+    min-height: 0px;
+    padding: 15px 0px;
+      }
     #video {
         object-fit: cover;
     }
@@ -913,7 +928,7 @@ this instructions are to force the dimensions of image and its container <a>
         font-size: 20px;
     }
     .home_heading_black {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 1.3em;
     }
     .section .home_heading_black {
@@ -927,13 +942,13 @@ this instructions are to force the dimensions of image and its container <a>
         padding-left: 15px;
     }
     .section_tri_header {
-        font-size: 46px;
+        font-size: 35px;
     }
     .section_tri_para {
         font-size: 22px;
     }
     .home_heading_second {
-        font-size: 46px;
+        font-size: 35px;
         line-height: 50px;
     }
     .home_heading_second_cover {
