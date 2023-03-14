@@ -122,7 +122,7 @@ li {
 
 .services_h2_bigger {
     color: #EC1C23;
-    font-family: Outfit, sans-serif;
+     font-family: 'Poppins', sans-serif;
     text-transform: inherit;
     font-weight: bold;
     font-size: 45px;
@@ -135,7 +135,7 @@ li {
 
 .services_h2_bigger_white {
     color: #fff;
-    font-family: Outfit, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: inherit;
     font-weight: bold;
     font-size: 45px;
@@ -205,13 +205,13 @@ li {
 }
 
 .services_p2 {
-    font-family: Outfit, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     font-size: 18px;
 }
 
 .services_p2_white {
-    font-family: Outfit, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     font-size: 18px;
     color: #fff;
@@ -848,11 +848,11 @@ this instructions are to force the dimensions of image and its container <a>
 @media only screen and (max-width: 990px) {
     .services_h2_bigger{
       margin-top:20px;
-      font-size:35px;
+      font-size:45px;
     }
     .services_h2_bigger_white{
       margin-top:20px;
-      font-size:35px;
+      font-size:45px;
     }
 
     .above_header {
