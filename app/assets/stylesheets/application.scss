@@ -874,6 +874,34 @@ p {
     line-height: 1.1em
 }
 
+.home_heading_check {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+.home_heading_check_2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+
+.home_para_check {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-size: 20px
+}
+
+
 .home_para {
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -924,6 +952,13 @@ p {
     .footer{
     display: none;
     }
+    .home_heading_check_2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
   }
 
 @media only screen and (min-width:600px) {

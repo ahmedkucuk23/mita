@@ -13,6 +13,7 @@ Rails.application.routes.draw do
    get '/clients',    to: 'pages#clients'
    get '/about',      to: 'pages#about'
    get '/services',    to: 'pages#services'
+   get '/checklist',              to: 'pages#checklist'
 
    get '/privacy',          to: 'pages#privacy'
    get '/terms',            to: 'pages#terms'
