@@ -1,0 +1,81 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<%= render 'shared/navbarmobile_home' %>
+<div class="mob000">
+<%= render 'shared/navbar' %>
+</div>
+
+<% title 'Professional eCommerce Checklist at Your Disposal!' %>
+<% description 'MITA Group is a full service eCommerce agency. Our video ads, photo content and PPC advertising strategies will boost your sales instantly.' %>
+<% keywords 'ecommerce checklist agency' %>
+
+<div class="homepage_container">
+ <section class="section-ux-design_check">
+ <div class="overlay-text1">
+    <div class="section_1 home_section_1 container" id="home">
+      <div class="d-flex row align-items-center justify-content-center ">
+        <div class="col-lg-12" style="padding-top: 50px; padding-bottom:160px;">
+          <h2 class="home_heading_check_2 checktext box animate fadeInUp" s>
+           Hello business owners and marketing professionals,<br><br>
+We're excited to share a free digital marketing checklist you can use to improve your web presence and online business.
+This checklist has been developed based on our experience working with different clients and covers a range of activities that can help you achieve your marketing goals.
+<br><br>Feel free to download the checklist and use it to assess your digital marketing efforts. We welcome your feedback and would gladly assist you in any way we can.
+<br><br>Let's drive more sales together.
+          </h2>
+          <hr style="color: #fff; border: 5px solid rgba(255, 255, 255, 1.0); opacity: 1; border-radius:10px ; width:140px;  ">
+        </div>
+    </div>
+  </div>
+</section>
+
+<div class="services-div_check">
+  <div class="container">
+    <div class="d-flex row align-items-center" style="vertical-align: top;">
+      <div class="cyber-col-3 mobitel_slika_home col-lg-12 box animate u--zoomIn" style="margin-top: -160px;" >
+          <div class="d-flex row align-items-end justify-content-center">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <%= image_tag "https://imagedelivery.net/kbdeQbZSIKXp-ZjvXBIJDQ/114efa46-eb15-49a6-de42-2e437cef5e00/public", :style => " text-align:center;", class: "section_float1 slika_mob-ejub", loading: "lazy", alt: "Full service eCommerce agency", title: "Full service eCommerce agency" %>
+            </div>
+            <div class="col-lg-12">
+              <h3 class="home_heading_check box animate fadeInUp" style="text-align:center; padding-top:20px;"><strong>Ejub Kučuk,</strong> CEO</h3>
+               <p class="home_para_check box animate fadeInUp" style="padding-bottom: 20px; text-align: center;">30 years of experience leading agency<br> and developing client brands</p>
+            </div>
+        </div>
+      </div>
+      <div class="left col-lg-12" style="padding-top: 100px; padding-bottom: 100px;">
+        <h2 class="services_h2_bigger reveal u--zoomIn" style="color: #000; text-align: center; font-weight: 500;">Get your free digital<br><strong> marketing checklist now</strong></h2>
+        <!-- <p class="services_p2 reveal" style="padding-bottom: 20px; text-align: center;">The online store is the most important part of your business. Getting it right from the start is crucial. We will focus on great design, highlighting your products, optimising your store and single product pages, and simplifying the checkout process.</p> -->
+
+        <%= form_with(model: checklist) do |form| %>
+          <div class="form-inputs d-flex row justify-content-center">
+
+          <%= form.text_field :email, class:"checklist_form_input", placeholder:"Email:", style: "width: 80%" %>
+          <%= form.text_field :number, class:"checklist_form_input", placeholder:"Number:", style: "width: 80%" %>
+
+          </div>
+
+          <div class=" d-flex row justify-content-center">
+            <div class="text-checkbox justify-content-center" style="text-align:center;">
+
+          <%= recaptcha_tags style: "text-align:center;", class: "d-flex row justify-content-center" %>
+          <%= form.check_box :termsofuse %>
+          <span class="geekmark"></span>
+          <%= form.label :termsofuse  do
+            "I agree to #{link_to('Terms & Conditions', '/terms')}".html_safe
+            end %>
+          </div>
+          </div>
+
+          <div class="form-actions d-flex row justify-content-center">
+              <%= form.submit "Submit", class: "checklist_form_button", style: "width: 80%" %>
+          </div>
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+</div>
+<hr style="border: 5px solid #df1535; margin-top: 0; opacity: 1;">
+</div>
+</div>

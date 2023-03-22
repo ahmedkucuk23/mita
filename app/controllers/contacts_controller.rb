@@ -1,12 +1,10 @@
 class ContactsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :index , :show, :new, :create]
 
-  
   # GET /contacts or /contacts.json
   def index
     @contacts = Contact.all
     authorize @contact
-
   end
 
   # GET /contacts/1 or /contacts/1.json
@@ -17,7 +15,6 @@ class ContactsController < ApplicationController
   def new
     @contact = Contact.new
     authorize @contact
-
   end
 
   # GET /contacts/1/edit

@@ -878,20 +878,20 @@ p {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 30px;
-    color: #fff;
+    font-size: 36px;
+    color: #000;
 }
 .home_heading_check_2 {
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 40px;
+    text-transform: inherit;
+    font-weight: 400;
+    font-size: 26px;
     color: #fff;
 }
 
 
 .home_para_check {
-    color: #fff;
+    color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -917,10 +917,12 @@ p {
     padding-top: 100px
 }
 
+
 @media only screen and (max-width:990px) {
     .above_header {
         padding-top: 100px
     }
+
     #video {
         -o-object-fit: cover;
         object-fit: cover
@@ -943,20 +945,44 @@ p {
     }
 }
 
+.checklist_form_button{
+  font-family: 'Poppins', sans-serif;
+  background-color:  #ec2227;
+  color: #fff;
+  padding: 15px 20px;
+  margin: 10px 20px;
+  border: 0;
+  border-radius:25px;
+  font-weight: 600;
+}
 
+.checklist_form_input{
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 20px;
+  margin: 10px 20px;
+  border: 0;
+  border-radius:25px;
+}
+
+.text-checkbox{
+  font-family: 'Poppins', sans-serif;
+}
 
 @media only screen and (max-width:600px) {
     #video-second{
       display: none;
+    }
+    .slika_mob-ejub{
+      width: 55%;
     }
     .footer{
     display: none;
     }
     .home_heading_check_2 {
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 30px;
+    text-transform: inherit;
+    font-weight: 500;
+    font-size: 25px;
     color: #fff;
 }
   }
@@ -964,6 +990,9 @@ p {
 @media only screen and (min-width:600px) {
   #video-second-mob{
     display:none;
+  }
+  .slika_mob-ejub{
+    width: 30%;
   }
   .footer-mobile{
     display: none;

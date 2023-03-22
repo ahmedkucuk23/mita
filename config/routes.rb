@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+   resources :checklists
   # resources :contacts
 
   devise_for :users
@@ -7,13 +8,16 @@ Rails.application.routes.draw do
    get '/contacts',    to: 'contacts#new'
    post '/contacts', to: 'contacts#create'
 
+  get '/checklist',    to: 'checklists#new'
+   post '/checklist', to: 'checklists#create'
+
+
 
 
    # get '/stories',    to: 'pages#stories'
    get '/clients',    to: 'pages#clients'
    get '/about',      to: 'pages#about'
    get '/services',    to: 'pages#services'
-   get '/checklist',              to: 'pages#checklist'
 
    get '/privacy',          to: 'pages#privacy'
    get '/terms',            to: 'pages#terms'
