@@ -967,6 +967,12 @@ p {
 .text-checkbox{
   font-family: 'Poppins', sans-serif;
 }
+.services_h2_bigger_ch{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  padding-bottom: 20px;
+
+}
 
 @media only screen and (max-width:600px) {
     #video-second{
@@ -983,9 +989,13 @@ p {
     text-transform: inherit;
     font-weight: 400;
     font-size: 18px;
-    padding: 50px 15px;
+    padding-bottom: 15px;
     color: #fff;
 }
+  .services_h2_bigger_ch{
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
   }
 
 @media only screen and (min-width:600px) {
