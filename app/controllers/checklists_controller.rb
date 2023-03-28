@@ -29,7 +29,7 @@ class ChecklistsController < ApplicationController
     respond_to do |format|
       if @checklist.save && verify_recaptcha(:model => @checklist )
         FormChecklistMailer.with(checklist: @checklist).welcome_email.deliver_now
-        format.html { redirect_to "/thankyou" }
+        format.html { redirect_to "https://mita.a2hosted.com/checklist/" }
         format.json { render :show, status: :created, location: @checklist }
       else
         redirect_to checklists_path
