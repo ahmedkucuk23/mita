@@ -945,6 +945,15 @@ p {
     }
 }
 
+@media only screen and (max-width:380px) {
+   .home_heading {
+        font-size: 45px
+    }
+    .home_para {
+        font-size: 14px
+    }
+}
+
 .checklist_form_button{
   font-family: 'Poppins', sans-serif;
   background-color:  #ec2227;
