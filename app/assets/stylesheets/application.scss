@@ -874,6 +874,14 @@ p {
     line-height: 1.1em
 }
 
+.home_heading_stories{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+    line-height: 1.1em;
+}
 .home_heading_check {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -936,6 +944,9 @@ p {
     }
     .home_heading {
         font-size: 55px
+    }
+    .home_heading_stories{
+      font-size:45px;
     }
     .home_para {
         font-size: 15px
