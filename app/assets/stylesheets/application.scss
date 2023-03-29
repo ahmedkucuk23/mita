@@ -874,6 +874,10 @@ p {
     line-height: 1.1em
 }
 
+.logo_mita.solid{
+  filter: brightness(0) invert(1);
+}
+
 .home_heading_stories{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
