@@ -868,6 +868,20 @@ this instructions are to force the dimensions of image and its container <a>
 .logo_mita .solid1{
   filter: brightness(0) invert(1);
 }
+
+
+@media only screen and (max-width: 1300px) {
+#video-second-desktop-large{
+  height: 60vh;
+  width:100%;
+}
+}
+@media only screen and (max-width: 1000px) {
+#video-second-desktop-large{
+  height: 100vh;
+}
+}
+
 @media only screen and (max-width: 990px) {
     .services_h2_bigger{
       margin-top:20px;
