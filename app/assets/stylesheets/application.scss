@@ -21,6 +21,39 @@ html {
 .icon-bar-23 {
   width: 90%;
 }
+
+.card2 {
+  display: block;
+  top: 0px;
+  position: relative;
+  background-color: #f6f6f6;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+
+  &:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    text-decoration: none;
+    color:#000;
+  }
+
+  &:hover:before {
+    transform: scale(2.15);
+  }
+}
+
+
+.colecommerce{
+  padding-top: 20px ;
+}
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
