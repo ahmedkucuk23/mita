@@ -7,9 +7,6 @@ class StoriesController < ApplicationController
     @storie = policy_scope(Storie)
     @stories = Storie.order('created_at desc')
 
-    @q = Storie.ransack(params[:q])
-    @stories = @q.result(distinct: true)
-
   end
 
   def show
