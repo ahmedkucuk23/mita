@@ -6,6 +6,10 @@ class StoriesController < ApplicationController
     @stories = Storie.all
     @storie = policy_scope(Storie)
     @stories = Storie.order('created_at desc')
+
+    @q = Storie.ransack(params[:q])
+    @stories = @q.result(distinct: true)
+
   end
 
   def show
@@ -41,6 +45,7 @@ class StoriesController < ApplicationController
     @storie.destroy
     redirect_to stories_path
   end
+
 
   private
 

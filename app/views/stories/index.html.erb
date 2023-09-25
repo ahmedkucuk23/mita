@@ -18,7 +18,7 @@
     <div class="text_featured">
       <h2 class="home_heading_black_small box animate fadeInUp">Featured stories</h2>
     </div>
-    <div class="section_12_row d-flex row justify-content-around reveal">
+    <div class="section_12_row d-flex row justify-content-around">
         <div class="section_12_row_klijent col-lg-4 col-md-6 col-sm-12">
           <a href="stories/website-for-a-company-that-makes-eco-friendly-cards" style="text-decoration: none;">
             <%= image_tag 'https://mita.ba/wp-content/uploads/2023/09/Untitled-211-e1695149894395.webp',:class => "slika_tm", :style => "", alt: "MITA group ultramarinos " %>
@@ -42,7 +42,19 @@
 </div>
 <div class="section_2">
   <div class="container">
-    <h2 class="home_heading_black  reveal" style="padding-bottom: 50px;">All stories</h2>
+    <div class="text-categories d-flex row align-items-center" style="padding-bottom:20px;">
+      <div class="text col-lg-6">
+        <h2 class="home_heading_black  reveal" style="padding-bottom: 0px; padding-top:0px;">All stories</h2>
+      </div>
+
+      <div class="col-lg-6 forma reveal" >
+        <%= search_form_for @q do |f| %>
+          <%= f.search_field :name_cont, :style=> "border: 1px solid grey;border-radius: 4px;padding: 5px 15px;"%>
+
+          <%= f.submit class: "button_cta_normal_2"  %>
+        <% end %>
+      </div>
+    </div>
 
     <div class="section_12_row d-flex row justify-content-around reveal">
       <% @stories.each do |storie| %>
@@ -65,14 +77,12 @@
           <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
             <%= image_tag 'slika_tm.png',:class => "slika_tm_2", alt: "grey picture", title: "grey picture" %>
             <p class="role_2">Naziv projekta</p>
-            <p class="ime_2">Brendiranje kao<br>
-konkurentska prednost</p>
+            <p class="ime_2">Brendiranje kao<br>konkurentska prednost</p>
           </div>
         <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
           <%= image_tag 'slika_tm.png', :class => "slika_tm_2", alt: "grey picture", title: "grey picture" %>
           <p class="role_2">Naziv projekta</p>
-          <p class="ime_2">3.4x increase<br>
-in sales on social media</p>
+          <p class="ime_2">3.4x increase<br>in sales on social media</p>
         </div>
       </div>
     </div>
@@ -81,14 +91,12 @@ in sales on social media</p>
           <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
             <%= image_tag 'slika_tm.png',:class => "slika_tm_2", alt: "grey picture", title: "grey picture" %>
             <p class="role_2">Naziv projekta</p>
-            <p class="ime_2">Brendiranje kao<br>
-  konkurentska prednost</p>
+            <p class="ime_2">Brendiranje kao<br>konkurentska prednost</p>
           </div>
           <div class="section_12_row_klijent col-lg-6 col-md-6 col-sm-12 reveal">
             <%= image_tag 'slika_tm.png', :class => "slika_tm_2", alt: "grey picture", title: "grey picture" %>
             <p class="role_2">Naziv projekta</p>
-            <p class="ime_2">3.4x increase<br>
-  in sales on social media</p>
+            <p class="ime_2">3.4x increase<br>in sales on social media</p>
           </div>
         </div>
       </div>

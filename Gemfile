@@ -33,6 +33,7 @@ gem 'recaptcha', :require => 'recaptcha/rails'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cookies_eu'
 
+gem 'ransack'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

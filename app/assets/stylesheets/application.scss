@@ -22,6 +22,48 @@ html {
   width: 90%;
 }
 
+
+@media only screen and (max-width:500px) {
+  .text-categories .home_heading_black{
+    text-align: center;
+  }
+  .text-categories .storie_search{
+    text-align: center;
+  }
+}
+
+.q_name_cont{
+  display: none !important;
+}
+
+.button_cta_normal_2{
+  background-color: #ED3833;
+  border-radius: 8px;
+  padding: 5px 15px;
+  color: #fff;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-size:16px;
+  font-family: Outfit, sans-serif;
+  font-weight : 500;
+  color : #FFFFFF;
+  transition: all 1s ease;
+
+}
+.button_cta_normal_2:hover{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 5px 15px;
+  color: #ED3833;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-size:16px;
+  font-family: Outfit, sans-serif;
+  font-weight : 500;
+  transition: all 1s ease;
+
+}
+
 .card2 {
   display: block;
   top: 0px;
