@@ -10,6 +10,8 @@ class StoriesController < ApplicationController
     @q = Storie.ransack(params[:q])
     @stories = @q.result(distinct: true)
 
+    @q.sorts = ['created_at desc'] if @q.sorts.empty?
+    @stories = @q.result(distinct: true)
   end
 
   def show

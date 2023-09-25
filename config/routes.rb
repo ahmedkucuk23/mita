@@ -35,6 +35,7 @@ Rails.application.routes.draw do
    get '/thankyou',        to: 'pages#thankyou'
 
   delete "stories/:id",     to: "stories#destroy"
+
   resources :stories
 
   # delete "blogs/:id",     to: "blogs#destroy"
