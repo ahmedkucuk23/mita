@@ -55,6 +55,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="<%= meta_title %>" />
     <meta property="og:type" content="website" />
@@ -156,6 +160,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }
      }
     </script>
+
+
+    <script type="text/javascript">
+      Result Skip Results Iframe
+      EDIT ON
+      // Toggle Collapse
+      $('.faq li .question').click(function () {
+        $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+        $(this).parent().toggleClass('active');
+      });
+    </script>
+
 
     <script type="text/javascript">
      window.addEventListener('scroll', reveal_3);
