@@ -332,6 +332,29 @@ h1 {
     .container {
         max-width: 960px
     }
+
+}
+
+@media (max-width:920px) {
+    .services_h2_bigger{
+      text-align: center;
+    }
+    .services_p2{
+      text-align:center;
+    }
+    .fol-dugme{
+      text-align:center !important;
+      float: center;
+      display: flex;
+      justify-content:center;
+
+    }
+    .mob-comme{
+      display: flex;
+      justify-content:center;
+
+    }
+
 }
 
 @media (min-width:1200px) {
