@@ -1205,6 +1205,9 @@ p {
     font-size: 30px;
     padding-bottom: 20px;
   }
+  .cyber-col-web-7{
+    display: none;
+  }
   }
 
 @media only screen and (min-width:600px) {
@@ -1215,6 +1218,9 @@ p {
     width: 30%;
   }
   .footer-mobile{
+    display: none;
+  }
+  .cyber-col-web-6{
     display: none;
   }
 }
