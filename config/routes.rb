@@ -25,7 +25,7 @@ Rails.application.routes.draw do
    get '/cookies',          to: 'pages#cookies'
 
    get '/ecommerce',        to: 'pages#ecommerce'
-   get '/chatbot',          to: 'pages#chatbot'
+   get '/ai-automation',          to: 'pages#chatbot'
    get '/webdesign',        to: 'pages#webdesign'
    get '/graphic-design',   to: 'pages#graphicdesign'
    get '/social-media',     to: 'pages#socialmedia'
