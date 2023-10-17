@@ -11,9 +11,6 @@ Rails.application.routes.draw do
   get '/checklist',    to: 'checklists#new'
    post '/checklist', to: 'checklists#create'
 
-
-
-
    # get '/stories',    to: 'pages#stories'
    get '/clients',    to: 'pages#clients'
    get '/about',      to: 'pages#about'

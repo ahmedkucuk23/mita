@@ -33,6 +33,9 @@ gem 'recaptcha', :require => 'recaptcha/rails'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cookies_eu'
 
+gem 'jquery-rails'
+gem 'rails-ujs'
+
 gem 'ransack'
 
 # Use Active Storage variant

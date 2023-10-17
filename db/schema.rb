@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_09_14_103022) do
+ActiveRecord::Schema.define(version: 2023_10_17_170029) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -59,6 +59,13 @@ ActiveRecord::Schema.define(version: 2022_09_14_103022) do
     t.index ["slug"], name: "index_blogs_on_slug", unique: true
   end
 
+  create_table "checklists", force: :cascade do |t|
+    t.string "email"
+    t.string "number"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "contacts", force: :cascade do |t|
     t.string "name"
     t.string "business"
@@ -81,6 +88,13 @@ ActiveRecord::Schema.define(version: 2022_09_14_103022) do
     t.index ["slug", "sluggable_type", "scope"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope", unique: true
     t.index ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type"
     t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id"
+  end
+
+  create_table "savings", force: :cascade do |t|
+    t.float "hours_per_week"
+    t.float "cost_per_hour"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "stories", force: :cascade do |t|

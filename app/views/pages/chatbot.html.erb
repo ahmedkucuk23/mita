@@ -51,6 +51,8 @@
   </div>
 </div>
 
+
+
 <div class="cyber-col-web-6" style="padding-bottom:10px; padding-top:0px;">
   <div class="container">
     <div class="d-flex row align-items-center justify-content-center" style="vertical-align: top;">
@@ -87,11 +89,55 @@
       <div class="d-flex row align-items-center justify-content-center" style="">
         <div class="col-lg-12 d-flex row">
           <h2 class="services_h2_bigger u--zoomIn" style="padding-top:0px; font-size: 35px; padding-bottom: 10px; text-align: center; color: #000;">Why do you need an <strong>AI Agent?</strong> </h2>
-          <p class="services_p2  u--zoomIn" style="padding-top:10px; text-align: center;"><i class="fa-regular fa-clock cred"></i> If you don't respond within the <strong>first five minutes,</strong> the chance of converting a visitor into a lead decreases by 400%.
-            <br><br><strong><i aria-hidden="true" class="fab fa-facebook-messenger cred"></i> 73% of customers</strong> prefer sending inquiries via live chat options.
-            <br><br><strong><i class="fa-brands fa-rocketchat cred"></i> 56% of customers</strong> would rather send a message than call for customer support</p>
-          <div class="fol-dugme u--zoomIn" style="margin-top:15px; text-align: center;"><a class="button_cta_normal" href="/contacts">Get your AI-Agent</a></div>
-        </div>
+          <div class="col-lg-4">
+            <p class="services_p2  u--zoomIn" style="padding-top:10px; text-align: left;"><i class="fa-regular fa-clock cred"></i> If you don't respond within the <strong>first five minutes,</strong> the chance of converting a visitor into a lead decreases by 400%.
+            </p>
+
+          </div>
+           <div class="col-lg-4">
+            <p class="services_p2  u--zoomIn" style="padding-top:10px; text-align: left;">
+            <strong><i aria-hidden="true" class="fab fa-facebook-messenger cred"></i> 73% of customers</strong> prefer sending inquiries via live chat options.
+            </p>
+
+          </div>
+           <div class="col-lg-4">
+            <p class="services_p2  u--zoomIn" style="padding-top:10px; text-align: left;"><strong><i class="fa-brands fa-rocketchat cred"></i> 56% of customers</strong> would rather send a message than call for customer support</p>
+
+          </div>
+          </div>
+           <div class="col-lg-12 d-flex row" style="display:none;">
+            <div class="text">
+              <p class="services_h2_bigger u--zoomIn" style="color:#000; text-align: center; font-size:30px; font-weight:600;">Calculate your Monthly Savings:</p>
+              <p class="services_p2  u--zoomIn" style="padding-top:10px; text-align: center;"><strong>Calculate</strong> your estimated monthly savings, based on hours you spend on replying to messages:</p>
+
+              <p class="services_h2_bigger u--zoomIn" style="color:#000; text-align: center; font-size:30px; font-weight:600;" id="result"></p>
+
+            </div>
+              <label class="services_p2" style="text-align: center;" for="hoursPerWeek">How many hours you spend on Replying to messages per week:</label>
+              <input class="checklist_form_input" style="border:1px solid #f1f1f1;" type="number" id="hoursPerWeek" placeholder="e.g., 40 h" required>
+              <br>
+              <label class="services_p2" style="text-align: center;" for="costPerHour">Enter your cost per hour (How much you value your hour <strong>In dollars</strong>):</label>
+              <input  class="checklist_form_input" style="border:1px solid #f1f1f1;" type="number" id="costPerHour" placeholder="e.g., 20 $" required>
+              <br>
+              <div class="fol-dugme u--zoomIn" style="margin-top:15px; text-align: center;"><button style="width:30%; margin-top: 20px; text-align: center;" class="button_cta_normal" onclick="calculateSavings()">Calculate Savings</button> </div>
+              <br>
+
+
+            <script>
+                function calculateSavings() {
+                    // Get input values
+                    var hoursPerWeek = parseFloat(document.getElementById('hoursPerWeek').value);
+                    var costPerHour = parseFloat(document.getElementById('costPerHour').value);
+
+                    // Calculate monthly savings
+                    var hoursPerMonth = hoursPerWeek * 4;
+                    var savings = hoursPerMonth * costPerHour;
+
+                    // Display result
+                    document.getElementById('result').innerHTML = '$' + savings.toFixed(2);
+                }
+            </script>
+            </div>
       </div>
     </div>
   </div>
@@ -286,18 +332,19 @@
 
 
 
+
 <div class="work-catalog">
   <div class="container">
     <h6 class="heading_black_webs reveal" style="margin-bottom: 50px; margin-top: 60px;">Our Latest AI Automations :</h6>
     <div class="d-flex row justify-content-center reveal">
       <div class="colecommercee justify-content-center col-lg-2 col-md-3 col-sm-6 col-s-6 col-xs-6" >
-        <a class="link_to" target="_blank" href="https://www.mita.agency/stories/we-launched-the-mobello-web-shop-for-the-german-market">
-          <%= image_tag "https://mita.ba/wp-content/uploads/2023/10/Picture-Ispod-Services-Mita23.png", class: "our-work-picture", alt: "Mobello mobile Web development" %>
+        <a class="link_to" target="_blank" href="https://www.mita.agency/stories/ai-automation-for-mita-agency">
+          <%= image_tag "https://mita.ba/wp-content/uploads/2023/10/Picture-Ispod-Services-Mita23.png", class: "our-work-picture", alt: "MITA mobile Web development" %>
         </a>
       </div>
       <div class="colecommercee col-lg-2 col-md-3 col-sm-6 col-s-6 col-xs-6">
-        <a class="" target="_blank" href="https://www.mita.agency/stories/we-designed-a-website-for-smartesla-holding-a-company-that-cuts-your-electricity-bill-in-half">
-          <%= image_tag "https://mita.ba/wp-content/uploads/2023/10/sustaiun.png", class: "our-work-picture", alt: "Smartesla mobile web development" %>
+        <a class="" target="_blank" href="https://www.mita.agency/stories/lead-generation-ai-agent-for-eco-friendly-hotel-cards-company">
+          <%= image_tag "https://mita.ba/wp-content/uploads/2023/10/sustaiun.png", class: "our-work-picture", alt: "Sustain A Card mobile web development" %>
         </a>
       </div>
     </div>
