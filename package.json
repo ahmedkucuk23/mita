@@ -30,9 +30,5 @@
     "tailwindcss": "^3.1.8",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.10.1"
-  },
-  "engines": {
-  "node": "18.x",  // or the version you prefer
-  "yarn": "1.22.x" // or a specific version
-}
+  }
 }
